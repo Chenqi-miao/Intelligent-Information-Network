@@ -135,7 +135,7 @@ class SARIMAModel(BaseModel):
             enforce_invertibility=False,
         )
         self.model_fit_ = model.fit(maxiter=200, disp=False)
-        logger.info("SARIMA 拟合完成：AIC=%.2f", self.model_fit_.aic)
+        logger.info("SARIMA fit done: AIC=%.2f", self.model_fit_.aic)
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         """
@@ -166,10 +166,11 @@ class LSTM(nn.Module):
 
     结构：
       input (batch, tw, 1)
-        → LSTM(hidden_size, num_layers=1, batch_first=True)
+        → LSTM(hidden_size, num_layers=1, batch_first=True, bidirectional)
         → 取最后时间步 hidden state
-        → Linear(hidden_size → prediction_window)
-        → Sigmoid 激活（输出范围 [0,1]，与标准化后数据匹配）
+        → Linear(hidden_size * (2 if bidirectional else 1) → prediction_window)
+
+    注：输出层无激活函数（Z-score 标准化后数据范围无界，Sigmoid 会限制输出范围）。
     """
 
     def __init__(
@@ -179,25 +180,28 @@ class LSTM(nn.Module):
         num_layers: int = 1,
         prediction_window: int = 24,
         dropout: float = 0.0,
+        bidirectional: bool = False,
     ):
         super().__init__()
+        self.bidirectional = bidirectional
+        lstm_out_size = hidden_size * (2 if bidirectional else 1)
+
         self.lstm = nn.LSTM(
             input_size=input_size,
             hidden_size=hidden_size,
             num_layers=num_layers,
             batch_first=True,
             dropout=dropout if num_layers > 1 else 0.0,
+            bidirectional=bidirectional,
         )
-        self.fc = nn.Linear(hidden_size, prediction_window)
-        self.sigmoid = nn.Sigmoid()
+        self.fc = nn.Linear(lstm_out_size, prediction_window)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         # x: (batch, tw, 1)
         lstm_out, (h_n, _) = self.lstm(x)
-        # lstm_out: (batch, tw, hidden) → 取最后时间步
-        last_out = lstm_out[:, -1, :]     # (batch, hidden)
-        out = self.fc(last_out)            # (batch, pw)
-        return self.sigmoid(out)
+        # lstm_out: (batch, tw, hidden * (1 + bidir))
+        last_out = lstm_out[:, -1, :]     # (batch, hidden * (1 + bidir))
+        return self.fc(last_out)           # (batch, pw)
 
 
 class GRU(nn.Module):
@@ -214,23 +218,26 @@ class GRU(nn.Module):
         num_layers: int = 1,
         prediction_window: int = 24,
         dropout: float = 0.0,
+        bidirectional: bool = False,
     ):
         super().__init__()
+        self.bidirectional = bidirectional
+        gru_out_size = hidden_size * (2 if bidirectional else 1)
+
         self.gru = nn.GRU(
             input_size=input_size,
             hidden_size=hidden_size,
             num_layers=num_layers,
             batch_first=True,
             dropout=dropout if num_layers > 1 else 0.0,
+            bidirectional=bidirectional,
         )
-        self.fc = nn.Linear(hidden_size, prediction_window)
-        self.sigmoid = nn.Sigmoid()
+        self.fc = nn.Linear(gru_out_size, prediction_window)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         gru_out, h_n = self.gru(x)
         last_out = gru_out[:, -1, :]
-        out = self.fc(last_out)
-        return self.sigmoid(out)
+        return self.fc(last_out)
 
 
 # ═══════════════════════ 模型工厂 ═══════════════════════
@@ -281,4 +288,5 @@ def create_model(
             num_layers=kwargs.get("num_layers", 1),
             prediction_window=prediction_window,
             dropout=kwargs.get("dropout", 0.0),
+            bidirectional=kwargs.get("bidirectional", False),
         )

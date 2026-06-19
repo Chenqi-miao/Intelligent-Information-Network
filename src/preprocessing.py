@@ -82,7 +82,7 @@ def load_and_align(
     n_missing = df[ts_attribute].isna().sum()
     missing_rate = n_missing / n_total * 100
     logger.info(
-        "加载文件 %d/%s/%s/%s | 总时间点 %d | 缺失 %.1f%% (%d/%d)",
+        "Load file %d/%s/%s/%s | %d points | missing %.1f%% (%d/%d)",
         file_id, group, aggregation, ts_attribute,
         n_total, missing_rate, n_missing, n_total,
     )
@@ -119,34 +119,33 @@ def impute_missing(
     missing_count = df[ts_attribute].isna().sum()
 
     if missing_count == 0:
-        logger.info("无需填充，无缺失值")
+        logger.info("no missing values, skip imputation")
         return df
 
     if method == "zeros":
         df[ts_attribute] = df[ts_attribute].fillna(0)
-        logger.info("缺失值填充：zeros（共 %d 个）", missing_count)
+        logger.info("impute zeros: %d values", missing_count)
 
     elif method == "mean":
         fill_value = df[ts_attribute].mean()
         df[ts_attribute] = df[ts_attribute].fillna(fill_value)
-        logger.info("缺失值填充：mean = %.4f（共 %d 个）", fill_value, missing_count)
+        logger.info("impute mean=%.4f: %d values", fill_value, missing_count)
 
     elif method == "interpolate":
         df[ts_attribute] = df[ts_attribute].interpolate(
             method="linear", limit=4, limit_direction="forward"
         )
-        # 如果首部仍有 NaN（interpolate 无法前向外推），用零填充
         remaining = df[ts_attribute].isna().sum()
         if remaining > 0:
             df[ts_attribute] = df[ts_attribute].fillna(0)
             logger.info(
-                "缺失值填充：interpolate（共 %d，首部 %d 个补零）",
+                "impute interpolate: %d (head %d filled with 0)",
                 missing_count, remaining,
             )
         else:
-            logger.info("缺失值填充：interpolate（共 %d 个）", missing_count)
+            logger.info("impute interpolate: %d values", missing_count)
     else:
-        raise ValueError(f"不支持的填充方法: {method}，可选 zeros/mean/interpolate")
+        raise ValueError(f"unsupported impute method: {method}, use zeros/mean/interpolate")
 
     return df
 
@@ -199,13 +198,13 @@ def create_sliding_windows(
     y = np.array(y)
 
     logger.info(
-        "滑动窗口：tw=%d pw=%d | 样本数 %d",
+        "Sliding window: tw=%d pw=%d | samples=%d",
         training_window, prediction_window, len(X),
     )
     if len(X) == 0:
         raise ValueError(
-            f"滑动窗口未产生任何样本。检查数据长度 ({len(values)}) "
-            f"是否大于 training_window + prediction_window ({training_window + prediction_window})"
+            f"No sliding window samples. data length ({len(values)}) "
+            f"must be > tw + pw ({training_window + prediction_window})"
         )
     return X, y
 
@@ -246,7 +245,7 @@ def temporal_split(
     y_train, y_val, y_test = y[:train_end], y[train_end:val_end], y[val_end:]
 
     logger.info(
-        "时间分割：train=%d val=%d test=%d | 比例 %.0f/%.0f/%.0f",
+        "Temporal split: train=%d val=%d test=%d | ratio %.0f/%.0f/%.0f",
         len(X_train), len(X_val), len(X_test),
         train_ratio * 100, val_ratio * 100, (1 - train_ratio - val_ratio) * 100,
     )
@@ -276,7 +275,7 @@ class ZScoreScaler:
         self.std_ = X.std()
         if self.std_ < 1e-10:
             self.std_ = 1.0  # 防止除零
-        logger.info("Z-score：μ=%.4f σ=%.4f", self.mean_, self.std_)
+        logger.info("Z-score: mean=%.4f std=%.4f", self.mean_, self.std_)
         return self
 
     def transform(self, X: np.ndarray) -> np.ndarray:
@@ -349,7 +348,7 @@ def preprocess_pipeline(
     y_val   = scaler.transform(y_val)
     y_test  = scaler.transform(y_test)
 
-    logger.info("预处理完成：%s file=%d %s=%s", group, file_id, ts_attribute, "✓")
+    logger.info("Preprocess done: %s file=%d %s=OK", group, file_id, ts_attribute)
     return {
         "X_train": X_train, "X_val": X_val, "X_test": X_test,
         "y_train": y_train, "y_val": y_val, "y_test": y_test,

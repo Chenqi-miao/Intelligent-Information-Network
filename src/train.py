@@ -128,12 +128,12 @@ def train_model(
             patience_counter += 1
             if patience_counter >= patience:
                 logger.info(
-                    "Early Stopping @ epoch %d (val loss 连续 %d 轮未改善)",
+                    "Early Stopping @ epoch %d (val loss did not improve for %d epochs)",
                     epoch + 1, patience,
                 )
                 break
 
     training_time = time.time() - start
-    logger.info("训练完成：%d epoch, 耗时 %.2f 秒", epoch + 1, training_time)
+    logger.info("Training done: %d epochs, %.2f sec", epoch + 1, training_time)
 
     return model, training_time, history
