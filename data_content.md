@@ -3,7 +3,9 @@
 > **论文**: CESNET-TimeSeries24: Time Series Dataset for Network Traffic Anomaly Detection and Forecasting
 > **作者**: Josef Koumar, Karel Hynek, Tomáš Čejka, Pavel Šiška (CESNET & CTU Prague)
 > **发布**: Nature Scientific Data, 2025 | Zenodo DOI: [10.5281/zenodo.13382427](https://zenodo.org/records/13382427)
-> **本作业使用**: ISP 流量预测（复现主论文 "Comparative Analysis of Deep Learning Models..."）
+> **本作业使用**: ISP 流量预测（复现主论文 "Comparative Analysis of Deep Learning Models...")
+
+> ⚠️ **数据完整性说明**：`institution_subnets/` 从 Zenodo 下载时不完整（下载中断），当前有 546/548 条序列，差 2 条。不影响主实验（机构级 283 条完整），若需完整子网数据请重新从 Zenodo 下载完整 tar.gz 后解压覆盖。
 
 ---
 

@@ -11,3 +11,6 @@ wheels/
 
 # source code
 reference/
+
+# dataset
+data/
