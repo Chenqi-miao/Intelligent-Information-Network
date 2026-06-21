@@ -1,0 +1,1444 @@
+22:05:28 | SARIMA rolling: 10 windows per series
+22:05:28 |   groups: ['institutions']
+22:05:28 |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\sarima_rolling_20260620_220528.csv
+22:05:28 | Processing institutions (283 files)
+22:05:28 | [institutions   1/283] file=0
+22:05:28 | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:05:28 | impute zeros: 1 values
+22:05:28 | Sliding window: tw=24 pw=24 | samples=278
+22:05:28 | Metrics: RMSE=33533659476.4808  R2=-0.3656  sMAPE=49.53%
+22:05:55 | SARIMA rolling: 10 windows per series
+22:05:55 |   groups: ['institutions']
+22:05:55 |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\sarima_rolling_20260620_220555.csv
+22:05:55 | Processing institutions (283 files)
+22:05:55 | [institutions   1/283] file=0
+22:05:55 | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:05:55 | impute zeros: 1 values
+22:05:55 | Sliding window: tw=24 pw=24 | samples=278
+22:05:55 | Metrics: RMSE=33533659476.4808  R2=-0.3656  sMAPE=49.53%
+22:06:07 | Metrics: RMSE=14593322094.5795  R2=0.7414  sMAPE=25.51%
+22:06:07 | [institutions   2/283] file=1
+22:06:07 | Load file 1/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:06:07 | impute zeros: 1 values
+22:06:07 | Sliding window: tw=24 pw=24 | samples=278
+22:06:07 | Metrics: RMSE=24951057871.1346  R2=-1.3422  sMAPE=49.94%
+22:06:19 | Metrics: RMSE=16784005374.0528  R2=-0.0598  sMAPE=36.74%
+22:06:19 | [institutions   3/283] file=2
+22:06:19 | Load file 2/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:06:19 | impute zeros: 1 values
+22:06:19 | Sliding window: tw=24 pw=24 | samples=278
+22:06:19 | Metrics: RMSE=37208524331.9151  R2=-0.4514  sMAPE=41.73%
+22:06:35 | Metrics: RMSE=43458595542.2385  R2=-0.9800  sMAPE=46.66%
+22:06:35 | [institutions   4/283] file=3
+22:06:35 | Load file 3/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:06:35 | impute zeros: 1 values
+22:06:35 | Sliding window: tw=24 pw=24 | samples=278
+22:06:35 | Metrics: RMSE=13716092212.2661  R2=-0.8670  sMAPE=58.29%
+22:06:49 | Metrics: RMSE=8550559900.5491  R2=0.2744  sMAPE=36.83%
+22:06:49 | [institutions   5/283] file=4
+22:06:49 | Load file 4/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:06:49 | impute zeros: 1 values
+22:06:49 | Sliding window: tw=24 pw=24 | samples=278
+22:06:49 | Metrics: RMSE=141156746.6172  R2=-0.0062  sMAPE=151.38%
+22:07:04 | Metrics: RMSE=114533651.8417  R2=0.3376  sMAPE=99.68%
+22:07:04 | [institutions   6/283] file=5
+22:07:04 | Load file 5/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:07:04 | impute zeros: 1 values
+22:07:04 | Sliding window: tw=24 pw=24 | samples=278
+22:07:04 | Metrics: RMSE=822590428.3853  R2=-0.0005  sMAPE=156.71%
+22:07:19 | Metrics: RMSE=663190910.7074  R2=0.3497  sMAPE=87.79%
+22:07:19 | [institutions   7/283] file=6
+22:07:19 | Load file 6/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:07:19 | impute zeros: 1 values
+22:07:19 | Sliding window: tw=24 pw=24 | samples=278
+22:07:19 | Metrics: RMSE=181945921.3466  R2=-0.1418  sMAPE=110.21%
+22:07:42 | Metrics: RMSE=157608036.1622  R2=0.1432  sMAPE=96.38%
+22:07:42 | [institutions   8/283] file=7
+22:07:42 | Load file 7/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:07:42 | impute zeros: 1 values
+22:07:42 | Sliding window: tw=24 pw=24 | samples=278
+22:07:42 | Metrics: RMSE=301437089.7467  R2=-0.0250  sMAPE=165.78%
+22:08:03 | Metrics: RMSE=243044725.2661  R2=0.3337  sMAPE=109.34%
+22:08:03 | [institutions   9/283] file=8
+22:08:03 | Load file 8/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (15/6718)
+22:08:03 | impute zeros: 15 values
+22:08:03 | Sliding window: tw=24 pw=24 | samples=278
+22:08:03 | Metrics: RMSE=88493813.9626  R2=-0.0255  sMAPE=168.56%
+22:08:22 | Metrics: RMSE=76789289.7269  R2=0.2279  sMAPE=132.55%
+22:08:22 | [institutions  10/283] file=9
+22:08:22 | Load file 9/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:08:22 | impute zeros: 1 values
+22:08:22 | Sliding window: tw=24 pw=24 | samples=278
+22:08:22 | Metrics: RMSE=4716033214.8180  R2=-0.2141  sMAPE=65.63%
+22:08:40 | Metrics: RMSE=3891306967.2027  R2=0.1734  sMAPE=41.88%
+22:08:40 | [institutions  11/283] file=10
+22:08:40 | Load file 10/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:08:40 | impute zeros: 1 values
+22:08:40 | Sliding window: tw=24 pw=24 | samples=278
+22:08:40 | Metrics: RMSE=2293934863.8215  R2=-0.0146  sMAPE=89.82%
+22:08:54 | Metrics: RMSE=1980041656.6738  R2=0.2441  sMAPE=69.86%
+22:08:54 | [institutions  12/283] file=11
+22:08:54 | Load file 11/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:08:54 | impute zeros: 1 values
+22:08:54 | Sliding window: tw=24 pw=24 | samples=278
+22:08:54 | Metrics: RMSE=1034453617.0104  R2=-0.0428  sMAPE=129.05%
+22:09:29 | Metrics: RMSE=1006327637.5989  R2=0.0131  sMAPE=125.93%
+22:09:29 | [institutions  13/283] file=12
+22:09:29 | Load file 12/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+22:09:29 | impute zeros: 3 values
+22:09:29 | Sliding window: tw=24 pw=24 | samples=278
+22:09:29 | Metrics: RMSE=657465274.5252  R2=-0.1327  sMAPE=100.19%
+22:09:43 | Metrics: RMSE=515325347.1168  R2=0.3041  sMAPE=54.88%
+22:09:43 | [institutions  14/283] file=13
+22:09:43 | Load file 13/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:09:43 | impute zeros: 2 values
+22:09:43 | Sliding window: tw=24 pw=24 | samples=278
+22:09:43 | Metrics: RMSE=1156837310.7696  R2=-0.0099  sMAPE=144.65%
+22:10:05 | Metrics: RMSE=1107566120.9968  R2=0.0743  sMAPE=104.96%
+22:10:06 | [institutions  15/283] file=14
+22:10:06 | Load file 14/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+22:10:06 | impute zeros: 5 values
+22:10:06 | Sliding window: tw=24 pw=24 | samples=278
+22:10:06 | Metrics: RMSE=664897762.0047  R2=-0.0007  sMAPE=135.78%
+22:10:32 | Metrics: RMSE=705450262.7260  R2=-0.1265  sMAPE=123.30%
+22:10:32 | [institutions  16/283] file=15
+22:10:32 | Load file 15/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:10:32 | impute zeros: 1 values
+22:10:32 | Sliding window: tw=24 pw=24 | samples=278
+22:10:32 | Metrics: RMSE=154645043.5042  R2=-0.0186  sMAPE=124.66%
+22:10:53 | Metrics: RMSE=133064083.9314  R2=0.2459  sMAPE=77.99%
+22:10:53 | [institutions  17/283] file=16
+22:10:53 | Load file 16/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:10:53 | impute zeros: 1 values
+22:10:53 | Sliding window: tw=24 pw=24 | samples=278
+22:10:53 | Metrics: RMSE=271209322.9138  R2=-0.0104  sMAPE=118.36%
+22:11:15 | Metrics: RMSE=236151510.1126  R2=0.2339  sMAPE=83.47%
+22:11:16 | [institutions  18/283] file=17
+22:11:16 | Load file 17/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:11:16 | impute zeros: 1 values
+22:11:16 | Sliding window: tw=24 pw=24 | samples=278
+22:11:16 | Metrics: RMSE=1517960637.5281  R2=-0.0894  sMAPE=85.41%
+22:11:35 | Metrics: RMSE=1363338007.1546  R2=0.1212  sMAPE=79.73%
+22:11:35 | [institutions  19/283] file=18
+22:11:35 | Load file 18/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.8% (57/6718)
+22:11:35 | impute zeros: 57 values
+22:11:35 | Sliding window: tw=24 pw=24 | samples=278
+22:11:35 | Metrics: RMSE=79936609.8825  R2=-0.0060  sMAPE=111.59%
+22:11:56 | Metrics: RMSE=64148723.9031  R2=0.3521  sMAPE=87.12%
+22:11:56 | [institutions  20/283] file=19
+22:11:56 | Load file 19/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+22:11:56 | impute zeros: 4 values
+22:11:56 | Sliding window: tw=24 pw=24 | samples=278
+22:11:56 | Metrics: RMSE=864759070.6939  R2=-0.0007  sMAPE=134.73%
+22:12:31 | Metrics: RMSE=872846604.4369  R2=-0.0195  sMAPE=119.52%
+22:12:31 | [institutions  21/283] file=20
+22:12:31 | Load file 20/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+22:12:31 | impute zeros: 3 values
+22:12:31 | Sliding window: tw=24 pw=24 | samples=278
+22:12:31 | Metrics: RMSE=118438776.2159  R2=-0.0547  sMAPE=75.96%
+22:12:53 | Metrics: RMSE=112576477.4626  R2=0.0471  sMAPE=75.52%
+22:12:53 | [institutions  22/283] file=21
+22:12:53 | Load file 21/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:12:53 | impute zeros: 2 values
+22:12:53 | Sliding window: tw=24 pw=24 | samples=278
+22:12:53 | Metrics: RMSE=1544591484.0205  R2=-0.0022  sMAPE=197.83%
+22:13:24 | Metrics: RMSE=1426305706.0843  R2=0.1454  sMAPE=147.28%
+22:13:24 | [institutions  23/283] file=22
+22:13:24 | Load file 22/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:13:24 | impute zeros: 1 values
+22:13:24 | Sliding window: tw=24 pw=24 | samples=278
+22:13:24 | Metrics: RMSE=3376791936.5795  R2=-0.0526  sMAPE=67.45%
+22:13:43 | Metrics: RMSE=2983586057.8799  R2=0.1783  sMAPE=47.19%
+22:13:43 | [institutions  24/283] file=23
+22:13:43 | Load file 23/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:13:43 | impute zeros: 1 values
+22:13:43 | Sliding window: tw=24 pw=24 | samples=278
+22:13:43 | Metrics: RMSE=6424332346.0368  R2=-0.7908  sMAPE=60.17%
+22:13:58 | Metrics: RMSE=5235487202.1708  R2=-0.1893  sMAPE=46.91%
+22:13:58 | [institutions  25/283] file=24
+22:13:58 | Load file 24/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:13:58 | impute zeros: 1 values
+22:13:58 | Sliding window: tw=24 pw=24 | samples=278
+22:13:58 | Metrics: RMSE=483043784.4147  R2=-0.0679  sMAPE=62.30%
+22:14:18 | Metrics: RMSE=478164871.0828  R2=-0.0465  sMAPE=52.32%
+22:14:18 | [institutions  26/283] file=25
+22:14:18 | Load file 25/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:14:18 | impute zeros: 1 values
+22:14:18 | Sliding window: tw=24 pw=24 | samples=278
+22:14:18 | Metrics: RMSE=341222040.3945  R2=-0.0428  sMAPE=64.74%
+22:14:48 | Metrics: RMSE=331846053.1347  R2=0.0138  sMAPE=57.49%
+22:14:48 | [institutions  27/283] file=26
+22:14:48 | Load file 26/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:14:48 | impute zeros: 1 values
+22:14:48 | Sliding window: tw=24 pw=24 | samples=278
+22:14:48 | Metrics: RMSE=342629895.1070  R2=-0.0208  sMAPE=63.15%
+22:15:10 | Metrics: RMSE=332557469.0162  R2=0.0383  sMAPE=52.91%
+22:15:10 | [institutions  28/283] file=27
+22:15:10 | Load file 27/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:15:10 | impute zeros: 1 values
+22:15:10 | Sliding window: tw=24 pw=24 | samples=278
+22:15:10 | Metrics: RMSE=876490448.7593  R2=-0.0221  sMAPE=47.29%
+22:15:29 | Metrics: RMSE=793020800.6713  R2=0.1633  sMAPE=37.25%
+22:15:29 | [institutions  29/283] file=28
+22:15:29 | Load file 28/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:15:29 | impute zeros: 1 values
+22:15:29 | Sliding window: tw=24 pw=24 | samples=278
+22:15:29 | Metrics: RMSE=533444125.0513  R2=-0.0106  sMAPE=62.68%
+22:15:50 | Metrics: RMSE=531484317.8414  R2=-0.0032  sMAPE=52.72%
+22:15:50 | [institutions  30/283] file=29
+22:15:50 | Load file 29/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+22:15:50 | impute zeros: 3 values
+22:15:50 | Sliding window: tw=24 pw=24 | samples=278
+22:15:50 | Metrics: RMSE=448323522.0736  R2=-0.0136  sMAPE=66.12%
+22:16:07 | Metrics: RMSE=439541670.2123  R2=0.0258  sMAPE=50.52%
+22:16:07 | [institutions  31/283] file=30
+22:16:07 | Load file 30/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+22:16:07 | impute zeros: 3 values
+22:16:07 | Sliding window: tw=24 pw=24 | samples=278
+22:16:07 | Metrics: RMSE=351035052.0537  R2=-0.0788  sMAPE=50.67%
+22:16:31 | Metrics: RMSE=326829829.4854  R2=0.0648  sMAPE=47.55%
+22:16:31 | [institutions  32/283] file=31
+22:16:31 | Load file 31/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (7/6718)
+22:16:31 | impute zeros: 7 values
+22:16:31 | Sliding window: tw=24 pw=24 | samples=278
+22:16:31 | Metrics: RMSE=1215428057.4331  R2=-0.1045  sMAPE=56.61%
+22:16:51 | Metrics: RMSE=1033615083.8580  R2=0.2012  sMAPE=41.58%
+22:16:51 | [institutions  33/283] file=32
+22:16:51 | Load file 32/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:16:51 | impute zeros: 1 values
+22:16:51 | Sliding window: tw=24 pw=24 | samples=278
+22:16:51 | Metrics: RMSE=900822488.7640  R2=-0.1373  sMAPE=40.36%
+22:17:07 | Metrics: RMSE=742094171.2574  R2=0.2282  sMAPE=30.28%
+22:17:07 | [institutions  34/283] file=33
+22:17:07 | Load file 33/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:17:07 | impute zeros: 1 values
+22:17:07 | Sliding window: tw=24 pw=24 | samples=278
+22:17:07 | Metrics: RMSE=1479290315.1692  R2=-0.0273  sMAPE=54.02%
+22:17:24 | Metrics: RMSE=1350111532.1677  R2=0.1443  sMAPE=39.82%
+22:17:24 | [institutions  35/283] file=34
+22:17:24 | Load file 34/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:17:24 | impute zeros: 1 values
+22:17:24 | Sliding window: tw=24 pw=24 | samples=278
+22:17:24 | Metrics: RMSE=1513407480.6840  R2=-0.0123  sMAPE=97.75%
+22:17:39 | Metrics: RMSE=1217905890.6191  R2=0.3444  sMAPE=56.27%
+22:17:39 | [institutions  36/283] file=35
+22:17:39 | Load file 35/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:17:39 | impute zeros: 1 values
+22:17:39 | Sliding window: tw=24 pw=24 | samples=278
+22:17:39 | Metrics: RMSE=105626759.0247  R2=-0.0631  sMAPE=105.46%
+22:17:59 | Metrics: RMSE=95888278.2952  R2=0.1239  sMAPE=88.50%
+22:17:59 | [institutions  37/283] file=36
+22:17:59 | Load file 36/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:17:59 | impute zeros: 1 values
+22:17:59 | Sliding window: tw=24 pw=24 | samples=278
+22:17:59 | Metrics: RMSE=654549966.3157  R2=-0.0050  sMAPE=74.31%
+22:18:18 | Metrics: RMSE=618457908.1729  R2=0.1028  sMAPE=57.12%
+22:18:18 | [institutions  38/283] file=37
+22:18:18 | Load file 37/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:18:18 | impute zeros: 1 values
+22:18:18 | Sliding window: tw=24 pw=24 | samples=278
+22:18:18 | Metrics: RMSE=5360.3427  R2=-1.1159  sMAPE=50.14%
+22:18:43 | Metrics: RMSE=3808.1728  R2=-0.0679  sMAPE=35.62%
+22:18:43 | [institutions  39/283] file=38
+22:18:43 | Load file 38/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+22:18:43 | impute zeros: 5 values
+22:18:43 | Sliding window: tw=24 pw=24 | samples=278
+22:18:43 | Metrics: RMSE=507001592.0567  R2=-0.0074  sMAPE=131.32%
+22:19:06 | Metrics: RMSE=409073924.5810  R2=0.3442  sMAPE=79.45%
+22:19:06 | [institutions  40/283] file=39
+22:19:06 | Load file 39/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:19:06 | impute zeros: 1 values
+22:19:06 | Sliding window: tw=24 pw=24 | samples=278
+22:19:06 | Metrics: RMSE=2959144045.2602  R2=-0.0254  sMAPE=121.32%
+22:19:28 | Metrics: RMSE=2749623342.6206  R2=0.1147  sMAPE=110.85%
+22:19:28 | [institutions  41/283] file=40
+22:19:28 | Load file 40/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:19:28 | impute zeros: 1 values
+22:19:28 | Sliding window: tw=24 pw=24 | samples=278
+22:19:28 | Metrics: RMSE=325229992.4767  R2=-0.0359  sMAPE=95.47%
+22:19:52 | Metrics: RMSE=284212591.0335  R2=0.2089  sMAPE=84.29%
+22:19:52 | [institutions  42/283] file=41
+22:19:52 | Load file 41/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:19:52 | impute zeros: 1 values
+22:19:52 | Sliding window: tw=24 pw=24 | samples=278
+22:19:52 | Metrics: RMSE=713282963.5083  R2=-0.0001  sMAPE=108.07%
+22:20:13 | Metrics: RMSE=663457623.0860  R2=0.1348  sMAPE=98.14%
+22:20:13 | [institutions  43/283] file=42
+22:20:13 | Load file 42/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:20:13 | impute zeros: 1 values
+22:20:13 | Sliding window: tw=24 pw=24 | samples=278
+22:20:13 | Metrics: RMSE=191293492.5696  R2=-0.0056  sMAPE=145.11%
+22:20:31 | Metrics: RMSE=158260483.4271  R2=0.3117  sMAPE=84.73%
+22:20:31 | [institutions  44/283] file=43
+22:20:31 | Load file 43/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:20:31 | impute zeros: 2 values
+22:20:31 | Sliding window: tw=24 pw=24 | samples=278
+22:20:31 | Metrics: RMSE=578890961.1946  R2=-0.0001  sMAPE=134.30%
+22:20:58 | Metrics: RMSE=549613705.8779  R2=0.0985  sMAPE=83.06%
+22:20:58 | [institutions  45/283] file=45
+22:20:58 | Load file 45/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:20:58 | impute zeros: 1 values
+22:20:58 | Sliding window: tw=24 pw=24 | samples=278
+22:20:58 | Metrics: RMSE=325019118.4775  R2=-0.0115  sMAPE=140.74%
+22:21:21 | Metrics: RMSE=274568752.2799  R2=0.2781  sMAPE=102.28%
+22:21:21 | [institutions  46/283] file=46
+22:21:21 | Load file 46/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:21:21 | impute zeros: 1 values
+22:21:21 | Sliding window: tw=24 pw=24 | samples=278
+22:21:21 | Metrics: RMSE=283819803.2811  R2=-0.0140  sMAPE=122.82%
+22:21:43 | Metrics: RMSE=248098720.3646  R2=0.2252  sMAPE=98.21%
+22:21:43 | [institutions  47/283] file=47
+22:21:43 | Load file 47/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+22:21:43 | impute zeros: 5 values
+22:21:43 | Sliding window: tw=24 pw=24 | samples=278
+22:21:43 | Metrics: RMSE=42001.3882  R2=-0.2060  sMAPE=71.00%
+22:21:50 | Metrics: RMSE=42578.6956  R2=-0.2393  sMAPE=46.00%
+22:21:50 | [institutions  48/283] file=48
+22:21:50 | Load file 48/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:21:50 | impute zeros: 1 values
+22:21:50 | Sliding window: tw=24 pw=24 | samples=278
+22:21:50 | Metrics: RMSE=23894153255.3509  R2=-0.5379  sMAPE=49.77%
+22:22:05 | Metrics: RMSE=12020875581.1446  R2=0.6108  sMAPE=25.80%
+22:22:05 | [institutions  49/283] file=49
+22:22:05 | Load file 49/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:22:05 | impute zeros: 1 values
+22:22:05 | Sliding window: tw=24 pw=24 | samples=278
+22:22:05 | Metrics: RMSE=32507525593.2646  R2=-0.2745  sMAPE=48.36%
+22:22:16 | Metrics: RMSE=34227197415.1331  R2=-0.4129  sMAPE=53.83%
+22:22:16 | [institutions  50/283] file=50
+22:22:17 | Load file 50/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:22:17 | impute zeros: 1 values
+22:22:17 | Sliding window: tw=24 pw=24 | samples=278
+22:22:17 | Metrics: RMSE=8645411632.6168  R2=-0.9671  sMAPE=58.53%
+22:22:35 | Metrics: RMSE=4571147831.6738  R2=0.4501  sMAPE=35.50%
+22:22:35 |   50/283 done, 1000.8s elapsed
+22:22:35 | [institutions  51/283] file=51
+22:22:36 | Load file 51/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:22:36 | impute zeros: 1 values
+22:22:36 | Sliding window: tw=24 pw=24 | samples=278
+22:22:36 | Metrics: RMSE=12959937.1829  R2=-0.0011  sMAPE=143.62%
+22:23:04 | Metrics: RMSE=12339944.0300  R2=0.0924  sMAPE=97.49%
+22:23:04 | [institutions  52/283] file=52
+22:23:05 | Load file 52/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:23:05 | impute zeros: 1 values
+22:23:05 | Sliding window: tw=24 pw=24 | samples=278
+22:23:05 | Metrics: RMSE=3889448322.2009  R2=-0.0161  sMAPE=68.97%
+22:23:23 | Metrics: RMSE=3424440967.7980  R2=0.2123  sMAPE=54.13%
+22:23:23 | [institutions  53/283] file=53
+22:23:23 | Load file 53/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:23:23 | impute zeros: 1 values
+22:23:23 | Sliding window: tw=24 pw=24 | samples=278
+22:23:23 | Metrics: RMSE=10998673332.5638  R2=-1.7949  sMAPE=70.40%
+22:23:35 | Metrics: RMSE=3946620077.6616  R2=0.6401  sMAPE=32.34%
+22:23:35 | [institutions  54/283] file=54
+22:23:35 | Load file 54/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:23:35 | impute zeros: 1 values
+22:23:35 | Sliding window: tw=24 pw=24 | samples=278
+22:23:35 | Metrics: RMSE=245041496.7140  R2=-0.5035  sMAPE=142.32%
+22:23:57 | Metrics: RMSE=190593663.0442  R2=0.0904  sMAPE=104.39%
+22:23:57 | [institutions  55/283] file=55
+22:23:57 | Load file 55/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:23:57 | impute zeros: 1 values
+22:23:57 | Sliding window: tw=24 pw=24 | samples=278
+22:23:57 | Metrics: RMSE=3039269129.2111  R2=-0.3639  sMAPE=59.06%
+22:24:15 | Metrics: RMSE=2015282129.3786  R2=0.4003  sMAPE=36.92%
+22:24:15 | [institutions  56/283] file=56
+22:24:15 | Load file 56/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:24:15 | impute zeros: 1 values
+22:24:15 | Sliding window: tw=24 pw=24 | samples=278
+22:24:15 | Metrics: RMSE=6398403512.5742  R2=-0.8983  sMAPE=64.04%
+22:24:31 | Metrics: RMSE=3997367239.9190  R2=0.2591  sMAPE=40.68%
+22:24:31 | [institutions  57/283] file=57
+22:24:31 | Load file 57/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:24:31 | impute zeros: 1 values
+22:24:31 | Sliding window: tw=24 pw=24 | samples=278
+22:24:31 | Metrics: RMSE=8346837621.0651  R2=-0.3122  sMAPE=53.62%
+22:24:49 | Metrics: RMSE=5537499224.9120  R2=0.4225  sMAPE=37.93%
+22:24:49 | [institutions  58/283] file=58
+22:24:49 | Load file 58/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:24:49 | impute zeros: 1 values
+22:24:49 | Sliding window: tw=24 pw=24 | samples=278
+22:24:49 | Metrics: RMSE=181534536.2380  R2=-0.0095  sMAPE=131.39%
+22:25:10 | Metrics: RMSE=147647467.1477  R2=0.3322  sMAPE=85.48%
+22:25:10 | [institutions  59/283] file=59
+22:25:10 | Load file 59/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:25:10 | impute zeros: 1 values
+22:25:10 | Sliding window: tw=24 pw=24 | samples=278
+22:25:10 | Metrics: RMSE=5617547227.4753  R2=-0.1023  sMAPE=60.35%
+22:25:25 | Metrics: RMSE=5020172599.3644  R2=0.1197  sMAPE=46.56%
+22:25:25 | [institutions  60/283] file=60
+22:25:25 | Load file 60/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:25:25 | impute zeros: 1 values
+22:25:25 | Sliding window: tw=24 pw=24 | samples=278
+22:25:25 | Metrics: RMSE=1121155703.7343  R2=-0.0081  sMAPE=50.66%
+22:25:43 | Metrics: RMSE=991261636.2661  R2=0.2119  sMAPE=37.20%
+22:25:43 | [institutions  61/283] file=61
+22:25:43 | Load file 61/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:25:43 | impute zeros: 1 values
+22:25:43 | Sliding window: tw=24 pw=24 | samples=278
+22:25:43 | Metrics: RMSE=12364334516.4889  R2=-1.3216  sMAPE=58.86%
+22:25:55 | Metrics: RMSE=8376460446.4999  R2=-0.0655  sMAPE=35.41%
+22:25:55 | [institutions  62/283] file=62
+22:25:55 | Load file 62/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:25:55 | impute zeros: 1 values
+22:25:55 | Sliding window: tw=24 pw=24 | samples=278
+22:25:55 | Metrics: RMSE=622772985.0516  R2=-0.0697  sMAPE=161.51%
+22:26:27 | Metrics: RMSE=527025880.2414  R2=0.2339  sMAPE=113.87%
+22:26:27 | [institutions  63/283] file=63
+22:26:27 | Load file 63/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:26:27 | impute zeros: 1 values
+22:26:27 | Sliding window: tw=24 pw=24 | samples=278
+22:26:27 | Metrics: RMSE=336852942.6644  R2=-0.0023  sMAPE=168.86%
+22:26:45 | Metrics: RMSE=262045993.1761  R2=0.3934  sMAPE=114.08%
+22:26:45 | [institutions  64/283] file=64
+22:26:45 | Load file 64/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:26:45 | impute zeros: 1 values
+22:26:45 | Sliding window: tw=24 pw=24 | samples=278
+22:26:45 | Metrics: RMSE=430551946.3320  R2=-0.0279  sMAPE=123.45%
+22:27:04 | Metrics: RMSE=345591566.4582  R2=0.3377  sMAPE=91.89%
+22:27:04 | [institutions  65/283] file=65
+22:27:04 | Load file 65/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:27:04 | impute zeros: 1 values
+22:27:04 | Sliding window: tw=24 pw=24 | samples=278
+22:27:04 | Metrics: RMSE=467111522.7811  R2=-0.0126  sMAPE=149.11%
+22:28:15 | Metrics: RMSE=390776349.0747  R2=0.2913  sMAPE=101.92%
+22:28:15 | [institutions  66/283] file=66
+22:28:15 | Load file 66/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:28:15 | impute zeros: 1 values
+22:28:15 | Sliding window: tw=24 pw=24 | samples=278
+22:28:15 | Metrics: RMSE=665318917.7995  R2=-0.0080  sMAPE=79.57%
+22:28:36 | Metrics: RMSE=602321212.7306  R2=0.1739  sMAPE=59.74%
+22:28:36 | [institutions  67/283] file=67
+22:28:36 | Load file 67/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:28:36 | impute zeros: 1 values
+22:28:36 | Sliding window: tw=24 pw=24 | samples=278
+22:28:36 | Metrics: RMSE=2863338570.8712  R2=-0.4231  sMAPE=63.22%
+22:28:55 | Metrics: RMSE=1961170036.7591  R2=0.3324  sMAPE=43.23%
+22:28:55 | [institutions  68/283] file=68
+22:28:55 | Load file 68/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:28:55 | impute zeros: 1 values
+22:28:55 | Sliding window: tw=24 pw=24 | samples=278
+22:28:55 | Metrics: RMSE=6691449766.2714  R2=-0.3552  sMAPE=51.00%
+22:29:12 | Metrics: RMSE=4322883058.4564  R2=0.4344  sMAPE=28.69%
+22:29:12 | [institutions  69/283] file=69
+22:29:12 | Load file 69/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:29:12 | impute zeros: 1 values
+22:29:12 | Sliding window: tw=24 pw=24 | samples=278
+22:29:12 | Metrics: RMSE=1020182167.6988  R2=-0.0734  sMAPE=102.47%
+22:29:30 | Metrics: RMSE=791455680.0273  R2=0.3540  sMAPE=56.56%
+22:29:30 | [institutions  70/283] file=70
+22:29:30 | Load file 70/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:29:30 | impute zeros: 1 values
+22:29:30 | Sliding window: tw=24 pw=24 | samples=278
+22:29:30 | Metrics: RMSE=718987774.4898  R2=-0.0086  sMAPE=151.45%
+22:29:49 | Metrics: RMSE=584221269.6573  R2=0.3340  sMAPE=88.08%
+22:29:49 | [institutions  71/283] file=71
+22:29:49 | Load file 71/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:29:49 | impute zeros: 1 values
+22:29:49 | Sliding window: tw=24 pw=24 | samples=278
+22:29:49 | Metrics: RMSE=128688726.2676  R2=-0.0981  sMAPE=133.04%
+22:30:18 | Metrics: RMSE=113429887.6635  R2=0.1469  sMAPE=112.90%
+22:30:18 | [institutions  72/283] file=72
+22:30:18 | Load file 72/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (19/6718)
+22:30:18 | impute zeros: 19 values
+22:30:18 | Sliding window: tw=24 pw=24 | samples=278
+22:30:18 | Metrics: RMSE=97142300.6207  R2=-0.0047  sMAPE=165.50%
+22:30:36 | Metrics: RMSE=86155698.4977  R2=0.2097  sMAPE=119.51%
+22:30:36 | [institutions  73/283] file=73
+22:30:37 | Load file 73/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:30:37 | impute zeros: 1 values
+22:30:37 | Sliding window: tw=24 pw=24 | samples=278
+22:30:37 | Metrics: RMSE=597264148.2671  R2=-0.0009  sMAPE=154.40%
+22:30:52 | Metrics: RMSE=491330274.9079  R2=0.3227  sMAPE=80.66%
+22:30:52 | [institutions  74/283] file=74
+22:30:52 | Load file 74/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:30:52 | impute zeros: 1 values
+22:30:52 | Sliding window: tw=24 pw=24 | samples=278
+22:30:52 | Metrics: RMSE=2313395475.0649  R2=-0.4848  sMAPE=66.88%
+22:31:10 | Metrics: RMSE=1749552421.1265  R2=0.1508  sMAPE=50.25%
+22:31:10 | [institutions  75/283] file=75
+22:31:10 | Load file 75/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:31:10 | impute zeros: 1 values
+22:31:10 | Sliding window: tw=24 pw=24 | samples=278
+22:31:10 | Metrics: RMSE=2743363259.4733  R2=-0.2329  sMAPE=60.02%
+22:31:30 | Metrics: RMSE=2394856186.4073  R2=0.0605  sMAPE=41.87%
+22:31:30 | [institutions  76/283] file=76
+22:31:30 | Load file 76/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:31:30 | impute zeros: 1 values
+22:31:30 | Sliding window: tw=24 pw=24 | samples=278
+22:31:30 | Metrics: RMSE=413088579.9410  R2=-0.0042  sMAPE=153.18%
+22:31:53 | Metrics: RMSE=373242979.6576  R2=0.1801  sMAPE=109.47%
+22:31:53 | [institutions  77/283] file=77
+22:31:53 | Load file 77/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:31:53 | impute zeros: 1 values
+22:31:53 | Sliding window: tw=24 pw=24 | samples=278
+22:31:53 | Metrics: RMSE=199676991.8202  R2=-0.0276  sMAPE=76.91%
+22:32:20 | Metrics: RMSE=188505469.3481  R2=0.0841  sMAPE=67.39%
+22:32:20 | [institutions  78/283] file=78
+22:32:20 | Load file 78/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:32:20 | impute zeros: 1 values
+22:32:20 | Sliding window: tw=24 pw=24 | samples=278
+22:32:20 | Metrics: RMSE=2052513208.5337  R2=-0.0926  sMAPE=81.27%
+22:32:39 | Metrics: RMSE=1813467529.8944  R2=0.1471  sMAPE=69.99%
+22:32:39 | [institutions  79/283] file=79
+22:32:39 | Load file 79/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:32:39 | impute zeros: 1 values
+22:32:39 | Sliding window: tw=24 pw=24 | samples=278
+22:32:39 | Metrics: RMSE=544259216.3566  R2=-0.0004  sMAPE=80.10%
+22:33:01 | Metrics: RMSE=507993927.1352  R2=0.1285  sMAPE=57.56%
+22:33:01 | [institutions  80/283] file=80
+22:33:01 | Load file 80/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:33:01 | impute zeros: 1 values
+22:33:01 | Sliding window: tw=24 pw=24 | samples=278
+22:33:01 | Metrics: RMSE=3134708285.2603  R2=-0.0182  sMAPE=45.94%
+22:33:13 | Metrics: RMSE=2476590282.0422  R2=0.3644  sMAPE=28.67%
+22:33:13 | [institutions  81/283] file=81
+22:33:13 | Load file 81/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:33:13 | impute zeros: 1 values
+22:33:13 | Sliding window: tw=24 pw=24 | samples=278
+22:33:13 | Metrics: RMSE=127089324.7196  R2=-0.7207  sMAPE=99.31%
+22:33:32 | Metrics: RMSE=91490678.1041  R2=0.1082  sMAPE=58.63%
+22:33:32 | [institutions  82/283] file=82
+22:33:32 | Load file 82/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:33:32 | impute zeros: 2 values
+22:33:32 | Sliding window: tw=24 pw=24 | samples=278
+22:33:32 | Metrics: RMSE=94996410.2729  R2=-0.0718  sMAPE=145.21%
+22:33:56 | Metrics: RMSE=86583735.1101  R2=0.1097  sMAPE=125.93%
+22:33:57 | [institutions  83/283] file=83
+22:33:57 | Load file 83/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:33:57 | impute zeros: 1 values
+22:33:57 | Sliding window: tw=24 pw=24 | samples=278
+22:33:57 | Metrics: RMSE=732617185.4149  R2=-0.0920  sMAPE=110.89%
+22:34:20 | Metrics: RMSE=694959173.4068  R2=0.0174  sMAPE=111.46%
+22:34:20 | [institutions  84/283] file=84
+22:34:20 | Load file 84/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:34:20 | impute zeros: 2 values
+22:34:20 | Sliding window: tw=24 pw=24 | samples=278
+22:34:20 | Metrics: RMSE=146096071.2776  R2=-0.2423  sMAPE=61.74%
+22:34:41 | Metrics: RMSE=137250710.2123  R2=-0.0965  sMAPE=53.43%
+22:34:41 | [institutions  85/283] file=85
+22:34:41 | Load file 85/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+22:34:41 | impute zeros: 17 values
+22:34:41 | Sliding window: tw=24 pw=24 | samples=278
+22:34:41 | Metrics: RMSE=96732559.4723  R2=-0.1666  sMAPE=98.45%
+22:35:05 | Metrics: RMSE=76776964.7327  R2=0.2651  sMAPE=57.72%
+22:35:05 | [institutions  86/283] file=86
+22:35:05 | Load file 86/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+22:35:05 | impute zeros: 5 values
+22:35:05 | Sliding window: tw=24 pw=24 | samples=278
+22:35:05 | Metrics: RMSE=914229078.9958  R2=-0.0351  sMAPE=106.39%
+22:35:25 | Metrics: RMSE=768620153.6161  R2=0.2684  sMAPE=67.65%
+22:35:25 | [institutions  87/283] file=87
+22:35:25 | Load file 87/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:35:25 | impute zeros: 1 values
+22:35:25 | Sliding window: tw=24 pw=24 | samples=278
+22:35:25 | Metrics: RMSE=2669351333.7294  R2=-0.0310  sMAPE=56.33%
+22:35:47 | Metrics: RMSE=2256444992.6572  R2=0.2633  sMAPE=58.00%
+22:35:47 | [institutions  88/283] file=88
+22:35:47 | Load file 88/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:35:47 | impute zeros: 1 values
+22:35:47 | Sliding window: tw=24 pw=24 | samples=278
+22:35:47 | Metrics: RMSE=702393780.8425  R2=-0.0090  sMAPE=119.76%
+22:36:10 | Metrics: RMSE=625103336.7408  R2=0.2008  sMAPE=109.56%
+22:36:10 | [institutions  89/283] file=89
+22:36:10 | Load file 89/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+22:36:10 | impute zeros: 10 values
+22:36:10 | Sliding window: tw=24 pw=24 | samples=278
+22:36:10 | Metrics: RMSE=1988159518.3792  R2=-0.0033  sMAPE=91.72%
+22:36:25 | Metrics: RMSE=1789794281.4303  R2=0.1869  sMAPE=49.88%
+22:36:25 | [institutions  90/283] file=90
+22:36:25 | Load file 90/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:36:25 | impute zeros: 1 values
+22:36:25 | Sliding window: tw=24 pw=24 | samples=278
+22:36:25 | Metrics: RMSE=1379553093.6851  R2=-0.3399  sMAPE=64.31%
+22:36:48 | Metrics: RMSE=1031282932.8608  R2=0.2512  sMAPE=41.99%
+22:36:48 | [institutions  91/283] file=91
+22:36:48 | Load file 91/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:36:48 | impute zeros: 1 values
+22:36:48 | Sliding window: tw=24 pw=24 | samples=278
+22:36:48 | Metrics: RMSE=544037771.7293  R2=-0.0005  sMAPE=141.65%
+22:37:12 | Metrics: RMSE=492625584.2678  R2=0.1796  sMAPE=80.81%
+22:37:12 | [institutions  92/283] file=92
+22:37:12 | Load file 92/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:37:12 | impute zeros: 1 values
+22:37:12 | Sliding window: tw=24 pw=24 | samples=278
+22:37:12 | Metrics: RMSE=80583202.4651  R2=-0.0046  sMAPE=156.41%
+22:37:43 | Metrics: RMSE=73744596.5886  R2=0.1587  sMAPE=133.34%
+22:37:43 | [institutions  93/283] file=93
+22:37:43 | Load file 93/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:37:43 | impute zeros: 1 values
+22:37:43 | Sliding window: tw=24 pw=24 | samples=278
+22:37:43 | Metrics: RMSE=1633927418.1165  R2=-0.0352  sMAPE=151.80%
+22:38:06 | Metrics: RMSE=1322929670.5249  R2=0.3213  sMAPE=95.97%
+22:38:06 | [institutions  94/283] file=94
+22:38:06 | Load file 94/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:38:06 | impute zeros: 1 values
+22:38:06 | Sliding window: tw=24 pw=24 | samples=278
+22:38:06 | Metrics: RMSE=1238529292.7002  R2=-0.5584  sMAPE=67.52%
+22:38:24 | Metrics: RMSE=866960046.3577  R2=0.2364  sMAPE=48.17%
+22:38:24 | [institutions  95/283] file=95
+22:38:24 | Load file 95/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:38:24 | impute zeros: 1 values
+22:38:24 | Sliding window: tw=24 pw=24 | samples=278
+22:38:24 | Metrics: RMSE=689085363.0870  R2=-0.0308  sMAPE=83.62%
+22:38:43 | Metrics: RMSE=568275008.1911  R2=0.2989  sMAPE=57.82%
+22:38:43 | [institutions  96/283] file=96
+22:38:43 | Load file 96/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:38:43 | impute zeros: 1 values
+22:38:43 | Sliding window: tw=24 pw=24 | samples=278
+22:38:43 | Metrics: RMSE=381760437.4042  R2=-0.0122  sMAPE=127.42%
+22:39:03 | Metrics: RMSE=339645804.8519  R2=0.1988  sMAPE=106.61%
+22:39:03 | [institutions  97/283] file=97
+22:39:03 | Load file 97/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:39:03 | impute zeros: 1 values
+22:39:03 | Sliding window: tw=24 pw=24 | samples=278
+22:39:03 | Metrics: RMSE=1406480796.3169  R2=-0.0280  sMAPE=63.59%
+22:39:25 | Metrics: RMSE=1273195859.0289  R2=0.1576  sMAPE=52.92%
+22:39:25 | [institutions  98/283] file=98
+22:39:25 | Load file 98/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:39:25 | impute zeros: 2 values
+22:39:25 | Sliding window: tw=24 pw=24 | samples=278
+22:39:25 | Metrics: RMSE=1138738972.0096  R2=-0.2037  sMAPE=81.63%
+22:39:46 | Metrics: RMSE=1024968528.1693  R2=0.0248  sMAPE=59.69%
+22:39:46 | [institutions  99/283] file=99
+22:39:46 | Load file 99/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:39:46 | impute zeros: 1 values
+22:39:46 | Sliding window: tw=24 pw=24 | samples=278
+22:39:46 | Metrics: RMSE=261830611.9867  R2=-0.0384  sMAPE=164.54%
+22:40:09 | Metrics: RMSE=198584039.8749  R2=0.4027  sMAPE=101.84%
+22:40:09 | [institutions 100/283] file=100
+22:40:09 | Load file 100/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:40:09 | impute zeros: 1 values
+22:40:09 | Sliding window: tw=24 pw=24 | samples=278
+22:40:09 | Metrics: RMSE=351447129.1121  R2=-0.0000  sMAPE=105.11%
+22:40:30 | Metrics: RMSE=320331558.7206  R2=0.1692  sMAPE=62.81%
+22:40:30 |   100/283 done, 2075.7s elapsed
+22:40:30 | [institutions 101/283] file=101
+22:40:30 | Load file 101/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:40:30 | impute zeros: 1 values
+22:40:30 | Sliding window: tw=24 pw=24 | samples=278
+22:40:30 | Metrics: RMSE=2187727120.4070  R2=-0.0206  sMAPE=92.68%
+22:40:48 | Metrics: RMSE=1748588407.9450  R2=0.3480  sMAPE=56.61%
+22:40:48 | [institutions 102/283] file=102
+22:40:48 | Load file 102/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:40:48 | impute zeros: 1 values
+22:40:48 | Sliding window: tw=24 pw=24 | samples=278
+22:40:48 | Metrics: RMSE=225013431.7902  R2=-0.0000  sMAPE=147.99%
+22:41:09 | Metrics: RMSE=205162961.0839  R2=0.1686  sMAPE=89.26%
+22:41:09 | [institutions 103/283] file=103
+22:41:09 | Load file 103/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:41:09 | impute zeros: 1 values
+22:41:09 | Sliding window: tw=24 pw=24 | samples=278
+22:41:09 | Metrics: RMSE=96881773.9519  R2=-0.0104  sMAPE=89.08%
+22:41:32 | Metrics: RMSE=96250897.4008  R2=0.0027  sMAPE=69.21%
+22:41:32 | [institutions 104/283] file=104
+22:41:32 | Load file 104/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:41:32 | impute zeros: 1 values
+22:41:32 | Sliding window: tw=24 pw=24 | samples=278
+22:41:32 | Metrics: RMSE=813774253.1240  R2=-0.0274  sMAPE=66.63%
+22:41:56 | Metrics: RMSE=677605213.4317  R2=0.2876  sMAPE=43.69%
+22:41:56 | [institutions 105/283] file=105
+22:41:56 | Load file 105/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:41:56 | impute zeros: 1 values
+22:41:56 | Sliding window: tw=24 pw=24 | samples=278
+22:41:56 | Metrics: RMSE=1754898123.7833  R2=-0.1748  sMAPE=71.71%
+22:42:15 | Metrics: RMSE=1499369681.2860  R2=0.1424  sMAPE=55.35%
+22:42:15 | [institutions 106/283] file=106
+22:42:16 | Load file 106/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:42:16 | impute zeros: 1 values
+22:42:16 | Sliding window: tw=24 pw=24 | samples=278
+22:42:16 | Metrics: RMSE=1252365497.7828  R2=-0.0508  sMAPE=45.21%
+22:42:37 | Metrics: RMSE=965128497.1577  R2=0.3760  sMAPE=32.05%
+22:42:37 | [institutions 107/283] file=107
+22:42:37 | Load file 107/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:42:37 | impute zeros: 1 values
+22:42:37 | Sliding window: tw=24 pw=24 | samples=278
+22:42:37 | Metrics: RMSE=570037983.7209  R2=-0.0005  sMAPE=167.46%
+22:43:02 | Metrics: RMSE=458341489.9318  R2=0.3532  sMAPE=118.86%
+22:43:02 | [institutions 108/283] file=108
+22:43:02 | Load file 108/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+22:43:02 | impute zeros: 4 values
+22:43:02 | Sliding window: tw=24 pw=24 | samples=278
+22:43:02 | Metrics: RMSE=1704696860.8251  R2=-0.0452  sMAPE=37.05%
+22:43:19 | Metrics: RMSE=1211835966.5088  R2=0.4718  sMAPE=25.25%
+22:43:19 | [institutions 109/283] file=109
+22:43:19 | Load file 109/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:43:19 | impute zeros: 1 values
+22:43:19 | Sliding window: tw=24 pw=24 | samples=278
+22:43:19 | Metrics: RMSE=2367220443.1168  R2=-0.0635  sMAPE=41.40%
+22:43:35 | Metrics: RMSE=1938676396.4662  R2=0.2867  sMAPE=27.80%
+22:43:35 | [institutions 110/283] file=110
+22:43:35 | Load file 110/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:43:35 | impute zeros: 1 values
+22:43:35 | Sliding window: tw=24 pw=24 | samples=278
+22:43:35 | Metrics: RMSE=3856368668.9959  R2=-0.0017  sMAPE=129.27%
+22:43:59 | Metrics: RMSE=3857425873.7497  R2=-0.0023  sMAPE=114.14%
+22:43:59 | [institutions 111/283] file=111
+22:43:59 | Load file 111/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+22:43:59 | impute zeros: 4 values
+22:43:59 | Sliding window: tw=24 pw=24 | samples=278
+22:43:59 | Metrics: RMSE=570864088.4216  R2=-0.0006  sMAPE=87.59%
+22:44:20 | Metrics: RMSE=549816013.9013  R2=0.0718  sMAPE=79.05%
+22:44:20 | [institutions 112/283] file=112
+22:44:20 | Load file 112/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:44:20 | impute zeros: 2 values
+22:44:20 | Sliding window: tw=24 pw=24 | samples=278
+22:44:20 | Metrics: RMSE=140222813.2120  R2=-0.0153  sMAPE=121.94%
+22:44:41 | Metrics: RMSE=117728271.0004  R2=0.2843  sMAPE=85.60%
+22:44:41 | [institutions 113/283] file=113
+22:44:41 | Load file 113/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:44:41 | impute zeros: 1 values
+22:44:41 | Sliding window: tw=24 pw=24 | samples=278
+22:44:41 | Metrics: RMSE=2151890219.3100  R2=-0.0244  sMAPE=36.96%
+22:44:58 | Metrics: RMSE=2007450755.3951  R2=0.1085  sMAPE=32.34%
+22:44:58 | [institutions 114/283] file=114
+22:44:58 | Load file 114/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (9/6718)
+22:44:58 | impute zeros: 9 values
+22:44:58 | Sliding window: tw=24 pw=24 | samples=278
+22:44:58 | Metrics: RMSE=532225932.3165  R2=-0.1484  sMAPE=135.70%
+22:45:20 | Metrics: RMSE=421146225.9475  R2=0.2809  sMAPE=103.93%
+22:45:20 | [institutions 115/283] file=115
+22:45:20 | Load file 115/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:45:20 | impute zeros: 1 values
+22:45:20 | Sliding window: tw=24 pw=24 | samples=278
+22:45:20 | Metrics: RMSE=978538164.3425  R2=-0.0260  sMAPE=124.39%
+22:45:41 | Metrics: RMSE=848983831.2748  R2=0.2277  sMAPE=99.04%
+22:45:41 | [institutions 116/283] file=116
+22:45:41 | Load file 116/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:45:41 | impute zeros: 1 values
+22:45:41 | Sliding window: tw=24 pw=24 | samples=278
+22:45:41 | Metrics: RMSE=395122170.1751  R2=-0.0680  sMAPE=63.53%
+22:46:19 | Metrics: RMSE=326658091.5091  R2=0.2701  sMAPE=49.60%
+22:46:19 | [institutions 117/283] file=117
+22:46:19 | Load file 117/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:46:19 | impute zeros: 1 values
+22:46:19 | Sliding window: tw=24 pw=24 | samples=278
+22:46:19 | Metrics: RMSE=247402263.6206  R2=-0.0019  sMAPE=112.05%
+22:46:43 | Metrics: RMSE=228212108.4803  R2=0.1475  sMAPE=100.86%
+22:46:43 | [institutions 118/283] file=118
+22:46:43 | Load file 118/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:46:43 | impute zeros: 1 values
+22:46:43 | Sliding window: tw=24 pw=24 | samples=278
+22:46:43 | Metrics: RMSE=10919671.5531  R2=-0.1086  sMAPE=36.91%
+22:47:04 | Metrics: RMSE=9880336.7013  R2=0.0924  sMAPE=32.03%
+22:47:04 | [institutions 119/283] file=119
+22:47:04 | Load file 119/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:47:04 | impute zeros: 1 values
+22:47:04 | Sliding window: tw=24 pw=24 | samples=278
+22:47:04 | Metrics: RMSE=2587646120.1870  R2=-0.1543  sMAPE=42.23%
+22:47:25 | Metrics: RMSE=2130660258.7808  R2=0.2174  sMAPE=32.32%
+22:47:25 | [institutions 120/283] file=120
+22:47:25 | Load file 120/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:47:25 | impute zeros: 1 values
+22:47:25 | Sliding window: tw=24 pw=24 | samples=278
+22:47:25 | Metrics: RMSE=457901575.6141  R2=-0.0570  sMAPE=53.07%
+22:47:47 | Metrics: RMSE=430473578.8259  R2=0.0659  sMAPE=45.57%
+22:47:47 | [institutions 121/283] file=121
+22:47:47 | Load file 121/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:47:47 | impute zeros: 1 values
+22:47:47 | Sliding window: tw=24 pw=24 | samples=278
+22:47:47 | Metrics: RMSE=430927.3071  R2=-0.0181  sMAPE=21.37%
+22:48:11 | Metrics: RMSE=425989.7187  R2=0.0051  sMAPE=20.21%
+22:48:11 | [institutions 122/283] file=122
+22:48:12 | Load file 122/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:48:12 | impute zeros: 1 values
+22:48:12 | Sliding window: tw=24 pw=24 | samples=278
+22:48:12 | Metrics: RMSE=138942069.1204  R2=-0.2076  sMAPE=102.90%
+22:48:43 | Metrics: RMSE=101402511.1251  R2=0.3568  sMAPE=67.96%
+22:48:43 | [institutions 123/283] file=123
+22:48:43 | Load file 123/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:48:43 | impute zeros: 1 values
+22:48:43 | Sliding window: tw=24 pw=24 | samples=278
+22:48:43 | Metrics: RMSE=1315551917.6005  R2=-0.0058  sMAPE=82.29%
+22:49:03 | Metrics: RMSE=1185998805.0420  R2=0.1826  sMAPE=50.38%
+22:49:03 | [institutions 124/283] file=124
+22:49:03 | Load file 124/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:49:03 | impute zeros: 1 values
+22:49:03 | Sliding window: tw=24 pw=24 | samples=278
+22:49:03 | Metrics: RMSE=579580526.2493  R2=-0.0016  sMAPE=113.49%
+22:49:26 | Metrics: RMSE=538259042.4367  R2=0.1361  sMAPE=97.62%
+22:49:26 | [institutions 125/283] file=125
+22:49:26 | Load file 125/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+22:49:26 | impute zeros: 2 values
+22:49:26 | Sliding window: tw=24 pw=24 | samples=278
+22:49:26 | Metrics: RMSE=553351024.1464  R2=-0.0935  sMAPE=45.00%
+22:49:47 | Metrics: RMSE=500295987.7642  R2=0.1062  sMAPE=38.79%
+22:49:47 | [institutions 126/283] file=126
+22:49:47 | Load file 126/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:49:47 | impute zeros: 1 values
+22:49:47 | Sliding window: tw=24 pw=24 | samples=278
+22:49:47 | Metrics: RMSE=606143127.7328  R2=-0.0934  sMAPE=51.55%
+22:50:08 | Metrics: RMSE=553857978.2075  R2=0.0871  sMAPE=41.85%
+22:50:08 | [institutions 127/283] file=127
+22:50:08 | Load file 127/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:50:08 | impute zeros: 1 values
+22:50:08 | Sliding window: tw=24 pw=24 | samples=278
+22:50:08 | Metrics: RMSE=257255370.9577  R2=-0.0447  sMAPE=156.33%
+22:50:23 | Metrics: RMSE=219924048.2504  R2=0.2365  sMAPE=101.06%
+22:50:23 | [institutions 128/283] file=128
+22:50:23 | Load file 128/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:50:23 | impute zeros: 1 values
+22:50:23 | Sliding window: tw=24 pw=24 | samples=278
+22:50:23 | Metrics: RMSE=442912106.3636  R2=-0.1423  sMAPE=95.36%
+22:50:48 | Metrics: RMSE=359449546.2485  R2=0.2476  sMAPE=62.25%
+22:50:48 | [institutions 129/283] file=129
+22:50:48 | Load file 129/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:50:48 | impute zeros: 1 values
+22:50:48 | Sliding window: tw=24 pw=24 | samples=278
+22:50:48 | Metrics: RMSE=429850619.6156  R2=-0.0204  sMAPE=108.72%
+22:51:06 | Metrics: RMSE=364617534.0148  R2=0.2658  sMAPE=71.72%
+22:51:06 | [institutions 130/283] file=130
+22:51:06 | Load file 130/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:51:06 | impute zeros: 1 values
+22:51:06 | Sliding window: tw=24 pw=24 | samples=278
+22:51:06 | Metrics: RMSE=483492647.6743  R2=-0.0644  sMAPE=49.17%
+22:51:25 | Metrics: RMSE=437009863.2903  R2=0.1304  sMAPE=40.86%
+22:51:25 | [institutions 131/283] file=131
+22:51:25 | Load file 131/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:51:25 | impute zeros: 1 values
+22:51:25 | Sliding window: tw=24 pw=24 | samples=278
+22:51:25 | Metrics: RMSE=797588608.4115  R2=-0.0000  sMAPE=53.53%
+22:51:51 | Metrics: RMSE=811147781.8502  R2=-0.0343  sMAPE=41.75%
+22:51:51 | [institutions 132/283] file=132
+22:51:51 | Load file 132/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+22:51:51 | impute zeros: 5 values
+22:51:51 | Sliding window: tw=24 pw=24 | samples=278
+22:51:51 | Metrics: RMSE=735853847.9006  R2=-0.0721  sMAPE=145.84%
+22:52:11 | Metrics: RMSE=580237549.8432  R2=0.3334  sMAPE=84.03%
+22:52:11 | [institutions 133/283] file=133
+22:52:11 | Load file 133/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:52:11 | impute zeros: 1 values
+22:52:11 | Sliding window: tw=24 pw=24 | samples=278
+22:52:11 | Metrics: RMSE=291528033.9321  R2=-0.0074  sMAPE=100.92%
+22:52:36 | Metrics: RMSE=276746318.1336  R2=0.0922  sMAPE=74.71%
+22:52:36 | [institutions 134/283] file=134
+22:52:36 | Load file 134/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (30/6718)
+22:52:36 | impute zeros: 30 values
+22:52:36 | Sliding window: tw=24 pw=24 | samples=278
+22:52:36 | Metrics: RMSE=399437621.7505  R2=-0.0293  sMAPE=94.21%
+22:53:06 | Metrics: RMSE=385217712.8688  R2=0.0427  sMAPE=77.56%
+22:53:07 | [institutions 135/283] file=135
+22:53:07 | Load file 135/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:53:07 | impute zeros: 1 values
+22:53:07 | Sliding window: tw=24 pw=24 | samples=278
+22:53:07 | Metrics: RMSE=121881163.5554  R2=-1.3450  sMAPE=94.94%
+22:53:54 | Metrics: RMSE=71941066.0672  R2=0.1830  sMAPE=48.37%
+22:53:54 | [institutions 136/283] file=136
+22:53:54 | Load file 136/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:53:54 | impute zeros: 1 values
+22:53:54 | Sliding window: tw=24 pw=24 | samples=278
+22:53:54 | Metrics: RMSE=775310754.5479  R2=-0.0067  sMAPE=87.83%
+22:55:12 | Metrics: RMSE=710214335.9898  R2=0.1552  sMAPE=60.03%
+22:55:12 | [institutions 137/283] file=137
+22:55:12 | Load file 137/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:55:12 | impute zeros: 1 values
+22:55:12 | Sliding window: tw=24 pw=24 | samples=278
+22:55:12 | Metrics: RMSE=4097391366.3668  R2=-0.0086  sMAPE=85.73%
+22:55:33 | Metrics: RMSE=3110390560.3753  R2=0.4188  sMAPE=49.19%
+22:55:33 | [institutions 138/283] file=138
+22:55:33 | Load file 138/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+22:55:33 | impute zeros: 3 values
+22:55:33 | Sliding window: tw=24 pw=24 | samples=278
+22:55:33 | Metrics: RMSE=934748801.0555  R2=-0.1785  sMAPE=94.54%
+22:55:52 | Metrics: RMSE=829339247.3916  R2=0.0723  sMAPE=69.13%
+22:55:52 | [institutions 139/283] file=139
+22:55:52 | Load file 139/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+22:55:52 | impute zeros: 17 values
+22:55:52 | Sliding window: tw=24 pw=24 | samples=278
+22:55:52 | Metrics: RMSE=461849758.6117  R2=-0.0286  sMAPE=161.32%
+22:56:22 | Metrics: RMSE=395198366.4415  R2=0.2469  sMAPE=97.98%
+22:56:22 | [institutions 140/283] file=140
+22:56:22 | Load file 140/institutions/agg_1_hour/n_bytes | 6718 points | missing 31.5% (2115/6718)
+22:56:22 | impute zeros: 2115 values
+22:56:22 | Sliding window: tw=24 pw=24 | samples=278
+22:56:22 | Metrics: RMSE=220212477.7070  R2=-0.1280  sMAPE=159.60%
+22:56:38 | Metrics: RMSE=177077264.5684  R2=0.2706  sMAPE=86.14%
+22:56:38 | [institutions 141/283] file=141
+22:56:38 | Load file 141/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:56:38 | impute zeros: 1 values
+22:56:38 | Sliding window: tw=24 pw=24 | samples=278
+22:56:38 | Metrics: RMSE=292231853.2017  R2=-0.1392  sMAPE=79.57%
+22:57:08 | Metrics: RMSE=246678007.0270  R2=0.1883  sMAPE=67.20%
+22:57:08 | [institutions 142/283] file=142
+22:57:08 | Load file 142/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+22:57:08 | impute zeros: 4 values
+22:57:08 | Sliding window: tw=24 pw=24 | samples=278
+22:57:08 | Metrics: RMSE=100144082.7729  R2=-0.0301  sMAPE=104.78%
+22:57:37 | Metrics: RMSE=86316785.7375  R2=0.2347  sMAPE=68.01%
+22:57:37 | [institutions 143/283] file=143
+22:57:37 | Load file 143/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:57:37 | impute zeros: 1 values
+22:57:37 | Sliding window: tw=24 pw=24 | samples=278
+22:57:37 | Metrics: RMSE=339272893.9833  R2=-0.0008  sMAPE=96.08%
+22:58:02 | Metrics: RMSE=335066628.1656  R2=0.0239  sMAPE=81.85%
+22:58:02 | [institutions 144/283] file=144
+22:58:02 | Load file 144/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:58:02 | impute zeros: 1 values
+22:58:02 | Sliding window: tw=24 pw=24 | samples=278
+22:58:02 | Metrics: RMSE=443882898.3415  R2=-0.0271  sMAPE=101.33%
+22:58:25 | Metrics: RMSE=397424256.7416  R2=0.1766  sMAPE=93.37%
+22:58:25 | [institutions 145/283] file=145
+22:58:25 | Load file 145/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:58:25 | impute zeros: 1 values
+22:58:25 | Sliding window: tw=24 pw=24 | samples=278
+22:58:25 | Metrics: RMSE=245706806.4428  R2=-0.0380  sMAPE=138.05%
+22:58:41 | Metrics: RMSE=218178617.8028  R2=0.1815  sMAPE=80.70%
+22:58:41 | [institutions 146/283] file=146
+22:58:41 | Load file 146/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:58:41 | impute zeros: 1 values
+22:58:41 | Sliding window: tw=24 pw=24 | samples=278
+22:58:41 | Metrics: RMSE=196274651.5837  R2=-0.1877  sMAPE=99.27%
+22:59:17 | Metrics: RMSE=165582445.0723  R2=0.1547  sMAPE=86.83%
+22:59:17 | [institutions 147/283] file=147
+22:59:17 | Load file 147/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+22:59:17 | impute zeros: 1 values
+22:59:17 | Sliding window: tw=24 pw=24 | samples=278
+22:59:17 | Metrics: RMSE=976708599.7905  R2=-0.0065  sMAPE=149.11%
+23:00:47 | Metrics: RMSE=802120881.4812  R2=0.3211  sMAPE=106.97%
+23:00:47 | [institutions 148/283] file=148
+23:00:47 | Load file 148/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+23:00:47 | impute zeros: 14 values
+23:00:47 | Sliding window: tw=24 pw=24 | samples=278
+23:00:47 | Metrics: RMSE=384874158.8533  R2=-0.0057  sMAPE=171.75%
+23:04:19 | Metrics: RMSE=360864431.1044  R2=0.1158  sMAPE=95.06%
+23:04:19 | [institutions 149/283] file=149
+23:04:19 | Load file 149/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:04:19 | impute zeros: 1 values
+23:04:19 | Sliding window: tw=24 pw=24 | samples=278
+23:04:19 | Metrics: RMSE=341716180.9508  R2=-0.0056  sMAPE=112.05%
+23:06:49 | Metrics: RMSE=314149758.6144  R2=0.1501  sMAPE=102.53%
+23:06:49 | [institutions 150/283] file=150
+23:06:49 | Load file 150/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+23:06:49 | impute zeros: 3 values
+23:06:49 | Sliding window: tw=24 pw=24 | samples=278
+23:06:49 | Metrics: RMSE=132252727.0419  R2=-0.0001  sMAPE=131.18%
+23:09:48 | Metrics: RMSE=114126358.4969  R2=0.2553  sMAPE=95.18%
+23:09:48 |   150/283 done, 3832.8s elapsed
+23:09:48 | [institutions 151/283] file=151
+23:09:48 | Load file 151/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:09:48 | impute zeros: 1 values
+23:09:48 | Sliding window: tw=24 pw=24 | samples=278
+23:09:48 | Metrics: RMSE=231176043.6954  R2=-0.0121  sMAPE=160.35%
+23:11:41 | Metrics: RMSE=187433307.8189  R2=0.3347  sMAPE=96.82%
+23:11:41 | [institutions 152/283] file=152
+23:11:41 | Load file 152/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.7% (44/6718)
+23:11:41 | impute zeros: 44 values
+23:11:41 | Sliding window: tw=24 pw=24 | samples=278
+23:11:41 | Metrics: RMSE=693287788.6959  R2=-3.6853  sMAPE=140.04%
+23:11:56 | Metrics: RMSE=287956309.9393  R2=0.1917  sMAPE=102.00%
+23:11:56 | [institutions 153/283] file=153
+23:11:56 | Load file 153/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:11:56 | impute zeros: 1 values
+23:11:56 | Sliding window: tw=24 pw=24 | samples=278
+23:11:56 | Metrics: RMSE=152280658.7823  R2=-0.0781  sMAPE=94.79%
+23:12:17 | Metrics: RMSE=141859331.1916  R2=0.0644  sMAPE=83.85%
+23:12:17 | [institutions 154/283] file=154
+23:12:17 | Load file 154/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:12:17 | impute zeros: 1 values
+23:12:17 | Sliding window: tw=24 pw=24 | samples=278
+23:12:17 | Metrics: RMSE=100077081.5641  R2=-0.1002  sMAPE=113.48%
+23:12:38 | Metrics: RMSE=79819204.9067  R2=0.3001  sMAPE=70.21%
+23:12:38 | [institutions 155/283] file=155
+23:12:38 | Load file 155/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:12:38 | impute zeros: 1 values
+23:12:38 | Sliding window: tw=24 pw=24 | samples=278
+23:12:38 | Metrics: RMSE=208376368.7163  R2=-0.0327  sMAPE=86.04%
+23:14:03 | Metrics: RMSE=175151080.6590  R2=0.2703  sMAPE=65.28%
+23:14:03 | [institutions 156/283] file=156
+23:14:03 | Load file 156/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:14:03 | impute zeros: 1 values
+23:14:03 | Sliding window: tw=24 pw=24 | samples=278
+23:14:03 | Metrics: RMSE=807266669.1511  R2=-0.0179  sMAPE=48.13%
+23:14:30 | Metrics: RMSE=693520527.3923  R2=0.2487  sMAPE=35.10%
+23:14:30 | [institutions 157/283] file=157
+23:14:30 | Load file 157/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:14:30 | impute zeros: 1 values
+23:14:30 | Sliding window: tw=24 pw=24 | samples=278
+23:14:30 | Metrics: RMSE=202455701.8979  R2=-0.0000  sMAPE=158.47%
+23:14:51 | Metrics: RMSE=177302985.7998  R2=0.2330  sMAPE=86.64%
+23:14:51 | [institutions 158/283] file=158
+23:14:51 | Load file 158/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+23:14:51 | impute zeros: 2 values
+23:14:51 | Sliding window: tw=24 pw=24 | samples=278
+23:14:51 | Metrics: RMSE=75878323.7333  R2=-0.0041  sMAPE=144.02%
+23:15:17 | Metrics: RMSE=63431325.9841  R2=0.2983  sMAPE=80.67%
+23:15:17 | [institutions 159/283] file=159
+23:15:17 | Load file 159/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:15:17 | impute zeros: 1 values
+23:15:17 | Sliding window: tw=24 pw=24 | samples=278
+23:15:17 | Metrics: RMSE=70698836.0572  R2=-0.0626  sMAPE=142.50%
+23:15:51 | Metrics: RMSE=65254617.7592  R2=0.0948  sMAPE=90.74%
+23:15:51 | [institutions 160/283] file=160
+23:15:51 | Load file 160/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:15:51 | impute zeros: 1 values
+23:15:51 | Sliding window: tw=24 pw=24 | samples=278
+23:15:51 | Metrics: RMSE=87839284.1798  R2=-0.0991  sMAPE=90.68%
+23:16:18 | Metrics: RMSE=84082487.3271  R2=-0.0071  sMAPE=60.25%
+23:16:18 | [institutions 161/283] file=161
+23:16:18 | Load file 161/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:16:18 | impute zeros: 1 values
+23:16:18 | Sliding window: tw=24 pw=24 | samples=278
+23:16:18 | Metrics: RMSE=293644478.5507  R2=-0.0062  sMAPE=161.38%
+23:16:38 | Metrics: RMSE=239291960.6160  R2=0.3318  sMAPE=84.86%
+23:16:38 | [institutions 162/283] file=162
+23:16:38 | Load file 162/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:16:38 | impute zeros: 1 values
+23:16:38 | Sliding window: tw=24 pw=24 | samples=278
+23:16:38 | Metrics: RMSE=32979377.8832  R2=-0.0080  sMAPE=151.64%
+23:17:09 | Metrics: RMSE=32416632.7121  R2=0.0261  sMAPE=116.40%
+23:17:09 | [institutions 163/283] file=163
+23:17:09 | Load file 163/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:17:09 | impute zeros: 1 values
+23:17:09 | Sliding window: tw=24 pw=24 | samples=278
+23:17:09 | Metrics: RMSE=110291843.0356  R2=-0.0241  sMAPE=139.80%
+23:17:50 | Metrics: RMSE=104332734.2552  R2=0.0835  sMAPE=95.68%
+23:17:50 | [institutions 164/283] file=164
+23:17:50 | Load file 164/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:17:50 | impute zeros: 1 values
+23:17:50 | Sliding window: tw=24 pw=24 | samples=278
+23:17:50 | Metrics: RMSE=1011273128.2081  R2=-0.0015  sMAPE=75.43%
+23:18:12 | Metrics: RMSE=876172605.3975  R2=0.2482  sMAPE=54.13%
+23:18:12 | [institutions 165/283] file=165
+23:18:12 | Load file 165/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+23:18:12 | impute zeros: 6 values
+23:18:12 | Sliding window: tw=24 pw=24 | samples=278
+23:18:12 | Metrics: RMSE=706797087.0967  R2=-0.1240  sMAPE=78.05%
+23:18:37 | Metrics: RMSE=632476502.8272  R2=0.1000  sMAPE=62.07%
+23:18:37 | [institutions 166/283] file=166
+23:18:37 | Load file 166/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:18:37 | impute zeros: 1 values
+23:18:37 | Sliding window: tw=24 pw=24 | samples=278
+23:18:37 | Metrics: RMSE=506291321.5112  R2=-0.0391  sMAPE=103.42%
+23:18:45 | Metrics: RMSE=440052909.8165  R2=0.2150  sMAPE=178.14%
+23:18:45 | [institutions 167/283] file=167
+23:18:45 | Load file 167/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:18:45 | impute zeros: 1 values
+23:18:45 | Sliding window: tw=24 pw=24 | samples=278
+23:18:45 | Metrics: RMSE=527297764.0147  R2=-0.6333  sMAPE=98.55%
+23:19:07 | Metrics: RMSE=401461235.5166  R2=0.0532  sMAPE=69.99%
+23:19:07 | [institutions 168/283] file=168
+23:19:07 | Load file 168/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:19:07 | impute zeros: 1 values
+23:19:07 | Sliding window: tw=24 pw=24 | samples=278
+23:19:07 | Metrics: RMSE=967128088.4372  R2=-0.0210  sMAPE=64.55%
+23:19:26 | Metrics: RMSE=915727497.5274  R2=0.0846  sMAPE=50.00%
+23:19:26 | [institutions 169/283] file=169
+23:19:27 | Load file 169/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:19:27 | impute zeros: 1 values
+23:19:27 | Sliding window: tw=24 pw=24 | samples=278
+23:19:27 | Metrics: RMSE=591476380.5685  R2=-0.0195  sMAPE=67.46%
+23:19:44 | Metrics: RMSE=577132088.5876  R2=0.0294  sMAPE=58.51%
+23:19:44 | [institutions 170/283] file=170
+23:19:44 | Load file 170/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:19:44 | impute zeros: 1 values
+23:19:44 | Sliding window: tw=24 pw=24 | samples=278
+23:19:44 | Metrics: RMSE=146726738.1425  R2=-0.0102  sMAPE=95.55%
+23:20:07 | Metrics: RMSE=131756370.5423  R2=0.1854  sMAPE=67.11%
+23:20:07 | [institutions 171/283] file=171
+23:20:07 | Load file 171/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:20:07 | impute zeros: 1 values
+23:20:07 | Sliding window: tw=24 pw=24 | samples=278
+23:20:07 | Metrics: RMSE=243970845.5404  R2=-0.0048  sMAPE=67.28%
+23:20:29 | Metrics: RMSE=202506203.8980  R2=0.3077  sMAPE=47.72%
+23:20:29 | [institutions 172/283] file=172
+23:20:29 | Load file 172/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:20:29 | impute zeros: 1 values
+23:20:29 | Sliding window: tw=24 pw=24 | samples=278
+23:20:29 | Metrics: RMSE=552094377.0393  R2=-0.0021  sMAPE=88.05%
+23:20:52 | Metrics: RMSE=561979300.8179  R2=-0.0384  sMAPE=90.89%
+23:20:52 | [institutions 173/283] file=173
+23:20:52 | Load file 173/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:20:52 | impute zeros: 1 values
+23:20:52 | Sliding window: tw=24 pw=24 | samples=278
+23:20:52 | Metrics: RMSE=1957357956.7324  R2=-0.0008  sMAPE=131.56%
+23:21:12 | Metrics: RMSE=1897517376.2860  R2=0.0595  sMAPE=115.37%
+23:21:12 | [institutions 174/283] file=175
+23:21:12 | Load file 175/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:21:12 | impute zeros: 1 values
+23:21:12 | Sliding window: tw=24 pw=24 | samples=278
+23:21:12 | Metrics: RMSE=1047261821.0596  R2=-0.1411  sMAPE=71.65%
+23:21:35 | Metrics: RMSE=716938214.4099  R2=0.4652  sMAPE=38.32%
+23:21:35 | [institutions 175/283] file=176
+23:21:35 | Load file 176/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:21:35 | impute zeros: 1 values
+23:21:35 | Sliding window: tw=24 pw=24 | samples=278
+23:21:35 | Metrics: RMSE=190126803.5147  R2=-0.0221  sMAPE=71.92%
+23:22:01 | Metrics: RMSE=184820709.7970  R2=0.0342  sMAPE=63.11%
+23:22:01 | [institutions 176/283] file=177
+23:22:01 | Load file 177/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:22:01 | impute zeros: 1 values
+23:22:01 | Sliding window: tw=24 pw=24 | samples=278
+23:22:01 | Metrics: RMSE=128971705.6703  R2=-1.8730  sMAPE=158.66%
+23:22:33 | Metrics: RMSE=70068410.7985  R2=0.1520  sMAPE=123.52%
+23:22:33 | [institutions 177/283] file=178
+23:22:33 | Load file 178/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:22:33 | impute zeros: 1 values
+23:22:33 | Sliding window: tw=24 pw=24 | samples=278
+23:22:33 | Metrics: RMSE=400075873.7076  R2=-0.0737  sMAPE=49.63%
+23:22:55 | Metrics: RMSE=333210303.5782  R2=0.2552  sMAPE=38.39%
+23:22:55 | [institutions 178/283] file=179
+23:22:55 | Load file 179/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:22:55 | impute zeros: 1 values
+23:22:55 | Sliding window: tw=24 pw=24 | samples=278
+23:22:55 | Metrics: RMSE=1266058094.0674  R2=-0.0016  sMAPE=68.37%
+23:23:18 | Metrics: RMSE=1229526165.4936  R2=0.0554  sMAPE=53.84%
+23:23:18 | [institutions 179/283] file=180
+23:23:18 | Load file 180/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:23:18 | impute zeros: 1 values
+23:23:18 | Sliding window: tw=24 pw=24 | samples=278
+23:23:18 | Metrics: RMSE=193410376.9512  R2=-0.0347  sMAPE=101.39%
+23:23:41 | Metrics: RMSE=174956499.8861  R2=0.1533  sMAPE=78.51%
+23:23:41 | [institutions 180/283] file=181
+23:23:41 | Load file 181/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+23:23:41 | impute zeros: 3 values
+23:23:41 | Sliding window: tw=24 pw=24 | samples=278
+23:23:41 | Metrics: RMSE=1746172916.7812  R2=-0.0177  sMAPE=131.58%
+23:24:07 | Metrics: RMSE=1638063399.4704  R2=0.1044  sMAPE=119.82%
+23:24:07 | [institutions 181/283] file=182
+23:24:07 | Load file 182/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:24:07 | impute zeros: 1 values
+23:24:07 | Sliding window: tw=24 pw=24 | samples=278
+23:24:07 | Metrics: RMSE=8867.2520  R2=-0.0578  sMAPE=28.26%
+23:24:34 | Metrics: RMSE=8361.1561  R2=0.0595  sMAPE=23.84%
+23:24:34 | [institutions 182/283] file=183
+23:24:35 | Load file 183/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:24:35 | impute zeros: 1 values
+23:24:35 | Sliding window: tw=24 pw=24 | samples=278
+23:24:35 | Metrics: RMSE=117460799.6620  R2=-0.1707  sMAPE=147.29%
+23:25:00 | Metrics: RMSE=94424061.0940  R2=0.2435  sMAPE=101.38%
+23:25:00 | [institutions 183/283] file=184
+23:25:00 | Load file 184/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:25:00 | impute zeros: 1 values
+23:25:00 | Sliding window: tw=24 pw=24 | samples=278
+23:25:00 | Metrics: RMSE=514593666.9743  R2=-0.0070  sMAPE=93.04%
+23:25:25 | Metrics: RMSE=446910499.8470  R2=0.2405  sMAPE=66.41%
+23:25:25 | [institutions 184/283] file=185
+23:25:25 | Load file 185/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:25:25 | impute zeros: 1 values
+23:25:25 | Sliding window: tw=24 pw=24 | samples=278
+23:25:25 | Metrics: RMSE=326477027.9980  R2=-0.0403  sMAPE=102.25%
+23:25:52 | Metrics: RMSE=317118240.3828  R2=0.0185  sMAPE=96.50%
+23:25:52 | [institutions 185/283] file=186
+23:25:52 | Load file 186/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:25:52 | impute zeros: 1 values
+23:25:52 | Sliding window: tw=24 pw=24 | samples=278
+23:25:52 | Metrics: RMSE=310123037.3694  R2=-0.0012  sMAPE=87.89%
+23:26:09 | Metrics: RMSE=264627863.5363  R2=0.2710  sMAPE=64.45%
+23:26:09 | [institutions 186/283] file=187
+23:26:09 | Load file 187/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:26:09 | impute zeros: 1 values
+23:26:09 | Sliding window: tw=24 pw=24 | samples=278
+23:26:09 | Metrics: RMSE=158492069.3001  R2=-0.3810  sMAPE=64.60%
+23:26:49 | Metrics: RMSE=113853963.9652  R2=0.2874  sMAPE=46.79%
+23:26:49 | [institutions 187/283] file=188
+23:26:49 | Load file 188/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:26:49 | impute zeros: 1 values
+23:26:49 | Sliding window: tw=24 pw=24 | samples=278
+23:26:49 | Metrics: RMSE=49644867.3505  R2=-0.0390  sMAPE=62.36%
+23:27:29 | Metrics: RMSE=52028075.4985  R2=-0.1412  sMAPE=57.87%
+23:27:29 | [institutions 188/283] file=189
+23:27:29 | Load file 189/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:27:29 | impute zeros: 1 values
+23:27:29 | Sliding window: tw=24 pw=24 | samples=278
+23:27:29 | Metrics: RMSE=325992047.8196  R2=-0.0070  sMAPE=153.48%
+23:27:55 | Metrics: RMSE=296107835.3459  R2=0.1691  sMAPE=111.25%
+23:27:55 | [institutions 189/283] file=190
+23:27:55 | Load file 190/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+23:27:55 | impute zeros: 2 values
+23:27:55 | Sliding window: tw=24 pw=24 | samples=278
+23:27:55 | Metrics: RMSE=67643488.3510  R2=-0.0032  sMAPE=112.14%
+23:28:20 | Metrics: RMSE=63441483.7797  R2=0.1175  sMAPE=83.68%
+23:28:20 | [institutions 190/283] file=191
+23:28:20 | Load file 191/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+23:28:20 | impute zeros: 10 values
+23:28:20 | Sliding window: tw=24 pw=24 | samples=278
+23:28:20 | Metrics: RMSE=117616887.0328  R2=-0.0537  sMAPE=134.06%
+23:28:47 | Metrics: RMSE=101671798.8635  R2=0.2127  sMAPE=102.74%
+23:28:47 | [institutions 191/283] file=192
+23:28:47 | Load file 192/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:28:47 | impute zeros: 1 values
+23:28:47 | Sliding window: tw=24 pw=24 | samples=278
+23:28:47 | Metrics: RMSE=6991399.3433  R2=-0.2453  sMAPE=37.61%
+23:29:21 | Metrics: RMSE=7735303.5202  R2=-0.5244  sMAPE=42.79%
+23:29:21 | [institutions 192/283] file=193
+23:29:21 | Load file 193/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:29:21 | impute zeros: 1 values
+23:29:21 | Sliding window: tw=24 pw=24 | samples=278
+23:29:21 | Metrics: RMSE=479321917.1797  R2=-0.1489  sMAPE=54.97%
+23:29:44 | Metrics: RMSE=405577139.7566  R2=0.1775  sMAPE=40.76%
+23:29:44 | [institutions 193/283] file=194
+23:29:45 | Load file 194/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:29:45 | impute zeros: 1 values
+23:29:45 | Sliding window: tw=24 pw=24 | samples=278
+23:29:45 | Metrics: RMSE=142311041.1638  R2=-0.0122  sMAPE=110.30%
+23:30:08 | Metrics: RMSE=123776857.9760  R2=0.2343  sMAPE=74.60%
+23:30:08 | [institutions 194/283] file=195
+23:30:08 | Load file 195/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:30:08 | impute zeros: 1 values
+23:30:08 | Sliding window: tw=24 pw=24 | samples=278
+23:30:08 | Metrics: RMSE=45329835.9888  R2=-0.1557  sMAPE=123.56%
+23:30:31 | Metrics: RMSE=37723731.7486  R2=0.1996  sMAPE=80.13%
+23:30:31 | [institutions 195/283] file=196
+23:30:31 | Load file 196/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:30:31 | impute zeros: 1 values
+23:30:31 | Sliding window: tw=24 pw=24 | samples=278
+23:30:31 | Metrics: RMSE=236102033.2769  R2=-0.0025  sMAPE=133.86%
+23:30:53 | Metrics: RMSE=197888517.1810  R2=0.2957  sMAPE=82.07%
+23:30:53 | [institutions 196/283] file=197
+23:30:53 | Load file 197/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:30:53 | impute zeros: 1 values
+23:30:53 | Sliding window: tw=24 pw=24 | samples=278
+23:30:53 | Metrics: RMSE=82121607.9812  R2=-0.0033  sMAPE=139.43%
+23:31:16 | Metrics: RMSE=77764866.8893  R2=0.1003  sMAPE=108.85%
+23:31:16 | [institutions 197/283] file=198
+23:31:16 | Load file 198/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:31:16 | impute zeros: 1 values
+23:31:16 | Sliding window: tw=24 pw=24 | samples=278
+23:31:16 | Metrics: RMSE=302388607.1466  R2=-1.0696  sMAPE=114.45%
+23:31:37 | Metrics: RMSE=180190918.5669  R2=0.2651  sMAPE=69.15%
+23:31:37 | [institutions 198/283] file=199
+23:31:37 | Load file 199/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:31:37 | impute zeros: 1 values
+23:31:37 | Sliding window: tw=24 pw=24 | samples=278
+23:31:37 | Metrics: RMSE=431890288.6691  R2=-0.0009  sMAPE=125.62%
+23:31:55 | Metrics: RMSE=386427454.8067  R2=0.1987  sMAPE=92.87%
+23:31:55 | [institutions 199/283] file=200
+23:31:55 | Load file 200/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:31:55 | impute zeros: 1 values
+23:31:55 | Sliding window: tw=24 pw=24 | samples=278
+23:31:55 | Metrics: RMSE=713687957.9695  R2=-0.0915  sMAPE=72.07%
+23:32:20 | Metrics: RMSE=650320937.0783  R2=0.0937  sMAPE=66.71%
+23:32:20 | [institutions 200/283] file=201
+23:32:21 | Load file 201/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:32:21 | impute zeros: 1 values
+23:32:21 | Sliding window: tw=24 pw=24 | samples=278
+23:32:21 | Metrics: RMSE=914438147.4468  R2=-0.0036  sMAPE=112.49%
+23:32:45 | Metrics: RMSE=910448123.6143  R2=0.0051  sMAPE=100.72%
+23:32:45 |   200/283 done, 5210.4s elapsed
+23:32:45 | [institutions 201/283] file=202
+23:32:45 | Load file 202/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (25/6718)
+23:32:45 | impute zeros: 25 values
+23:32:45 | Sliding window: tw=24 pw=24 | samples=278
+23:32:45 | Metrics: RMSE=381769408.7200  R2=-0.0808  sMAPE=109.56%
+23:33:12 | Metrics: RMSE=314548805.3647  R2=0.2663  sMAPE=66.07%
+23:33:12 | [institutions 202/283] file=203
+23:33:12 | Load file 203/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:33:12 | impute zeros: 1 values
+23:33:12 | Sliding window: tw=24 pw=24 | samples=278
+23:33:12 | Metrics: RMSE=508188352.4687  R2=-0.0269  sMAPE=109.08%
+23:33:27 | Metrics: RMSE=423165399.0236  R2=0.2880  sMAPE=95.19%
+23:33:27 | [institutions 203/283] file=204
+23:33:27 | Load file 204/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:33:27 | impute zeros: 1 values
+23:33:27 | Sliding window: tw=24 pw=24 | samples=278
+23:33:27 | Metrics: RMSE=132834132.6938  R2=-0.0114  sMAPE=123.87%
+23:33:58 | Metrics: RMSE=131911925.7942  R2=0.0026  sMAPE=126.85%
+23:33:58 | [institutions 204/283] file=205
+23:33:58 | Load file 205/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:33:58 | impute zeros: 1 values
+23:33:58 | Sliding window: tw=24 pw=24 | samples=278
+23:33:58 | Metrics: RMSE=296560702.4853  R2=-0.0167  sMAPE=107.97%
+23:34:21 | Metrics: RMSE=253953096.7089  R2=0.2545  sMAPE=78.45%
+23:34:21 | [institutions 205/283] file=206
+23:34:21 | Load file 206/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+23:34:21 | impute zeros: 4 values
+23:34:21 | Sliding window: tw=24 pw=24 | samples=278
+23:34:21 | Metrics: RMSE=332694179.1118  R2=-0.0001  sMAPE=113.64%
+23:34:46 | Metrics: RMSE=299612484.2698  R2=0.1889  sMAPE=76.62%
+23:34:46 | [institutions 206/283] file=207
+23:34:46 | Load file 207/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:34:46 | impute zeros: 1 values
+23:34:46 | Sliding window: tw=24 pw=24 | samples=278
+23:34:46 | Metrics: RMSE=234301088.5121  R2=-0.0001  sMAPE=162.18%
+23:35:11 | Metrics: RMSE=218469544.4952  R2=0.1305  sMAPE=103.04%
+23:35:11 | [institutions 207/283] file=208
+23:35:11 | Load file 208/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:35:11 | impute zeros: 1 values
+23:35:11 | Sliding window: tw=24 pw=24 | samples=278
+23:35:11 | Metrics: RMSE=618517978.8666  R2=-0.0129  sMAPE=117.76%
+23:35:32 | Metrics: RMSE=553047476.9413  R2=0.1902  sMAPE=108.77%
+23:35:32 | [institutions 208/283] file=209
+23:35:32 | Load file 209/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+23:35:32 | impute zeros: 5 values
+23:35:32 | Sliding window: tw=24 pw=24 | samples=278
+23:35:32 | Metrics: RMSE=751707232.4528  R2=-0.0239  sMAPE=55.76%
+23:35:54 | Metrics: RMSE=670758525.6472  R2=0.1847  sMAPE=51.09%
+23:35:54 | [institutions 209/283] file=210
+23:35:54 | Load file 210/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:35:54 | impute zeros: 1 values
+23:35:54 | Sliding window: tw=24 pw=24 | samples=278
+23:35:54 | Metrics: RMSE=245823750.9283  R2=-0.0022  sMAPE=90.75%
+23:36:17 | Metrics: RMSE=217534131.7306  R2=0.2152  sMAPE=67.73%
+23:36:17 | [institutions 210/283] file=211
+23:36:17 | Load file 211/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:36:17 | impute zeros: 1 values
+23:36:17 | Sliding window: tw=24 pw=24 | samples=278
+23:36:17 | Metrics: RMSE=246882299.3350  R2=-0.0211  sMAPE=119.90%
+23:36:52 | Metrics: RMSE=230062924.6150  R2=0.1133  sMAPE=84.11%
+23:36:52 | [institutions 211/283] file=212
+23:36:52 | Load file 212/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:36:52 | impute zeros: 1 values
+23:36:52 | Sliding window: tw=24 pw=24 | samples=278
+23:36:52 | Metrics: RMSE=140709797.2514  R2=-0.2078  sMAPE=47.66%
+23:37:11 | Metrics: RMSE=111423289.0788  R2=0.2427  sMAPE=27.20%
+23:37:11 | [institutions 212/283] file=213
+23:37:11 | Load file 213/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:37:11 | impute zeros: 1 values
+23:37:11 | Sliding window: tw=24 pw=24 | samples=278
+23:37:11 | Metrics: RMSE=123650313.9508  R2=-0.5215  sMAPE=105.02%
+23:37:38 | Metrics: RMSE=110674187.7782  R2=-0.2189  sMAPE=87.96%
+23:37:38 | [institutions 213/283] file=214
+23:37:39 | Load file 214/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+23:37:39 | impute zeros: 3 values
+23:37:39 | Sliding window: tw=24 pw=24 | samples=278
+23:37:39 | Metrics: RMSE=328932029.3011  R2=-0.0154  sMAPE=147.00%
+23:37:58 | Metrics: RMSE=259673751.9634  R2=0.3672  sMAPE=74.83%
+23:37:58 | [institutions 214/283] file=215
+23:37:58 | Load file 215/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:37:58 | impute zeros: 1 values
+23:37:58 | Sliding window: tw=24 pw=24 | samples=278
+23:37:58 | Metrics: RMSE=962778940.7467  R2=-0.0084  sMAPE=94.28%
+23:38:15 | Metrics: RMSE=985399034.0511  R2=-0.0564  sMAPE=76.70%
+23:38:15 | [institutions 215/283] file=216
+23:38:15 | Load file 216/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:38:15 | impute zeros: 1 values
+23:38:15 | Sliding window: tw=24 pw=24 | samples=278
+23:38:15 | Metrics: RMSE=164936341.8170  R2=-0.0047  sMAPE=143.55%
+23:38:31 | Metrics: RMSE=137380525.4382  R2=0.3029  sMAPE=90.88%
+23:38:31 | [institutions 216/283] file=217
+23:38:31 | Load file 217/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+23:38:31 | impute zeros: 14 values
+23:38:31 | Sliding window: tw=24 pw=24 | samples=278
+23:38:31 | Metrics: RMSE=42937671.2731  R2=-0.0752  sMAPE=121.68%
+23:39:03 | Metrics: RMSE=41732792.7174  R2=-0.0157  sMAPE=119.93%
+23:39:03 | [institutions 217/283] file=218
+23:39:03 | Load file 218/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:39:03 | impute zeros: 1 values
+23:39:03 | Sliding window: tw=24 pw=24 | samples=278
+23:39:03 | Metrics: RMSE=191101673.9139  R2=-0.0747  sMAPE=59.92%
+23:39:25 | Metrics: RMSE=173492288.0441  R2=0.1142  sMAPE=47.24%
+23:39:25 | [institutions 218/283] file=219
+23:39:25 | Load file 219/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+23:39:25 | impute zeros: 3 values
+23:39:25 | Sliding window: tw=24 pw=24 | samples=278
+23:39:25 | Metrics: RMSE=303400257.6623  R2=-0.0000  sMAPE=121.07%
+23:39:48 | Metrics: RMSE=272785667.2709  R2=0.1916  sMAPE=113.06%
+23:39:48 | [institutions 219/283] file=220
+23:39:48 | Load file 220/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:39:48 | impute zeros: 1 values
+23:39:48 | Sliding window: tw=24 pw=24 | samples=278
+23:39:48 | Metrics: RMSE=112547222.0380  R2=-0.0227  sMAPE=131.98%
+23:40:22 | Metrics: RMSE=97143506.6674  R2=0.2381  sMAPE=67.19%
+23:40:22 | [institutions 220/283] file=221
+23:40:22 | Load file 221/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:40:22 | impute zeros: 1 values
+23:40:22 | Sliding window: tw=24 pw=24 | samples=278
+23:40:22 | Metrics: RMSE=63603644.1086  R2=-0.3293  sMAPE=136.27%
+23:40:44 | Metrics: RMSE=47962586.0294  R2=0.2441  sMAPE=95.90%
+23:40:44 | [institutions 221/283] file=222
+23:40:44 | Load file 222/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:40:44 | impute zeros: 1 values
+23:40:44 | Sliding window: tw=24 pw=24 | samples=278
+23:40:44 | Metrics: RMSE=580286175.0131  R2=-0.2641  sMAPE=99.20%
+23:41:02 | Metrics: RMSE=413412066.2140  R2=0.3584  sMAPE=78.15%
+23:41:02 | [institutions 222/283] file=223
+23:41:02 | Load file 223/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:41:02 | impute zeros: 1 values
+23:41:02 | Sliding window: tw=24 pw=24 | samples=278
+23:41:02 | Metrics: RMSE=258626351.7255  R2=-0.0049  sMAPE=148.12%
+23:41:23 | Metrics: RMSE=207167833.2611  R2=0.3552  sMAPE=83.72%
+23:41:23 | [institutions 223/283] file=224
+23:41:23 | Load file 224/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+23:41:23 | impute zeros: 2 values
+23:41:23 | Sliding window: tw=24 pw=24 | samples=278
+23:41:23 | Metrics: RMSE=339940557.5938  R2=-0.0027  sMAPE=118.51%
+23:41:38 | Metrics: RMSE=273408101.6768  R2=0.3514  sMAPE=69.47%
+23:41:38 | [institutions 224/283] file=225
+23:41:38 | Load file 225/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:41:38 | impute zeros: 1 values
+23:41:38 | Sliding window: tw=24 pw=24 | samples=278
+23:41:38 | Metrics: RMSE=686716174.9982  R2=-0.0421  sMAPE=58.28%
+23:41:57 | Metrics: RMSE=680134518.7254  R2=-0.0223  sMAPE=58.55%
+23:41:57 | [institutions 225/283] file=226
+23:41:57 | Load file 226/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:41:57 | impute zeros: 1 values
+23:41:57 | Sliding window: tw=24 pw=24 | samples=278
+23:41:57 | Metrics: RMSE=18629901.5133  R2=-1.0377  sMAPE=173.25%
+23:42:06 | Metrics: RMSE=13476629.8372  R2=-0.0663  sMAPE=78.79%
+23:42:06 | [institutions 226/283] file=227
+23:42:06 | Load file 227/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:42:06 | impute zeros: 1 values
+23:42:06 | Sliding window: tw=24 pw=24 | samples=278
+23:42:06 | Metrics: RMSE=217831341.8009  R2=-0.0007  sMAPE=69.68%
+23:42:40 | Metrics: RMSE=219310132.0952  R2=-0.0144  sMAPE=63.53%
+23:42:40 | [institutions 227/283] file=228
+23:42:41 | Load file 228/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:42:41 | impute zeros: 1 values
+23:42:41 | Sliding window: tw=24 pw=24 | samples=278
+23:42:41 | Metrics: RMSE=142527402.2531  R2=-0.0073  sMAPE=113.72%
+23:43:04 | Metrics: RMSE=126851860.5918  R2=0.2021  sMAPE=53.67%
+23:43:04 | [institutions 228/283] file=229
+23:43:04 | Load file 229/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:43:04 | impute zeros: 1 values
+23:43:04 | Sliding window: tw=24 pw=24 | samples=278
+23:43:04 | Metrics: RMSE=375855017.3889  R2=-0.0233  sMAPE=71.45%
+23:43:25 | Metrics: RMSE=310614183.4112  R2=0.3011  sMAPE=46.64%
+23:43:25 | [institutions 229/283] file=230
+23:43:25 | Load file 230/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:43:25 | impute zeros: 1 values
+23:43:25 | Sliding window: tw=24 pw=24 | samples=278
+23:43:25 | Metrics: RMSE=692993421.1335  R2=-0.1443  sMAPE=46.79%
+23:43:46 | Metrics: RMSE=582818078.1111  R2=0.1907  sMAPE=36.01%
+23:43:46 | [institutions 230/283] file=231
+23:43:46 | Load file 231/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+23:43:46 | impute zeros: 5 values
+23:43:46 | Sliding window: tw=24 pw=24 | samples=278
+23:43:46 | Metrics: RMSE=186926171.5330  R2=-0.0116  sMAPE=121.51%
+23:44:14 | Metrics: RMSE=176626872.2525  R2=0.0968  sMAPE=83.67%
+23:44:14 | [institutions 231/283] file=232
+23:44:14 | Load file 232/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:44:14 | impute zeros: 1 values
+23:44:14 | Sliding window: tw=24 pw=24 | samples=278
+23:44:14 | Metrics: RMSE=199821095.5660  R2=-0.0019  sMAPE=73.06%
+23:44:35 | Metrics: RMSE=203119115.2180  R2=-0.0353  sMAPE=68.16%
+23:44:36 | [institutions 232/283] file=233
+23:44:36 | Load file 233/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:44:36 | impute zeros: 1 values
+23:44:36 | Sliding window: tw=24 pw=24 | samples=278
+23:44:36 | Metrics: RMSE=193979321.7777  R2=-0.1121  sMAPE=148.01%
+23:45:04 | Metrics: RMSE=182031378.3923  R2=0.0207  sMAPE=115.99%
+23:45:04 | [institutions 233/283] file=234
+23:45:04 | Load file 234/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:45:04 | impute zeros: 1 values
+23:45:04 | Sliding window: tw=24 pw=24 | samples=278
+23:45:04 | Metrics: RMSE=288325707.0164  R2=-0.0912  sMAPE=68.77%
+23:45:24 | Metrics: RMSE=249434213.0535  R2=0.1833  sMAPE=45.67%
+23:45:24 | [institutions 234/283] file=235
+23:45:24 | Load file 235/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:45:24 | impute zeros: 1 values
+23:45:24 | Sliding window: tw=24 pw=24 | samples=278
+23:45:24 | Metrics: RMSE=181980193.1860  R2=-0.0032  sMAPE=99.85%
+23:45:46 | Metrics: RMSE=152497534.5718  R2=0.2955  sMAPE=62.80%
+23:45:46 | [institutions 235/283] file=236
+23:45:46 | Load file 236/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+23:45:46 | impute zeros: 3 values
+23:45:46 | Sliding window: tw=24 pw=24 | samples=278
+23:45:46 | Metrics: RMSE=945214105.0846  R2=-0.2831  sMAPE=171.68%
+23:45:52 | Metrics: RMSE=880317885.4232  R2=-0.1129  sMAPE=125.67%
+23:45:52 | [institutions 236/283] file=237
+23:45:52 | Load file 237/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:45:52 | impute zeros: 1 values
+23:45:52 | Sliding window: tw=24 pw=24 | samples=278
+23:45:52 | Metrics: RMSE=196750664.8624  R2=-0.0153  sMAPE=127.37%
+23:46:21 | Metrics: RMSE=194350780.4513  R2=0.0094  sMAPE=104.92%
+23:46:21 | [institutions 237/283] file=238
+23:46:21 | Load file 238/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+23:46:21 | impute zeros: 1 values
+23:46:21 | Sliding window: tw=24 pw=24 | samples=278
+23:46:21 | Metrics: RMSE=387554693.7714  R2=-0.1008  sMAPE=56.60%
+23:46:43 | Metrics: RMSE=340994184.7225  R2=0.1478  sMAPE=48.81%
+23:46:44 | [institutions 238/283] file=239
+23:46:44 | Load file 239/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (13/6718)
+23:46:44 | impute zeros: 13 values
+23:46:44 | Sliding window: tw=24 pw=24 | samples=278
+23:46:44 | Metrics: RMSE=252554611.5370  R2=-0.0042  sMAPE=125.98%

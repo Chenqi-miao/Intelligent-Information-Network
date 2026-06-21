@@ -58,6 +58,7 @@ def run_single_series(
     cfg: Config,
     output_csv: Path,
     device: str = "cpu",
+    cut_date: str | None = None,
 ):
     # ── 预处理 ──
     try:
@@ -71,6 +72,7 @@ def run_single_series(
             prediction_window=cfg.prediction_window,
             train_ratio=cfg.train_ratio,
             val_ratio=cfg.val_ratio,
+            max_date=cut_date,
         )
     except Exception as e:
         logger.warning("  skip file=%d (preprocess failed: %s)", file_id, e)
@@ -142,6 +144,11 @@ def main():
     parser.add_argument("--tw", type=int, default=24)
     parser.add_argument("--pw", type=int, default=24)
     parser.add_argument("--bidirectional", action="store_true", default=True)
+    parser.add_argument("--train-ratio", type=float, default=0.7)
+    parser.add_argument("--val-ratio", type=float, default=0.15)
+    parser.add_argument("--patience", type=int, default=5)
+    parser.add_argument("--cut-date", type=str, default=None,
+                        help="只保留此日期前数据，如 2024-06-01")
     args = parser.parse_args()
 
     cfg = Config(
@@ -154,6 +161,9 @@ def main():
         n_layers=args.layers,
         batch_size=args.batch_size,
         bidirectional=args.bidirectional,
+        train_ratio=args.train_ratio,
+        val_ratio=args.val_ratio,
+        patience=args.patience,
     )
 
     timestamp = time.strftime("%Y%m%d_%H%M%S")
@@ -185,7 +195,7 @@ def main():
         logger.info("Processing %s (%d files)", group, len(file_ids))
         for idx, file_id in enumerate(file_ids, 1):
             logger.info("[%s %3d/%d] file=%d", group, idx, len(file_ids), file_id)
-            run_single_series(file_id, group, cfg, output_csv, device=device)
+            run_single_series(file_id, group, cfg, output_csv, device=device, cut_date=args.cut_date)
             total += 1
 
         logger.info("Done: %s", group)

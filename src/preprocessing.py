@@ -299,6 +299,7 @@ def preprocess_pipeline(
     prediction_window: int = 24,
     train_ratio: float = 0.7,
     val_ratio: float = 0.15,
+    max_date: str | None = None,
 ) -> dict:
     """
     完整预处理流程：加载 → 填充 → 滑窗 → 分割 → 标准化。
@@ -315,6 +316,9 @@ def preprocess_pipeline(
     prediction_window : int
     train_ratio : float
     val_ratio : float
+    max_date : str, optional
+        若提供，只保留此日期前的数据（如 "2024-06-01"），
+        用于排除测试期的季节性分布漂移。
 
     Returns
     -------
@@ -327,6 +331,14 @@ def preprocess_pipeline(
     # Step 1 & 2: 加载 + 填充
     df = load_and_align(file_id, ts_attribute, group, aggregation)
     df = impute_missing(df, impute_method, ts_attribute)
+
+    # Step 2.5: 可选日期裁剪
+    if max_date is not None:
+        cutoff = pd.Timestamp(max_date, tz="UTC")
+        before = len(df)
+        df = df[df.index < cutoff]
+        removed = before - len(df)
+        logger.info("Date cut at %s: removed %d points", max_date, removed)
 
     # Step 3: 滑窗
     X, y = create_sliding_windows(df, training_window, prediction_window, ts_attribute)
