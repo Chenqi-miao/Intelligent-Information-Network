@@ -16614,3 +16614,2561 @@
 22:24:01 | INFO | Metrics: RMSE=6059761.4556  R2=-0.0595  sMAPE=193.56%
 22:24:01 | INFO | Done: ip_addresses_sample
 22:24:01 | INFO | All done! Processed 1829 series total
+13:07:00 | INFO | ============================================================
+13:07:00 | INFO | Baseline batch run
+13:07:00 | INFO |   groups: ['institutions']
+13:07:00 | INFO |   window: (24, 24)
+13:07:00 | INFO |   models: Mean
+13:07:00 | INFO |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\baseline_results_20260621_130700.csv
+13:07:00 | INFO | ============================================================
+13:07:00 | INFO | Scan institutions/agg_1_hour: 283 files
+13:07:00 | INFO | Processing institutions (283 files)
+13:07:00 | INFO | [institutions   1/283] file=0
+13:07:00 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:00 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:00 | INFO | impute zeros: 1 values
+13:07:00 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:00 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:00 | INFO | Z-score: mean=76542300451.1160 std=40531947921.1281
+13:07:00 | INFO | Preprocess done: institutions file=0 n_bytes=OK
+13:07:00 | INFO | Metrics: RMSE=30855047854.4847  R2=0.1685  sMAPE=41.93%
+13:07:00 | INFO | [institutions   2/283] file=1
+13:07:01 | INFO | Load file 1/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 1/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=59569886792.9137 std=44917526658.7850
+13:07:01 | INFO | Preprocess done: institutions file=1 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=20247433529.3994  R2=0.2223  sMAPE=34.70%
+13:07:01 | INFO | [institutions   3/283] file=2
+13:07:01 | INFO | Load file 2/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 2/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=93995150446.1757 std=49619689748.4542
+13:07:01 | INFO | Preprocess done: institutions file=2 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=36692137178.9627  R2=0.1213  sMAPE=31.69%
+13:07:01 | INFO | [institutions   4/283] file=3
+13:07:01 | INFO | Load file 3/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 3/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=29651897434.9330 std=18045520511.9686
+13:07:01 | INFO | Preprocess done: institutions file=3 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=11419055447.0955  R2=0.2235  sMAPE=46.22%
+13:07:01 | INFO | [institutions   5/283] file=4
+13:07:01 | INFO | Load file 4/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 4/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=82791831.8531 std=163592869.3800
+13:07:01 | INFO | Preprocess done: institutions file=4 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=152156503.8705  R2=-0.0141  sMAPE=129.84%
+13:07:01 | INFO | [institutions   6/283] file=5
+13:07:01 | INFO | Load file 5/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 5/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=418714789.0515 std=866597115.8698
+13:07:01 | INFO | Preprocess done: institutions file=5 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=1186654940.0092  R2=-0.0267  sMAPE=132.35%
+13:07:01 | INFO | [institutions   7/283] file=6
+13:07:01 | INFO | Load file 6/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 6/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=203619611.2049 std=305932007.3190
+13:07:01 | INFO | Preprocess done: institutions file=6 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=189943954.6695  R2=0.0025  sMAPE=104.72%
+13:07:01 | INFO | [institutions   8/283] file=7
+13:07:01 | INFO | Load file 7/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 7/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=193918680.9476 std=491012454.8792
+13:07:01 | INFO | Preprocess done: institutions file=7 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=327802884.3263  R2=-0.0151  sMAPE=140.75%
+13:07:01 | INFO | [institutions   9/283] file=8
+13:07:01 | INFO | Load file 8/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (15/6718)
+13:07:01 | INFO | Load file 8/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (15/6718)
+13:07:01 | INFO | impute zeros: 15 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=50363881.3166 std=126382708.0187
+13:07:01 | INFO | Preprocess done: institutions file=8 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=93642664.3230  R2=-0.0579  sMAPE=153.44%
+13:07:01 | INFO | [institutions  10/283] file=9
+13:07:01 | INFO | Load file 9/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 9/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=6763644917.2693 std=6056872658.0099
+13:07:01 | INFO | Preprocess done: institutions file=9 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=4798480626.7436  R2=0.0470  sMAPE=58.29%
+13:07:01 | INFO | [institutions  11/283] file=10
+13:07:01 | INFO | Load file 10/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 10/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=2355912000.1418 std=2839510571.1277
+13:07:01 | INFO | Preprocess done: institutions file=10 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=2399964397.5699  R2=-0.0052  sMAPE=89.55%
+13:07:01 | INFO | [institutions  12/283] file=11
+13:07:01 | INFO | Load file 11/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 11/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=814416120.8054 std=1393773418.7452
+13:07:01 | INFO | Preprocess done: institutions file=11 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=1467085657.0671  R2=-0.0147  sMAPE=126.18%
+13:07:01 | INFO | [institutions  13/283] file=12
+13:07:01 | INFO | Load file 12/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:01 | INFO | Load file 12/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:01 | INFO | impute zeros: 3 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=747423297.9429 std=908568743.7248
+13:07:01 | INFO | Preprocess done: institutions file=12 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=798297620.8644  R2=-0.0263  sMAPE=95.82%
+13:07:01 | INFO | [institutions  14/283] file=13
+13:07:01 | INFO | Load file 13/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:01 | INFO | Load file 13/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:01 | INFO | impute zeros: 2 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=408642763.2010 std=1570270942.1132
+13:07:01 | INFO | Preprocess done: institutions file=13 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=844327479.9325  R2=-0.0192  sMAPE=127.73%
+13:07:01 | INFO | [institutions  15/283] file=14
+13:07:01 | INFO | Load file 14/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:01 | INFO | Load file 14/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:01 | INFO | impute zeros: 5 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=300013199.4420 std=611961367.5027
+13:07:01 | INFO | Preprocess done: institutions file=14 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=502290919.5593  R2=-0.1073  sMAPE=124.23%
+13:07:01 | INFO | [institutions  16/283] file=15
+13:07:01 | INFO | Load file 15/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 15/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=106803745.3836 std=207591234.4621
+13:07:01 | INFO | Preprocess done: institutions file=15 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=376384483.0969  R2=-0.0303  sMAPE=122.22%
+13:07:01 | INFO | [institutions  17/283] file=16
+13:07:01 | INFO | Load file 16/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 16/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=207065287.4875 std=333740592.6736
+13:07:01 | INFO | Preprocess done: institutions file=16 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=265524746.8475  R2=-0.0684  sMAPE=110.30%
+13:07:01 | INFO | [institutions  18/283] file=17
+13:07:01 | INFO | Load file 17/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | Load file 17/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:01 | INFO | impute zeros: 1 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=681593513.0253 std=648387469.8176
+13:07:01 | INFO | Preprocess done: institutions file=17 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=598040907.5486  R2=0.0699  sMAPE=83.28%
+13:07:01 | INFO | [institutions  19/283] file=18
+13:07:01 | INFO | Load file 18/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.8% (57/6718)
+13:07:01 | INFO | Load file 18/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.8% (57/6718)
+13:07:01 | INFO | impute zeros: 57 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=65094524.9235 std=147926415.9582
+13:07:01 | INFO | Preprocess done: institutions file=18 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=138060503.9043  R2=-0.0435  sMAPE=120.73%
+13:07:01 | INFO | [institutions  20/283] file=19
+13:07:01 | INFO | Load file 19/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:01 | INFO | Load file 19/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:01 | INFO | impute zeros: 4 values
+13:07:01 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:01 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:01 | INFO | Z-score: mean=228074702.0919 std=771933740.9378
+13:07:01 | INFO | Preprocess done: institutions file=19 n_bytes=OK
+13:07:01 | INFO | Metrics: RMSE=757219634.6116  R2=-0.1279  sMAPE=123.36%
+13:07:01 | INFO | [institutions  21/283] file=20
+13:07:02 | INFO | Load file 20/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | Load file 20/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | impute zeros: 3 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=84431294.0537 std=116027323.2397
+13:07:02 | INFO | Preprocess done: institutions file=20 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=209362790.7023  R2=-0.0118  sMAPE=94.24%
+13:07:02 | INFO | [institutions  22/283] file=21
+13:07:02 | INFO | Load file 21/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:02 | INFO | Load file 21/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:02 | INFO | impute zeros: 2 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=325771499.5163 std=2418651187.2878
+13:07:02 | INFO | Preprocess done: institutions file=21 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=2921708454.3800  R2=-0.1137  sMAPE=149.17%
+13:07:02 | INFO | [institutions  23/283] file=22
+13:07:02 | INFO | Load file 22/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 22/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=5125477498.2363 std=3775594325.4771
+13:07:02 | INFO | Preprocess done: institutions file=22 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=2910219506.5043  R2=0.0704  sMAPE=56.11%
+13:07:02 | INFO | [institutions  24/283] file=23
+13:07:02 | INFO | Load file 23/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 23/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=13219625195.7423 std=8520049932.0013
+13:07:02 | INFO | Preprocess done: institutions file=23 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=6295166954.1142  R2=0.2544  sMAPE=49.92%
+13:07:02 | INFO | [institutions  25/283] file=24
+13:07:02 | INFO | Load file 24/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 24/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=571846550.5524 std=512568136.2912
+13:07:02 | INFO | Preprocess done: institutions file=24 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=400524557.6728  R2=-0.0118  sMAPE=55.84%
+13:07:02 | INFO | [institutions  26/283] file=25
+13:07:02 | INFO | Load file 25/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 25/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=451322186.8466 std=429849360.4260
+13:07:02 | INFO | Preprocess done: institutions file=25 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=357173292.3154  R2=0.0084  sMAPE=59.24%
+13:07:02 | INFO | [institutions  27/283] file=26
+13:07:02 | INFO | Load file 26/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 26/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=458221925.0833 std=396807076.8727
+13:07:02 | INFO | Preprocess done: institutions file=26 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=435733790.1570  R2=0.6995  sMAPE=55.91%
+13:07:02 | INFO | [institutions  28/283] file=27
+13:07:02 | INFO | Load file 27/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 27/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=1456236115.1959 std=1060147541.5060
+13:07:02 | INFO | Preprocess done: institutions file=27 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=918050049.1037  R2=0.0206  sMAPE=48.73%
+13:07:02 | INFO | [institutions  29/283] file=28
+13:07:02 | INFO | Load file 28/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 28/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=446628941.0284 std=346118434.0775
+13:07:02 | INFO | Preprocess done: institutions file=28 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=387350907.2330  R2=-0.0112  sMAPE=58.15%
+13:07:02 | INFO | [institutions  30/283] file=29
+13:07:02 | INFO | Load file 29/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | Load file 29/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | impute zeros: 3 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=368953657.3617 std=317204302.4503
+13:07:02 | INFO | Preprocess done: institutions file=29 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=614593361.9158  R2=0.3202  sMAPE=68.13%
+13:07:02 | INFO | [institutions  31/283] file=30
+13:07:02 | INFO | Load file 30/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | Load file 30/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:02 | INFO | impute zeros: 3 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=341076745.7186 std=393388792.0016
+13:07:02 | INFO | Preprocess done: institutions file=30 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=372382327.0792  R2=-0.0143  sMAPE=51.66%
+13:07:02 | INFO | [institutions  32/283] file=31
+13:07:02 | INFO | Load file 31/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (7/6718)
+13:07:02 | INFO | Load file 31/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (7/6718)
+13:07:02 | INFO | impute zeros: 7 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=2049993485.6950 std=1488306609.8858
+13:07:02 | INFO | Preprocess done: institutions file=31 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=1276241839.3275  R2=0.0656  sMAPE=55.67%
+13:07:02 | INFO | [institutions  33/283] file=32
+13:07:02 | INFO | Load file 32/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 32/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=2209326410.5009 std=1080843813.1881
+13:07:02 | INFO | Preprocess done: institutions file=32 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=1038540025.7538  R2=0.0208  sMAPE=39.64%
+13:07:02 | INFO | [institutions  34/283] file=33
+13:07:02 | INFO | Load file 33/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 33/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=2211589087.0885 std=1684035209.8550
+13:07:02 | INFO | Preprocess done: institutions file=33 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=1645408740.6587  R2=-0.0513  sMAPE=53.39%
+13:07:02 | INFO | [institutions  35/283] file=34
+13:07:02 | INFO | Load file 34/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 34/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=1472027083.4072 std=1918052395.6616
+13:07:02 | INFO | Preprocess done: institutions file=34 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=1667265159.9373  R2=-0.0406  sMAPE=97.30%
+13:07:02 | INFO | [institutions  36/283] file=35
+13:07:02 | INFO | Load file 35/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 35/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=115349348.5468 std=167699244.8563
+13:07:02 | INFO | Preprocess done: institutions file=35 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=166689011.8213  R2=-0.0285  sMAPE=101.69%
+13:07:02 | INFO | [institutions  37/283] file=36
+13:07:02 | INFO | Load file 36/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 36/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=747230313.6800 std=673687402.7935
+13:07:02 | INFO | Preprocess done: institutions file=36 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=761489286.4312  R2=-0.0652  sMAPE=74.64%
+13:07:02 | INFO | [institutions  38/283] file=37
+13:07:02 | INFO | Load file 37/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | Load file 37/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:02 | INFO | impute zeros: 1 values
+13:07:02 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:02 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:02 | INFO | Z-score: mean=12300.9296 std=30410.6366
+13:07:02 | INFO | Preprocess done: institutions file=37 n_bytes=OK
+13:07:02 | INFO | Metrics: RMSE=3321.7459  R2=0.0220  sMAPE=32.66%
+13:07:02 | INFO | [institutions  39/283] file=38
+13:07:03 | INFO | Load file 38/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:03 | INFO | Load file 38/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:03 | INFO | impute zeros: 5 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=322390553.4291 std=594031940.9012
+13:07:03 | INFO | Preprocess done: institutions file=38 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=546212410.2103  R2=-0.0102  sMAPE=127.29%
+13:07:03 | INFO | [institutions  40/283] file=39
+13:07:03 | INFO | Load file 39/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 39/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=1952112030.6392 std=2892365210.0735
+13:07:03 | INFO | Preprocess done: institutions file=39 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=1877958527.8175  R2=0.0247  sMAPE=110.81%
+13:07:03 | INFO | [institutions  41/283] file=40
+13:07:03 | INFO | Load file 40/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 40/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=360906308.1628 std=436532368.5205
+13:07:03 | INFO | Preprocess done: institutions file=40 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=317043862.0819  R2=0.0330  sMAPE=91.30%
+13:07:03 | INFO | [institutions  42/283] file=41
+13:07:03 | INFO | Load file 41/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 41/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=594558277.3862 std=727835007.3022
+13:07:03 | INFO | Preprocess done: institutions file=41 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=584785122.1978  R2=0.0121  sMAPE=103.96%
+13:07:03 | INFO | [institutions  43/283] file=42
+13:07:03 | INFO | Load file 42/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 42/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=107707409.6954 std=208413338.7348
+13:07:03 | INFO | Preprocess done: institutions file=42 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=220689409.7993  R2=-0.0199  sMAPE=125.52%
+13:07:03 | INFO | [institutions  44/283] file=43
+13:07:03 | INFO | Load file 43/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:03 | INFO | Load file 43/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:03 | INFO | impute zeros: 2 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=152019699.3810 std=440601180.9609
+13:07:03 | INFO | Preprocess done: institutions file=43 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=352937578.3340  R2=-0.0317  sMAPE=123.10%
+13:07:03 | INFO | [institutions  45/283] file=45
+13:07:03 | INFO | Load file 45/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 45/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=229424763.8509 std=432917977.7829
+13:07:03 | INFO | Preprocess done: institutions file=45 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=395982990.2309  R2=-0.0207  sMAPE=134.46%
+13:07:03 | INFO | [institutions  46/283] file=46
+13:07:03 | INFO | Load file 46/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 46/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=209574639.1486 std=331212293.1462
+13:07:03 | INFO | Preprocess done: institutions file=46 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=283714312.1366  R2=-0.0089  sMAPE=128.25%
+13:07:03 | INFO | [institutions  47/283] file=47
+13:07:03 | INFO | Load file 47/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:03 | INFO | Load file 47/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:03 | INFO | impute zeros: 5 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=48949.6572 std=103813.2134
+13:07:03 | INFO | Preprocess done: institutions file=47 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=21693.1092  R2=0.0689  sMAPE=25.68%
+13:07:03 | INFO | [institutions  48/283] file=48
+13:07:03 | INFO | Load file 48/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 48/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=55090164731.9214 std=26496994406.0090
+13:07:03 | INFO | Preprocess done: institutions file=48 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=19859799307.9364  R2=0.1859  sMAPE=39.01%
+13:07:03 | INFO | [institutions  49/283] file=49
+13:07:03 | INFO | Load file 49/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 49/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=69165853007.3024 std=46213162414.0969
+13:07:03 | INFO | Preprocess done: institutions file=49 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=40698213475.0424  R2=0.0902  sMAPE=43.79%
+13:07:03 | INFO | [institutions  50/283] file=50
+13:07:03 | INFO | Load file 50/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 50/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=18367385590.8643 std=12905118182.1802
+13:07:03 | INFO | Preprocess done: institutions file=50 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=8431622355.3862  R2=0.1340  sMAPE=50.57%
+13:07:03 | INFO | [institutions  51/283] file=51
+13:07:03 | INFO | Load file 51/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 51/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=4942252.1293 std=18056259.6956
+13:07:03 | INFO | Preprocess done: institutions file=51 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=10852084.0996  R2=-0.0449  sMAPE=65.04%
+13:07:03 | INFO | [institutions  52/283] file=52
+13:07:03 | INFO | Load file 52/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 52/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=5670985451.2753 std=4733111798.0671
+13:07:03 | INFO | Preprocess done: institutions file=52 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=4119428432.8236  R2=0.0515  sMAPE=65.14%
+13:07:03 | INFO | [institutions  53/283] file=53
+13:07:03 | INFO | Load file 53/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 53/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=21447912638.0271 std=13061896293.3199
+13:07:03 | INFO | Preprocess done: institutions file=53 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=9384145971.1563  R2=0.2373  sMAPE=48.48%
+13:07:03 | INFO | [institutions  54/283] file=54
+13:07:03 | INFO | Load file 54/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 54/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=250649506.9850 std=393477763.9337
+13:07:03 | INFO | Preprocess done: institutions file=54 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=308875497.3893  R2=-0.0223  sMAPE=114.39%
+13:07:03 | INFO | [institutions  55/283] file=55
+13:07:03 | INFO | Load file 55/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | Load file 55/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:03 | INFO | impute zeros: 1 values
+13:07:03 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:03 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:03 | INFO | Z-score: mean=6030967028.6916 std=3975496014.3111
+13:07:03 | INFO | Preprocess done: institutions file=55 n_bytes=OK
+13:07:03 | INFO | Metrics: RMSE=3333329626.6345  R2=0.0958  sMAPE=52.87%
+13:07:03 | INFO | [institutions  56/283] file=56
+13:07:04 | INFO | Load file 56/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 56/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=12673327513.5137 std=8813608068.0618
+13:07:04 | INFO | Preprocess done: institutions file=56 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=5918982763.0268  R2=0.1634  sMAPE=54.20%
+13:07:04 | INFO | [institutions  57/283] file=57
+13:07:04 | INFO | Load file 57/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 57/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=17709822538.3531 std=12095851732.3356
+13:07:04 | INFO | Preprocess done: institutions file=57 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=8344367329.1236  R2=0.1838  sMAPE=47.96%
+13:07:04 | INFO | [institutions  58/283] file=58
+13:07:04 | INFO | Load file 58/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 58/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=118857205.3999 std=229988195.7483
+13:07:04 | INFO | Preprocess done: institutions file=58 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=182687872.2521  R2=-0.0199  sMAPE=117.37%
+13:07:04 | INFO | [institutions  59/283] file=59
+13:07:04 | INFO | Load file 59/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 59/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=9908740411.1546 std=6841349916.0344
+13:07:04 | INFO | Preprocess done: institutions file=59 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=5035837875.7308  R2=0.1658  sMAPE=51.53%
+13:07:04 | INFO | [institutions  60/283] file=60
+13:07:04 | INFO | Load file 60/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 60/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=1738198407.7526 std=1115195473.0301
+13:07:04 | INFO | Preprocess done: institutions file=60 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=1192637133.2496  R2=-0.0066  sMAPE=53.46%
+13:07:04 | INFO | [institutions  61/283] file=61
+13:07:04 | INFO | Load file 61/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 61/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=26236574659.5116 std=15835041656.5369
+13:07:04 | INFO | Preprocess done: institutions file=61 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=27186203927.6305  R2=-0.0606  sMAPE=36.90%
+13:07:04 | INFO | [institutions  62/283] file=62
+13:07:04 | INFO | Load file 62/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 62/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=393586543.5606 std=794792647.1007
+13:07:04 | INFO | Preprocess done: institutions file=62 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=617007413.0072  R2=-0.0005  sMAPE=134.20%
+13:07:04 | INFO | [institutions  63/283] file=63
+13:07:04 | INFO | Load file 63/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 63/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=172164784.3759 std=358540302.8570
+13:07:04 | INFO | Preprocess done: institutions file=63 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=325102231.2025  R2=-0.0076  sMAPE=139.04%
+13:07:04 | INFO | [institutions  64/283] file=64
+13:07:04 | INFO | Load file 64/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 64/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=378317962.0885 std=554147750.7740
+13:07:04 | INFO | Preprocess done: institutions file=64 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=504738841.5426  R2=-0.0632  sMAPE=112.74%
+13:07:04 | INFO | [institutions  65/283] file=65
+13:07:04 | INFO | Load file 65/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 65/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=284120331.5430 std=561677768.4467
+13:07:04 | INFO | Preprocess done: institutions file=65 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=513705349.6881  R2=-0.0206  sMAPE=127.65%
+13:07:04 | INFO | [institutions  66/283] file=66
+13:07:04 | INFO | Load file 66/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 66/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=653878532.4381 std=780673812.8004
+13:07:04 | INFO | Preprocess done: institutions file=66 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=722923407.2555  R2=-0.0498  sMAPE=75.70%
+13:07:04 | INFO | [institutions  67/283] file=67
+13:07:04 | INFO | Load file 67/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 67/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=5474149938.0125 std=4327476764.6364
+13:07:04 | INFO | Preprocess done: institutions file=67 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=2835950293.0381  R2=0.1164  sMAPE=58.38%
+13:07:04 | INFO | [institutions  68/283] file=68
+13:07:04 | INFO | Load file 68/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 68/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=14002105742.2693 std=7883246344.3122
+13:07:04 | INFO | Preprocess done: institutions file=68 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=5763411778.1179  R2=0.1602  sMAPE=44.27%
+13:07:04 | INFO | [institutions  69/283] file=69
+13:07:04 | INFO | Load file 69/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 69/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=1175519332.9321 std=1298758904.3743
+13:07:04 | INFO | Preprocess done: institutions file=69 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=1182809883.2913  R2=-0.0788  sMAPE=88.32%
+13:07:04 | INFO | [institutions  70/283] file=70
+13:07:04 | INFO | Load file 70/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 70/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=411644890.8432 std=820295641.0999
+13:07:04 | INFO | Preprocess done: institutions file=70 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=739071712.8952  R2=-0.0210  sMAPE=127.89%
+13:07:04 | INFO | [institutions  71/283] file=71
+13:07:04 | INFO | Load file 71/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | Load file 71/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:04 | INFO | impute zeros: 1 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=111368739.2710 std=168713944.2915
+13:07:04 | INFO | Preprocess done: institutions file=71 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=176340777.0242  R2=0.0233  sMAPE=115.60%
+13:07:04 | INFO | [institutions  72/283] file=72
+13:07:04 | INFO | Load file 72/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (19/6718)
+13:07:04 | INFO | Load file 72/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (19/6718)
+13:07:04 | INFO | impute zeros: 19 values
+13:07:04 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:04 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:04 | INFO | Z-score: mean=46311829.0481 std=113232783.2053
+13:07:04 | INFO | Preprocess done: institutions file=72 n_bytes=OK
+13:07:04 | INFO | Metrics: RMSE=103620225.0983  R2=-0.0252  sMAPE=146.31%
+13:07:04 | INFO | [institutions  73/283] file=73
+13:07:05 | INFO | Load file 73/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 73/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=300479075.5670 std=683044216.6061
+13:07:05 | INFO | Preprocess done: institutions file=73 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=619223877.4261  R2=-0.0186  sMAPE=123.99%
+13:07:05 | INFO | [institutions  74/283] file=74
+13:07:05 | INFO | Load file 74/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 74/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=4261971505.7457 std=3624286218.8862
+13:07:05 | INFO | Preprocess done: institutions file=74 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=2661294964.3765  R2=0.0637  sMAPE=62.69%
+13:07:05 | INFO | [institutions  75/283] file=75
+13:07:05 | INFO | Load file 75/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 75/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=4668719832.0094 std=2778617569.8280
+13:07:05 | INFO | Preprocess done: institutions file=75 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=2592970386.0463  R2=0.0780  sMAPE=45.61%
+13:07:05 | INFO | [institutions  76/283] file=76
+13:07:05 | INFO | Load file 76/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 76/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=220583666.6271 std=506841887.1274
+13:07:05 | INFO | Preprocess done: institutions file=76 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=438667581.5278  R2=-0.0159  sMAPE=127.20%
+13:07:05 | INFO | [institutions  77/283] file=77
+13:07:05 | INFO | Load file 77/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 77/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=248368120.3711 std=364211197.2990
+13:07:05 | INFO | Preprocess done: institutions file=77 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=245482519.9104  R2=-0.0537  sMAPE=78.39%
+13:07:05 | INFO | [institutions  78/283] file=78
+13:07:05 | INFO | Load file 78/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 78/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=2464302413.5258 std=2413558901.4821
+13:07:05 | INFO | Preprocess done: institutions file=78 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=2383760461.3600  R2=-0.1237  sMAPE=79.74%
+13:07:05 | INFO | [institutions  79/283] file=79
+13:07:05 | INFO | Load file 79/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 79/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=372697488.6912 std=445713209.5943
+13:07:05 | INFO | Preprocess done: institutions file=79 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=383394432.8686  R2=-0.0360  sMAPE=73.76%
+13:07:05 | INFO | [institutions  80/283] file=80
+13:07:05 | INFO | Load file 80/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 80/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=5891488604.3926 std=3097551990.9495
+13:07:05 | INFO | Preprocess done: institutions file=80 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=3088763392.5434  R2=0.0574  sMAPE=45.68%
+13:07:05 | INFO | [institutions  81/283] file=81
+13:07:05 | INFO | Load file 81/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 81/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=174341597.8127 std=276791573.3051
+13:07:05 | INFO | Preprocess done: institutions file=81 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=199582054.7171  R2=0.3109  sMAPE=61.27%
+13:07:05 | INFO | [institutions  82/283] file=82
+13:07:05 | INFO | Load file 82/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:05 | INFO | Load file 82/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:05 | INFO | impute zeros: 2 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=68165743.1168 std=143083641.2175
+13:07:05 | INFO | Preprocess done: institutions file=82 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=115246294.3045  R2=-0.0271  sMAPE=133.99%
+13:07:05 | INFO | [institutions  83/283] file=83
+13:07:05 | INFO | Load file 83/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | Load file 83/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:05 | INFO | impute zeros: 1 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=758611566.6950 std=870359960.4482
+13:07:05 | INFO | Preprocess done: institutions file=83 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=587228205.9247  R2=-0.0145  sMAPE=101.57%
+13:07:05 | INFO | [institutions  84/283] file=84
+13:07:05 | INFO | Load file 84/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:05 | INFO | Load file 84/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:05 | INFO | impute zeros: 2 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=270071172.4712 std=197666773.6064
+13:07:05 | INFO | Preprocess done: institutions file=84 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=256644025.8054  R2=-0.0225  sMAPE=60.17%
+13:07:05 | INFO | [institutions  85/283] file=85
+13:07:05 | INFO | Load file 85/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+13:07:05 | INFO | Load file 85/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+13:07:05 | INFO | impute zeros: 17 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=116822045.8402 std=212627204.5652
+13:07:05 | INFO | Preprocess done: institutions file=85 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=253095865.5771  R2=-0.0641  sMAPE=90.87%
+13:07:05 | INFO | [institutions  86/283] file=86
+13:07:05 | INFO | Load file 86/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:05 | INFO | Load file 86/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:05 | INFO | impute zeros: 5 values
+13:07:05 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:05 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:05 | INFO | Z-score: mean=911438207.0868 std=1128703313.9771
+13:07:05 | INFO | Preprocess done: institutions file=86 n_bytes=OK
+13:07:05 | INFO | Metrics: RMSE=904747428.3534  R2=-0.0682  sMAPE=91.60%
+13:07:05 | INFO | [institutions  87/283] file=87
+13:07:06 | INFO | Load file 87/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 87/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=869286874.2367 std=1169773644.3181
+13:07:06 | INFO | Preprocess done: institutions file=87 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=1747829044.1891  R2=0.2426  sMAPE=68.67%
+13:07:06 | INFO | [institutions  88/283] file=88
+13:07:06 | INFO | Load file 88/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 88/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=670798417.7483 std=809805577.5157
+13:07:06 | INFO | Preprocess done: institutions file=88 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=661050977.2694  R2=0.1149  sMAPE=95.80%
+13:07:06 | INFO | [institutions  89/283] file=89
+13:07:06 | INFO | Load file 89/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+13:07:06 | INFO | Load file 89/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+13:07:06 | INFO | impute zeros: 10 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=1206532567.7418 std=2136735139.9617
+13:07:06 | INFO | Preprocess done: institutions file=89 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=2015247437.2616  R2=-0.0439  sMAPE=83.54%
+13:07:06 | INFO | [institutions  90/283] file=90
+13:07:06 | INFO | Load file 90/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 90/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=2497502665.3759 std=2347057849.6469
+13:07:06 | INFO | Preprocess done: institutions file=90 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=1199046981.3257  R2=0.2370  sMAPE=48.26%
+13:07:06 | INFO | [institutions  91/283] file=91
+13:07:06 | INFO | Load file 91/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 91/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=202859358.7668 std=543763804.8343
+13:07:06 | INFO | Preprocess done: institutions file=91 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=578949084.4267  R2=-0.0493  sMAPE=123.93%
+13:07:06 | INFO | [institutions  92/283] file=92
+13:07:06 | INFO | Load file 92/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 92/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=26479093.9485 std=76593118.8489
+13:07:06 | INFO | Preprocess done: institutions file=92 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=159819636.7935  R2=-0.0471  sMAPE=143.58%
+13:07:06 | INFO | [institutions  93/283] file=93
+13:07:06 | INFO | Load file 93/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 93/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=1122655532.0558 std=2198387267.7874
+13:07:06 | INFO | Preprocess done: institutions file=93 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=1641534397.9194  R2=0.0106  sMAPE=125.01%
+13:07:06 | INFO | [institutions  94/283] file=94
+13:07:06 | INFO | Load file 94/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 94/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=2324257603.2058 std=2174260799.1311
+13:07:06 | INFO | Preprocess done: institutions file=94 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=1531336129.0432  R2=0.1152  sMAPE=58.80%
+13:07:06 | INFO | [institutions  95/283] file=95
+13:07:06 | INFO | Load file 95/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 95/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=752650324.7440 std=910521153.6681
+13:07:06 | INFO | Preprocess done: institutions file=95 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=906465074.9567  R2=-0.0935  sMAPE=74.28%
+13:07:06 | INFO | [institutions  96/283] file=96
+13:07:06 | INFO | Load file 96/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 96/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=209216016.2973 std=344260937.1818
+13:07:06 | INFO | Preprocess done: institutions file=96 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=340251972.9596  R2=-0.0378  sMAPE=98.87%
+13:07:06 | INFO | [institutions  97/283] file=97
+13:07:06 | INFO | Load file 97/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 97/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=1967308133.7869 std=2235894986.1306
+13:07:06 | INFO | Preprocess done: institutions file=97 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=2458746602.9572  R2=-0.0025  sMAPE=68.82%
+13:07:06 | INFO | [institutions  98/283] file=98
+13:07:06 | INFO | Load file 98/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:06 | INFO | Load file 98/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:06 | INFO | impute zeros: 2 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=1338865352.3527 std=1414722704.9102
+13:07:06 | INFO | Preprocess done: institutions file=98 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=892648134.9425  R2=0.0441  sMAPE=74.71%
+13:07:06 | INFO | [institutions  99/283] file=99
+13:07:06 | INFO | Load file 99/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 99/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=178200046.6190 std=476189239.9766
+13:07:06 | INFO | Preprocess done: institutions file=99 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=326767855.9045  R2=-0.0154  sMAPE=143.77%
+13:07:06 | INFO | [institutions 100/283] file=100
+13:07:06 | INFO | Load file 100/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 100/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=249014793.2311 std=407940790.8124
+13:07:06 | INFO | Preprocess done: institutions file=100 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=337339287.5770  R2=-0.0281  sMAPE=95.91%
+13:07:06 | INFO | [institutions 101/283] file=101
+13:07:06 | INFO | Load file 101/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | Load file 101/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:06 | INFO | impute zeros: 1 values
+13:07:06 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:06 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:06 | INFO | Z-score: mean=2469402536.5137 std=2680877773.9503
+13:07:06 | INFO | Preprocess done: institutions file=101 n_bytes=OK
+13:07:06 | INFO | Metrics: RMSE=2369130395.7452  R2=-0.0588  sMAPE=87.61%
+13:07:06 | INFO | [institutions 102/283] file=102
+13:07:06 | INFO | Load file 102/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 102/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=101618934.5262 std=226618935.6685
+13:07:07 | INFO | Preprocess done: institutions file=102 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=201047076.8089  R2=-0.0239  sMAPE=127.86%
+13:07:07 | INFO | [institutions 103/283] file=103
+13:07:07 | INFO | Load file 103/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 103/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=69526716.6671 std=89639216.9971
+13:07:07 | INFO | Preprocess done: institutions file=103 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=97814885.8689  R2=0.0550  sMAPE=74.65%
+13:07:07 | INFO | [institutions 104/283] file=104
+13:07:07 | INFO | Load file 104/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 104/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=1174936023.7135 std=1085229536.8091
+13:07:07 | INFO | Preprocess done: institutions file=104 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=996533683.5239  R2=-0.0248  sMAPE=65.59%
+13:07:07 | INFO | [institutions 105/283] file=105
+13:07:07 | INFO | Load file 105/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 105/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=2656412011.7186 std=2400335227.9700
+13:07:07 | INFO | Preprocess done: institutions file=105 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=1649344845.5733  R2=0.0901  sMAPE=62.67%
+13:07:07 | INFO | [institutions 106/283] file=106
+13:07:07 | INFO | Load file 106/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 106/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=2649045083.5017 std=1471354378.9340
+13:07:07 | INFO | Preprocess done: institutions file=106 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=1401659560.1338  R2=0.0522  sMAPE=44.94%
+13:07:07 | INFO | [institutions 107/283] file=107
+13:07:07 | INFO | Load file 107/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 107/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=299334278.8737 std=647020717.5471
+13:07:07 | INFO | Preprocess done: institutions file=107 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=507840987.1823  R2=-0.0010  sMAPE=142.77%
+13:07:07 | INFO | [institutions 108/283] file=108
+13:07:07 | INFO | Load file 108/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:07 | INFO | Load file 108/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:07 | INFO | impute zeros: 4 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=4288398676.2805 std=1928727267.5927
+13:07:07 | INFO | Preprocess done: institutions file=108 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=2013163740.3046  R2=0.1164  sMAPE=39.72%
+13:07:07 | INFO | [institutions 109/283] file=109
+13:07:07 | INFO | Load file 109/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 109/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=5379596639.6899 std=2902780083.3292
+13:07:07 | INFO | Preprocess done: institutions file=109 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=2655862659.7091  R2=0.0536  sMAPE=43.35%
+13:07:07 | INFO | [institutions 110/283] file=110
+13:07:07 | INFO | Load file 110/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 110/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=457027540.3862 std=986822838.5777
+13:07:07 | INFO | Preprocess done: institutions file=110 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=1117254805.1538  R2=-0.0056  sMAPE=116.93%
+13:07:07 | INFO | [institutions 111/283] file=111
+13:07:07 | INFO | Load file 111/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:07 | INFO | Load file 111/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:07 | INFO | impute zeros: 4 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=357221333.1551 std=417011111.9593
+13:07:07 | INFO | Preprocess done: institutions file=111 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=477189100.9186  R2=-0.0358  sMAPE=82.28%
+13:07:07 | INFO | [institutions 112/283] file=112
+13:07:07 | INFO | Load file 112/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:07 | INFO | Load file 112/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:07 | INFO | impute zeros: 2 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=110318237.1512 std=178848508.8266
+13:07:07 | INFO | Preprocess done: institutions file=112 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=188521494.6694  R2=0.0013  sMAPE=109.39%
+13:07:07 | INFO | [institutions 113/283] file=113
+13:07:07 | INFO | Load file 113/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 113/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=4127599429.8076 std=2398654655.0912
+13:07:07 | INFO | Preprocess done: institutions file=113 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=2374674621.6000  R2=0.0097  sMAPE=46.21%
+13:07:07 | INFO | [institutions 114/283] file=114
+13:07:07 | INFO | Load file 114/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (9/6718)
+13:07:07 | INFO | Load file 114/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (9/6718)
+13:07:07 | INFO | impute zeros: 9 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=490963396.9003 std=823877999.1807
+13:07:07 | INFO | Preprocess done: institutions file=114 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=603447388.7954  R2=0.0081  sMAPE=111.97%
+13:07:07 | INFO | [institutions 115/283] file=115
+13:07:07 | INFO | Load file 115/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 115/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=789182188.8123 std=1250973856.5107
+13:07:07 | INFO | Preprocess done: institutions file=115 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=962840593.9783  R2=0.0080  sMAPE=124.93%
+13:07:07 | INFO | [institutions 116/283] file=116
+13:07:07 | INFO | Load file 116/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | Load file 116/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:07 | INFO | impute zeros: 1 values
+13:07:07 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:07 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:07 | INFO | Z-score: mean=601513477.4575 std=490611077.1485
+13:07:07 | INFO | Preprocess done: institutions file=116 n_bytes=OK
+13:07:07 | INFO | Metrics: RMSE=458269246.1660  R2=0.0537  sMAPE=54.21%
+13:07:07 | INFO | [institutions 117/283] file=117
+13:07:07 | INFO | Load file 117/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 117/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=189822950.7410 std=254733875.6442
+13:07:08 | INFO | Preprocess done: institutions file=117 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=227158600.8630  R2=0.0172  sMAPE=104.96%
+13:07:08 | INFO | [institutions 118/283] file=118
+13:07:08 | INFO | Load file 118/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 118/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=26172683.7298 std=11798329.4213
+13:07:08 | INFO | Preprocess done: institutions file=118 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=10669569.7763  R2=0.2227  sMAPE=40.11%
+13:07:08 | INFO | [institutions 119/283] file=119
+13:07:08 | INFO | Load file 119/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 119/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=6011865764.1525 std=2955959862.1573
+13:07:08 | INFO | Preprocess done: institutions file=119 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=2508052893.5357  R2=0.0593  sMAPE=36.46%
+13:07:08 | INFO | [institutions 120/283] file=120
+13:07:08 | INFO | Load file 120/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 120/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=730904307.2809 std=456288334.8865
+13:07:08 | INFO | Preprocess done: institutions file=120 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=447430300.4703  R2=0.0295  sMAPE=48.46%
+13:07:08 | INFO | [institutions 121/283] file=121
+13:07:08 | INFO | Load file 121/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 121/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=1739853.5683 std=1127051.5833
+13:07:08 | INFO | Preprocess done: institutions file=121 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=1100568.2293  R2=0.0158  sMAPE=18.12%
+13:07:08 | INFO | [institutions 122/283] file=122
+13:07:08 | INFO | Load file 122/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 122/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=176926975.1482 std=297645955.7796
+13:07:08 | INFO | Preprocess done: institutions file=122 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=244168994.0359  R2=-0.0486  sMAPE=99.04%
+13:07:08 | INFO | [institutions 123/283] file=123
+13:07:08 | INFO | Load file 123/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 123/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=1146005811.1920 std=1401846310.2560
+13:07:08 | INFO | Preprocess done: institutions file=123 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=1396753638.7826  R2=-0.0425  sMAPE=80.63%
+13:07:08 | INFO | [institutions 124/283] file=124
+13:07:08 | INFO | Load file 124/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 124/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=474104024.9399 std=627959846.1000
+13:07:08 | INFO | Preprocess done: institutions file=124 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=588088333.4359  R2=-0.0124  sMAPE=90.02%
+13:07:08 | INFO | [institutions 125/283] file=125
+13:07:08 | INFO | Load file 125/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:08 | INFO | Load file 125/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:08 | INFO | impute zeros: 2 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=1165133244.0730 std=615341898.2660
+13:07:08 | INFO | Preprocess done: institutions file=125 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=627473400.6583  R2=0.0259  sMAPE=42.28%
+13:07:08 | INFO | [institutions 126/283] file=126
+13:07:08 | INFO | Load file 126/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 126/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=1060263012.2448 std=720474737.0150
+13:07:08 | INFO | Preprocess done: institutions file=126 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=630269148.2410  R2=-0.0058  sMAPE=55.43%
+13:07:08 | INFO | [institutions 127/283] file=127
+13:07:08 | INFO | Load file 127/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 127/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=156164046.0331 std=337441504.7026
+13:07:08 | INFO | Preprocess done: institutions file=127 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=317559141.7219  R2=-0.0457  sMAPE=137.07%
+13:07:08 | INFO | [institutions 128/283] file=128
+13:07:08 | INFO | Load file 128/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 128/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=548423969.7719 std=996099721.4224
+13:07:08 | INFO | Preprocess done: institutions file=128 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=1350240525.7801  R2=-0.0556  sMAPE=96.61%
+13:07:08 | INFO | [institutions 129/283] file=129
+13:07:08 | INFO | Load file 129/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 129/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=408252854.7354 std=603515460.2115
+13:07:08 | INFO | Preprocess done: institutions file=129 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=541680754.2020  R2=-0.0887  sMAPE=98.68%
+13:07:08 | INFO | [institutions 130/283] file=130
+13:07:08 | INFO | Load file 130/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | Load file 130/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:08 | INFO | impute zeros: 1 values
+13:07:08 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:08 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:08 | INFO | Z-score: mean=938854039.1869 std=567791107.4315
+13:07:08 | INFO | Preprocess done: institutions file=130 n_bytes=OK
+13:07:08 | INFO | Metrics: RMSE=550601558.1073  R2=0.0290  sMAPE=51.22%
+13:07:08 | INFO | [institutions 131/283] file=131
+13:07:09 | INFO | Load file 131/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 131/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=410112679.8909 std=368341137.8338
+13:07:09 | INFO | Preprocess done: institutions file=131 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=496645371.6647  R2=-0.0448  sMAPE=52.33%
+13:07:09 | INFO | [institutions 132/283] file=132
+13:07:09 | INFO | Load file 132/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:09 | INFO | Load file 132/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:09 | INFO | impute zeros: 5 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=572056983.7659 std=1141536524.7044
+13:07:09 | INFO | Preprocess done: institutions file=132 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=756661250.9316  R2=-0.0236  sMAPE=116.65%
+13:07:09 | INFO | [institutions 133/283] file=133
+13:07:09 | INFO | Load file 133/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 133/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=164978070.4308 std=267934645.2726
+13:07:09 | INFO | Preprocess done: institutions file=133 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=188020134.7971  R2=-0.0282  sMAPE=90.19%
+13:07:09 | INFO | [institutions 134/283] file=134
+13:07:09 | INFO | Load file 134/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (30/6718)
+13:07:09 | INFO | Load file 134/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (30/6718)
+13:07:09 | INFO | impute zeros: 30 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=376989471.8260 std=913247047.6298
+13:07:09 | INFO | Preprocess done: institutions file=134 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=568723951.3432  R2=-0.0081  sMAPE=89.15%
+13:07:09 | INFO | [institutions 135/283] file=135
+13:07:09 | INFO | Load file 135/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 135/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=188867727.0614 std=224951033.9436
+13:07:09 | INFO | Preprocess done: institutions file=135 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=226167689.4071  R2=0.0029  sMAPE=74.69%
+13:07:09 | INFO | [institutions 136/283] file=136
+13:07:09 | INFO | Load file 136/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 136/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=677247576.6005 std=753175283.3695
+13:07:09 | INFO | Preprocess done: institutions file=136 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=767789658.9841  R2=-0.0467  sMAPE=87.99%
+13:07:09 | INFO | [institutions 137/283] file=137
+13:07:09 | INFO | Load file 137/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 137/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=3336458974.9085 std=4477644640.1703
+13:07:09 | INFO | Preprocess done: institutions file=137 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=3028828034.4519  R2=0.0088  sMAPE=65.38%
+13:07:09 | INFO | [institutions 138/283] file=138
+13:07:09 | INFO | Load file 138/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:09 | INFO | Load file 138/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:09 | INFO | impute zeros: 3 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=1076597587.4824 std=1141353418.8447
+13:07:09 | INFO | Preprocess done: institutions file=138 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=835885429.0676  R2=0.0020  sMAPE=75.80%
+13:07:09 | INFO | [institutions 139/283] file=139
+13:07:09 | INFO | Load file 139/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+13:07:09 | INFO | Load file 139/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (17/6718)
+13:07:09 | INFO | impute zeros: 17 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=273797150.1460 std=708910397.8182
+13:07:09 | INFO | Preprocess done: institutions file=139 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=502829552.9369  R2=-0.0126  sMAPE=127.27%
+13:07:09 | INFO | [institutions 140/283] file=140
+13:07:09 | INFO | Load file 140/institutions/agg_1_hour/n_bytes | 6718 points | missing 31.5% (2115/6718)
+13:07:09 | INFO | Load file 140/institutions/agg_1_hour/n_bytes | 6718 points | missing 31.5% (2115/6718)
+13:07:09 | INFO | impute zeros: 2115 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=170486934.6684 std=338771021.2695
+13:07:09 | INFO | Preprocess done: institutions file=140 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=67259933.5964  R2=0.1899  sMAPE=43.88%
+13:07:09 | INFO | [institutions 141/283] file=141
+13:07:09 | INFO | Load file 141/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 141/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=425183790.5357 std=570517972.2362
+13:07:09 | INFO | Preprocess done: institutions file=141 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=366682206.6502  R2=0.1348  sMAPE=74.51%
+13:07:09 | INFO | [institutions 142/283] file=142
+13:07:09 | INFO | Load file 142/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:09 | INFO | Load file 142/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:09 | INFO | impute zeros: 4 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=87445994.8376 std=254936769.6649
+13:07:09 | INFO | Preprocess done: institutions file=142 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=149539452.3339  R2=-0.0178  sMAPE=92.30%
+13:07:09 | INFO | [institutions 143/283] file=143
+13:07:09 | INFO | Load file 143/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 143/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=207656505.3574 std=315835406.6933
+13:07:09 | INFO | Preprocess done: institutions file=143 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=367182606.4041  R2=-0.0611  sMAPE=102.25%
+13:07:09 | INFO | [institutions 144/283] file=144
+13:07:09 | INFO | Load file 144/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 144/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=410390656.9562 std=529027217.4229
+13:07:09 | INFO | Preprocess done: institutions file=144 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=475141307.9045  R2=-0.0133  sMAPE=99.31%
+13:07:09 | INFO | [institutions 145/283] file=145
+13:07:09 | INFO | Load file 145/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 145/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=201877591.5155 std=353566848.0983
+13:07:09 | INFO | Preprocess done: institutions file=145 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=324039241.6551  R2=-0.0096  sMAPE=95.37%
+13:07:09 | INFO | [institutions 146/283] file=146
+13:07:09 | INFO | Load file 146/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | Load file 146/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:09 | INFO | impute zeros: 1 values
+13:07:09 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:09 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:09 | INFO | Z-score: mean=250143579.6701 std=508428376.1565
+13:07:09 | INFO | Preprocess done: institutions file=146 n_bytes=OK
+13:07:09 | INFO | Metrics: RMSE=318345550.8272  R2=-0.0380  sMAPE=91.50%
+13:07:09 | INFO | [institutions 147/283] file=147
+13:07:10 | INFO | Load file 147/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 147/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=548986897.7599 std=1135075641.5733
+13:07:10 | INFO | Preprocess done: institutions file=147 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=882710948.3120  R2=-0.0182  sMAPE=130.79%
+13:07:10 | INFO | [institutions 148/283] file=148
+13:07:10 | INFO | Load file 148/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+13:07:10 | INFO | Load file 148/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+13:07:10 | INFO | impute zeros: 14 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=145964570.2784 std=553086209.2881
+13:07:10 | INFO | Preprocess done: institutions file=148 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=414802973.0666  R2=-0.0537  sMAPE=126.17%
+13:07:10 | INFO | [institutions 149/283] file=149
+13:07:10 | INFO | Load file 149/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 149/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=330659064.6671 std=388747157.4880
+13:07:10 | INFO | Preprocess done: institutions file=149 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=274676557.6339  R2=0.0412  sMAPE=108.13%
+13:07:10 | INFO | [institutions 150/283] file=150
+13:07:10 | INFO | Load file 150/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:10 | INFO | Load file 150/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:10 | INFO | impute zeros: 3 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=68785677.6718 std=154144972.8601
+13:07:10 | INFO | Preprocess done: institutions file=150 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=197652890.9631  R2=-0.0584  sMAPE=125.32%
+13:07:10 | INFO | [institutions 151/283] file=151
+13:07:10 | INFO | Load file 151/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 151/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=137900845.3557 std=302469130.4762
+13:07:10 | INFO | Preprocess done: institutions file=151 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=238296319.5310  R2=-0.0311  sMAPE=133.78%
+13:07:10 | INFO | [institutions 152/283] file=152
+13:07:10 | INFO | Load file 152/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.7% (44/6718)
+13:07:10 | INFO | Load file 152/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.7% (44/6718)
+13:07:10 | INFO | impute zeros: 44 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=923269051.0176 std=938652759.6433
+13:07:10 | INFO | Preprocess done: institutions file=152 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=295007688.2956  R2=0.1030  sMAPE=106.12%
+13:07:10 | INFO | [institutions 153/283] file=153
+13:07:10 | INFO | Load file 153/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 153/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=171446323.3411 std=230753531.6405
+13:07:10 | INFO | Preprocess done: institutions file=153 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=169817421.4264  R2=-0.0630  sMAPE=82.64%
+13:07:10 | INFO | [institutions 154/283] file=154
+13:07:10 | INFO | Load file 154/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 154/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=94643009.4682 std=188674673.2097
+13:07:10 | INFO | Preprocess done: institutions file=154 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=82146383.8945  R2=-0.0260  sMAPE=94.98%
+13:07:10 | INFO | [institutions 155/283] file=155
+13:07:10 | INFO | Load file 155/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 155/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=256411967.0399 std=284420857.0185
+13:07:10 | INFO | Preprocess done: institutions file=155 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=245713922.6626  R2=-0.0322  sMAPE=84.18%
+13:07:10 | INFO | [institutions 156/283] file=156
+13:07:10 | INFO | Load file 156/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 156/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=1512693296.9545 std=1136273612.0111
+13:07:10 | INFO | Preprocess done: institutions file=156 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=957094181.0826  R2=0.0011  sMAPE=48.34%
+13:07:10 | INFO | [institutions 157/283] file=157
+13:07:10 | INFO | Load file 157/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 157/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=81221446.3561 std=199933701.8077
+13:07:10 | INFO | Preprocess done: institutions file=157 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=198488887.5548  R2=-0.0259  sMAPE=129.02%
+13:07:10 | INFO | [institutions 158/283] file=158
+13:07:10 | INFO | Load file 158/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:10 | INFO | Load file 158/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:10 | INFO | impute zeros: 2 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=43437319.4034 std=86281621.3716
+13:07:10 | INFO | Preprocess done: institutions file=158 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=83799040.9320  R2=-0.0442  sMAPE=119.85%
+13:07:10 | INFO | [institutions 159/283] file=159
+13:07:10 | INFO | Load file 159/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | Load file 159/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:10 | INFO | impute zeros: 1 values
+13:07:10 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:10 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:10 | INFO | Z-score: mean=53967009.9510 std=206872690.1033
+13:07:10 | INFO | Preprocess done: institutions file=159 n_bytes=OK
+13:07:10 | INFO | Metrics: RMSE=139356881.6944  R2=-0.0231  sMAPE=131.40%
+13:07:10 | INFO | [institutions 160/283] file=160
+13:07:10 | INFO | Load file 160/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 160/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=88464970.7513 std=200548725.4407
+13:07:11 | INFO | Preprocess done: institutions file=160 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=127436680.2508  R2=-0.0420  sMAPE=78.78%
+13:07:11 | INFO | [institutions 161/283] file=161
+13:07:11 | INFO | Load file 161/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 161/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=170391667.5481 std=372064866.3717
+13:07:11 | INFO | Preprocess done: institutions file=161 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=297656596.2446  R2=-0.0252  sMAPE=114.38%
+13:07:11 | INFO | [institutions 162/283] file=162
+13:07:11 | INFO | Load file 162/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 162/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=12603463.5988 std=37730994.6597
+13:07:11 | INFO | Preprocess done: institutions file=162 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=36671095.0532  R2=-0.0526  sMAPE=137.13%
+13:07:11 | INFO | [institutions 163/283] file=163
+13:07:11 | INFO | Load file 163/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 163/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=54742784.0112 std=209305072.6579
+13:07:11 | INFO | Preprocess done: institutions file=163 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=202795125.6381  R2=-0.0483  sMAPE=138.69%
+13:07:11 | INFO | [institutions 164/283] file=164
+13:07:11 | INFO | Load file 164/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 164/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=1053465971.2384 std=1291400048.0826
+13:07:11 | INFO | Preprocess done: institutions file=164 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=1057167537.0841  R2=-0.0010  sMAPE=76.44%
+13:07:11 | INFO | [institutions 165/283] file=165
+13:07:11 | INFO | Load file 165/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:11 | INFO | Load file 165/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:11 | INFO | impute zeros: 6 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=884158614.0296 std=1054637151.8085
+13:07:11 | INFO | Preprocess done: institutions file=165 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=806592334.0685  R2=-0.0208  sMAPE=80.14%
+13:07:11 | INFO | [institutions 166/283] file=166
+13:07:11 | INFO | Load file 166/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 166/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=214956289.3600 std=212282060.2549
+13:07:11 | INFO | Preprocess done: institutions file=166 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=232170702.4260  R2=-0.0033  sMAPE=82.56%
+13:07:11 | INFO | [institutions 167/283] file=167
+13:07:11 | INFO | Load file 167/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 167/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=697375570.0077 std=1060620780.6811
+13:07:11 | INFO | Preprocess done: institutions file=167 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=872107395.2112  R2=-0.0153  sMAPE=85.11%
+13:07:11 | INFO | [institutions 168/283] file=168
+13:07:11 | INFO | Load file 168/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 168/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=1185990366.3196 std=914701156.3184
+13:07:11 | INFO | Preprocess done: institutions file=168 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=845176196.9675  R2=0.0017  sMAPE=55.85%
+13:07:11 | INFO | [institutions 169/283] file=169
+13:07:11 | INFO | Load file 169/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 169/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=663084787.9381 std=584230244.8216
+13:07:11 | INFO | Preprocess done: institutions file=169 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=497742576.7508  R2=0.0294  sMAPE=68.70%
+13:07:11 | INFO | [institutions 170/283] file=170
+13:07:11 | INFO | Load file 170/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 170/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=139627896.6589 std=296424645.1668
+13:07:11 | INFO | Preprocess done: institutions file=170 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=268315543.2668  R2=-0.0193  sMAPE=100.04%
+13:07:11 | INFO | [institutions 171/283] file=171
+13:07:11 | INFO | Load file 171/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 171/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=312843368.6662 std=319436128.1242
+13:07:11 | INFO | Preprocess done: institutions file=171 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=413524531.6824  R2=-0.0250  sMAPE=72.11%
+13:07:11 | INFO | [institutions 172/283] file=172
+13:07:11 | INFO | Load file 172/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | Load file 172/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:11 | INFO | impute zeros: 1 values
+13:07:11 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:11 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:11 | INFO | Z-score: mean=612816469.1271 std=582161863.3371
+13:07:11 | INFO | Preprocess done: institutions file=172 n_bytes=OK
+13:07:11 | INFO | Metrics: RMSE=727772407.7842  R2=0.0120  sMAPE=94.16%
+13:07:11 | INFO | [institutions 173/283] file=173
+13:07:11 | INFO | Load file 173/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 173/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=997773392.6890 std=2153679139.4465
+13:07:12 | INFO | Preprocess done: institutions file=173 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=1372361762.4157  R2=0.0291  sMAPE=118.73%
+13:07:12 | INFO | [institutions 174/283] file=175
+13:07:12 | INFO | Load file 175/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 175/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=1596785861.3849 std=1604125114.5382
+13:07:12 | INFO | Preprocess done: institutions file=175 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=1266281684.0250  R2=0.0118  sMAPE=72.41%
+13:07:12 | INFO | [institutions 175/283] file=176
+13:07:12 | INFO | Load file 176/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 176/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=223027359.3449 std=351268340.6511
+13:07:12 | INFO | Preprocess done: institutions file=176 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=372122049.5381  R2=-0.0176  sMAPE=71.91%
+13:07:12 | INFO | [institutions 176/283] file=177
+13:07:12 | INFO | Load file 177/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 177/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=150580397.0576 std=337960752.0192
+13:07:12 | INFO | Preprocess done: institutions file=177 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=75600129.9865  R2=-0.0371  sMAPE=114.30%
+13:07:12 | INFO | [institutions 177/283] file=178
+13:07:12 | INFO | Load file 178/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 178/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=790343814.1478 std=555983838.1489
+13:07:12 | INFO | Preprocess done: institutions file=178 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=474424276.0192  R2=0.0582  sMAPE=50.09%
+13:07:12 | INFO | [institutions 178/283] file=179
+13:07:12 | INFO | Load file 179/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 179/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=1010037029.8960 std=1067662617.2870
+13:07:12 | INFO | Preprocess done: institutions file=179 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=1055563860.4489  R2=-0.0367  sMAPE=76.12%
+13:07:12 | INFO | [institutions 179/283] file=180
+13:07:12 | INFO | Load file 180/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 180/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=190979827.4235 std=253044871.1247
+13:07:12 | INFO | Preprocess done: institutions file=180 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=241210827.5061  R2=-0.0189  sMAPE=91.43%
+13:07:12 | INFO | [institutions 180/283] file=181
+13:07:12 | INFO | Load file 181/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:12 | INFO | Load file 181/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:12 | INFO | impute zeros: 3 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=537873013.8123 std=1148009386.0634
+13:07:12 | INFO | Preprocess done: institutions file=181 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=1313860457.5300  R2=-0.1442  sMAPE=105.16%
+13:07:12 | INFO | [institutions 181/283] file=182
+13:07:12 | INFO | Load file 182/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 182/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=28502.9016 std=48230.9812
+13:07:12 | INFO | Preprocess done: institutions file=182 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=40728.8181  R2=0.1805  sMAPE=30.74%
+13:07:12 | INFO | [institutions 182/283] file=183
+13:07:12 | INFO | Load file 183/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 183/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=109165203.4115 std=203103783.1890
+13:07:12 | INFO | Preprocess done: institutions file=183 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=153420882.0883  R2=-0.0270  sMAPE=119.49%
+13:07:12 | INFO | [institutions 183/283] file=184
+13:07:12 | INFO | Load file 184/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 184/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=432921773.0052 std=664325451.3212
+13:07:12 | INFO | Preprocess done: institutions file=184 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=477846447.0560  R2=-0.0357  sMAPE=85.60%
+13:07:12 | INFO | [institutions 184/283] file=185
+13:07:12 | INFO | Load file 185/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 185/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=156264171.8806 std=229182599.4128
+13:07:12 | INFO | Preprocess done: institutions file=185 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=253952366.6777  R2=0.0135  sMAPE=102.28%
+13:07:12 | INFO | [institutions 185/283] file=186
+13:07:12 | INFO | Load file 186/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | Load file 186/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:12 | INFO | impute zeros: 1 values
+13:07:12 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:12 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:12 | INFO | Z-score: mean=320998606.0404 std=419744146.5449
+13:07:12 | INFO | Preprocess done: institutions file=186 n_bytes=OK
+13:07:12 | INFO | Metrics: RMSE=327036330.6582  R2=0.1685  sMAPE=82.63%
+13:07:12 | INFO | [institutions 186/283] file=187
+13:07:13 | INFO | Load file 187/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 187/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=303109063.6989 std=318371526.7993
+13:07:13 | INFO | Preprocess done: institutions file=187 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=378461075.0619  R2=-0.0002  sMAPE=63.45%
+13:07:13 | INFO | [institutions 187/283] file=188
+13:07:13 | INFO | Load file 188/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 188/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=67549894.0863 std=222045120.9992
+13:07:13 | INFO | Preprocess done: institutions file=188 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=181082227.7685  R2=-0.0404  sMAPE=67.24%
+13:07:13 | INFO | [institutions 188/283] file=189
+13:07:13 | INFO | Load file 189/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 189/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=180962059.5228 std=511700440.8949
+13:07:13 | INFO | Preprocess done: institutions file=189 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=449402371.6024  R2=-0.0336  sMAPE=143.36%
+13:07:13 | INFO | [institutions 189/283] file=190
+13:07:13 | INFO | Load file 190/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:13 | INFO | Load file 190/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:13 | INFO | impute zeros: 2 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=37674013.6731 std=75143642.4075
+13:07:13 | INFO | Preprocess done: institutions file=190 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=85338879.7324  R2=-0.0370  sMAPE=120.76%
+13:07:13 | INFO | [institutions 190/283] file=191
+13:07:13 | INFO | Load file 191/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+13:07:13 | INFO | Load file 191/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (10/6718)
+13:07:13 | INFO | impute zeros: 10 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=96448019.2487 std=231161520.1206
+13:07:13 | INFO | Preprocess done: institutions file=191 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=157340046.6528  R2=0.0011  sMAPE=95.74%
+13:07:13 | INFO | [institutions 191/283] file=192
+13:07:13 | INFO | Load file 192/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 192/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=11011069.5799 std=16915670.4202
+13:07:13 | INFO | Preprocess done: institutions file=192 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=21007174.5359  R2=0.3159  sMAPE=38.74%
+13:07:13 | INFO | [institutions 192/283] file=193
+13:07:13 | INFO | Load file 193/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 193/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=923717386.0851 std=540816148.1805
+13:07:13 | INFO | Preprocess done: institutions file=193 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=492454934.2385  R2=0.2972  sMAPE=44.27%
+13:07:13 | INFO | [institutions 193/283] file=194
+13:07:13 | INFO | Load file 194/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 194/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=116619468.5649 std=189993529.8096
+13:07:13 | INFO | Preprocess done: institutions file=194 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=234268149.8726  R2=-0.0797  sMAPE=102.16%
+13:07:13 | INFO | [institutions 194/283] file=195
+13:07:13 | INFO | Load file 195/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 195/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=42280386.1534 std=77324265.1410
+13:07:13 | INFO | Preprocess done: institutions file=195 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=101939414.4936  R2=-0.0515  sMAPE=105.51%
+13:07:13 | INFO | [institutions 195/283] file=196
+13:07:13 | INFO | Load file 196/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 196/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=148480102.0709 std=281114702.2177
+13:07:13 | INFO | Preprocess done: institutions file=196 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=257834022.8932  R2=-0.0490  sMAPE=117.48%
+13:07:13 | INFO | [institutions 196/283] file=197
+13:07:13 | INFO | Load file 197/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 197/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=39379727.4038 std=83422403.4956
+13:07:13 | INFO | Preprocess done: institutions file=197 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=109444284.1041  R2=-0.0717  sMAPE=133.39%
+13:07:13 | INFO | [institutions 197/283] file=198
+13:07:13 | INFO | Load file 198/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 198/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=393541976.5279 std=633795130.5778
+13:07:13 | INFO | Preprocess done: institutions file=198 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=447251654.8096  R2=-0.0597  sMAPE=107.75%
+13:07:13 | INFO | [institutions 198/283] file=199
+13:07:13 | INFO | Load file 199/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 199/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:13 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:13 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:13 | INFO | Z-score: mean=230786337.0984 std=325444011.2297
+13:07:13 | INFO | Preprocess done: institutions file=199 n_bytes=OK
+13:07:13 | INFO | Metrics: RMSE=512831284.6136  R2=-0.0694  sMAPE=122.91%
+13:07:13 | INFO | [institutions 199/283] file=200
+13:07:13 | INFO | Load file 200/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | Load file 200/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:13 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=466192242.8565 std=508381507.1131
+13:07:14 | INFO | Preprocess done: institutions file=200 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=489562074.5264  R2=0.0798  sMAPE=66.63%
+13:07:14 | INFO | [institutions 200/283] file=201
+13:07:14 | INFO | Load file 201/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 201/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=294662466.3484 std=505076188.9310
+13:07:14 | INFO | Preprocess done: institutions file=201 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=641028460.0390  R2=-0.0428  sMAPE=109.99%
+13:07:14 | INFO | [institutions 201/283] file=202
+13:07:14 | INFO | Load file 202/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (25/6718)
+13:07:14 | INFO | Load file 202/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.4% (25/6718)
+13:07:14 | INFO | impute zeros: 25 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=358293754.6091 std=795219714.9393
+13:07:14 | INFO | Preprocess done: institutions file=202 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=320363833.9004  R2=0.0420  sMAPE=86.48%
+13:07:14 | INFO | [institutions 202/283] file=203
+13:07:14 | INFO | Load file 203/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 203/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=474839318.9601 std=606747369.5313
+13:07:14 | INFO | Preprocess done: institutions file=203 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=491612693.5467  R2=0.1153  sMAPE=98.23%
+13:07:14 | INFO | [institutions 203/283] file=204
+13:07:14 | INFO | Load file 204/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 204/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=79024001.0258 std=322036687.8726
+13:07:14 | INFO | Preprocess done: institutions file=204 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=954323802.5267  R2=0.0883  sMAPE=119.55%
+13:07:14 | INFO | [institutions 204/283] file=205
+13:07:14 | INFO | Load file 205/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 205/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=244470028.3466 std=407723086.3710
+13:07:14 | INFO | Preprocess done: institutions file=205 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=340359710.6435  R2=-0.0549  sMAPE=106.06%
+13:07:14 | INFO | [institutions 205/283] file=206
+13:07:14 | INFO | Load file 206/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:14 | INFO | Load file 206/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:14 | INFO | impute zeros: 4 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=168227331.9777 std=347671336.0541
+13:07:14 | INFO | Preprocess done: institutions file=206 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=330067703.0400  R2=-0.0509  sMAPE=116.88%
+13:07:14 | INFO | [institutions 206/283] file=207
+13:07:14 | INFO | Load file 207/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 207/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=85042886.7139 std=198536231.6569
+13:07:14 | INFO | Preprocess done: institutions file=207 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=189861663.0826  R2=-0.0142  sMAPE=141.74%
+13:07:14 | INFO | [institutions 207/283] file=208
+13:07:14 | INFO | Load file 208/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 208/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=574407754.3131 std=768973948.6757
+13:07:14 | INFO | Preprocess done: institutions file=208 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=576606546.0191  R2=0.0554  sMAPE=112.36%
+13:07:14 | INFO | [institutions 208/283] file=209
+13:07:14 | INFO | Load file 209/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:14 | INFO | Load file 209/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:14 | INFO | impute zeros: 5 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=1319268279.1336 std=787258226.5315
+13:07:14 | INFO | Preprocess done: institutions file=209 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=731108104.7864  R2=0.0792  sMAPE=53.92%
+13:07:14 | INFO | [institutions 209/283] file=210
+13:07:14 | INFO | Load file 210/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 210/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=197771763.1418 std=237078029.8515
+13:07:14 | INFO | Preprocess done: institutions file=210 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=292893154.8803  R2=-0.0089  sMAPE=85.53%
+13:07:14 | INFO | [institutions 210/283] file=211
+13:07:14 | INFO | Load file 211/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 211/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=162553913.9562 std=653345520.7950
+13:07:14 | INFO | Preprocess done: institutions file=211 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=421492765.4814  R2=-0.0079  sMAPE=101.91%
+13:07:14 | INFO | [institutions 211/283] file=212
+13:07:14 | INFO | Load file 212/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 212/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=273546660.4493 std=141397158.5831
+13:07:14 | INFO | Preprocess done: institutions file=212 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=158752211.6517  R2=0.0234  sMAPE=33.10%
+13:07:14 | INFO | [institutions 212/283] file=213
+13:07:14 | INFO | Load file 213/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | Load file 213/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:14 | INFO | impute zeros: 1 values
+13:07:14 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:14 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:14 | INFO | Z-score: mean=151054861.8282 std=307962716.6997
+13:07:14 | INFO | Preprocess done: institutions file=213 n_bytes=OK
+13:07:14 | INFO | Metrics: RMSE=228437184.5956  R2=0.0143  sMAPE=93.96%
+13:07:14 | INFO | [institutions 213/283] file=214
+13:07:15 | INFO | Load file 214/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:15 | INFO | Load file 214/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:15 | INFO | impute zeros: 3 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=211603675.8703 std=396246207.4046
+13:07:15 | INFO | Preprocess done: institutions file=214 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=314739708.0282  R2=-0.0199  sMAPE=132.31%
+13:07:15 | INFO | [institutions 214/283] file=215
+13:07:15 | INFO | Load file 215/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 215/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=684958419.5812 std=867343194.4925
+13:07:15 | INFO | Preprocess done: institutions file=215 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=924738217.9323  R2=-0.1105  sMAPE=85.58%
+13:07:15 | INFO | [institutions 215/283] file=216
+13:07:15 | INFO | Load file 216/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 216/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=95960979.1989 std=204361678.0866
+13:07:15 | INFO | Preprocess done: institutions file=216 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=188074965.9075  R2=-0.0282  sMAPE=102.68%
+13:07:15 | INFO | [institutions 216/283] file=217
+13:07:15 | INFO | Load file 217/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+13:07:15 | INFO | Load file 217/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (14/6718)
+13:07:15 | INFO | impute zeros: 14 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=2199671.8428 std=4176580.9287
+13:07:15 | INFO | Preprocess done: institutions file=217 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=214381140.9555  R2=-0.0054  sMAPE=113.10%
+13:07:15 | INFO | [institutions 217/283] file=218
+13:07:15 | INFO | Load file 218/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 218/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=299511901.7092 std=231042174.7840
+13:07:15 | INFO | Preprocess done: institutions file=218 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=214891487.1482  R2=-0.0076  sMAPE=56.64%
+13:07:15 | INFO | [institutions 218/283] file=219
+13:07:15 | INFO | Load file 219/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:15 | INFO | Load file 219/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:15 | INFO | impute zeros: 3 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=245591920.0966 std=405879630.2801
+13:07:15 | INFO | Preprocess done: institutions file=219 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=339731875.0048  R2=-0.0073  sMAPE=114.27%
+13:07:15 | INFO | [institutions 219/283] file=220
+13:07:15 | INFO | Load file 220/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 220/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=77215811.6254 std=153413310.6386
+13:07:15 | INFO | Preprocess done: institutions file=220 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=140435601.0214  R2=-0.0530  sMAPE=118.78%
+13:07:15 | INFO | [institutions 220/283] file=221
+13:07:15 | INFO | Load file 221/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 221/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=67676784.9317 std=150461259.6757
+13:07:15 | INFO | Preprocess done: institutions file=221 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=97633980.2123  R2=-0.0014  sMAPE=114.92%
+13:07:15 | INFO | [institutions 221/283] file=222
+13:07:15 | INFO | Load file 222/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 222/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=751860025.2672 std=913009691.8585
+13:07:15 | INFO | Preprocess done: institutions file=222 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=701552747.7867  R2=0.0937  sMAPE=84.51%
+13:07:15 | INFO | [institutions 222/283] file=223
+13:07:15 | INFO | Load file 223/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 223/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=159045088.7375 std=307036864.5083
+13:07:15 | INFO | Preprocess done: institutions file=223 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=239564495.4761  R2=-0.0317  sMAPE=124.58%
+13:07:15 | INFO | [institutions 223/283] file=224
+13:07:15 | INFO | Load file 224/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:15 | INFO | Load file 224/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:15 | INFO | impute zeros: 2 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=259167955.1203 std=374303603.8304
+13:07:15 | INFO | Preprocess done: institutions file=224 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=333265370.9869  R2=-0.0645  sMAPE=104.04%
+13:07:15 | INFO | [institutions 224/283] file=225
+13:07:15 | INFO | Load file 225/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 225/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=1181477154.0112 std=794388729.9220
+13:07:15 | INFO | Preprocess done: institutions file=225 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=774486997.9542  R2=0.0850  sMAPE=66.44%
+13:07:15 | INFO | [institutions 225/283] file=226
+13:07:15 | INFO | Load file 226/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 226/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=18742008.2930 std=114908730.8467
+13:07:15 | INFO | Preprocess done: institutions file=226 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=154032617.9323  R2=0.1693  sMAPE=108.90%
+13:07:15 | INFO | [institutions 226/283] file=227
+13:07:15 | INFO | Load file 227/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 227/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=180014222.0455 std=208031923.8106
+13:07:15 | INFO | Preprocess done: institutions file=227 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=412719212.2899  R2=-0.0641  sMAPE=75.16%
+13:07:15 | INFO | [institutions 227/283] file=228
+13:07:15 | INFO | Load file 228/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 228/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=89585384.4631 std=151280868.5520
+13:07:15 | INFO | Preprocess done: institutions file=228 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=172346217.2540  R2=-0.0270  sMAPE=98.55%
+13:07:15 | INFO | [institutions 228/283] file=229
+13:07:15 | INFO | Load file 229/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 229/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=497084851.6821 std=526683906.6262
+13:07:15 | INFO | Preprocess done: institutions file=229 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=555267803.0439  R2=-0.0247  sMAPE=68.53%
+13:07:15 | INFO | [institutions 229/283] file=230
+13:07:15 | INFO | Load file 230/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | Load file 230/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:15 | INFO | impute zeros: 1 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=1496642802.9905 std=911897589.3101
+13:07:15 | INFO | Preprocess done: institutions file=230 n_bytes=OK
+13:07:15 | INFO | Metrics: RMSE=775992821.5561  R2=0.0256  sMAPE=45.33%
+13:07:15 | INFO | [institutions 230/283] file=231
+13:07:15 | INFO | Load file 231/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:15 | INFO | Load file 231/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:15 | INFO | impute zeros: 5 values
+13:07:15 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:15 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:15 | INFO | Z-score: mean=98281109.0868 std=253776973.8407
+13:07:15 | INFO | Preprocess done: institutions file=231 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=216552544.8785  R2=-0.0829  sMAPE=113.64%
+13:07:16 | INFO | [institutions 231/283] file=232
+13:07:16 | INFO | Load file 232/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 232/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=193858903.0872 std=213280488.8757
+13:07:16 | INFO | Preprocess done: institutions file=232 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=192649615.8250  R2=-0.0158  sMAPE=73.78%
+13:07:16 | INFO | [institutions 232/283] file=233
+13:07:16 | INFO | Load file 233/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 233/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=133464819.7199 std=385234803.9829
+13:07:16 | INFO | Preprocess done: institutions file=233 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=248961838.9380  R2=0.0996  sMAPE=120.85%
+13:07:16 | INFO | [institutions 233/283] file=234
+13:07:16 | INFO | Load file 234/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 234/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=415702206.0232 std=392573670.3731
+13:07:16 | INFO | Preprocess done: institutions file=234 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=326337264.3920  R2=0.0021  sMAPE=69.61%
+13:07:16 | INFO | [institutions 234/283] file=235
+13:07:16 | INFO | Load file 235/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 235/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=136597797.6847 std=218216165.1141
+13:07:16 | INFO | Preprocess done: institutions file=235 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=152984580.8099  R2=0.0042  sMAPE=98.61%
+13:07:16 | INFO | [institutions 235/283] file=236
+13:07:16 | INFO | Load file 236/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:16 | INFO | Load file 236/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:16 | INFO | impute zeros: 3 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=677070801.0262 std=2085031737.3620
+13:07:16 | INFO | Preprocess done: institutions file=236 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=1809841162.3795  R2=-0.2955  sMAPE=144.08%
+13:07:16 | INFO | [institutions 236/283] file=237
+13:07:16 | INFO | Load file 237/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 237/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=49910000.5395 std=139711915.0940
+13:07:16 | INFO | Preprocess done: institutions file=237 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=250357478.7888  R2=-0.0359  sMAPE=111.82%
+13:07:16 | INFO | [institutions 237/283] file=238
+13:07:16 | INFO | Load file 238/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 238/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=712681154.7706 std=458622241.6140
+13:07:16 | INFO | Preprocess done: institutions file=238 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=342861417.1107  R2=0.0847  sMAPE=51.86%
+13:07:16 | INFO | [institutions 238/283] file=239
+13:07:16 | INFO | Load file 239/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (13/6718)
+13:07:16 | INFO | Load file 239/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (13/6718)
+13:07:16 | INFO | impute zeros: 13 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=168637968.6765 std=317442149.4574
+13:07:16 | INFO | Preprocess done: institutions file=239 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=264783456.6441  R2=-0.0471  sMAPE=120.62%
+13:07:16 | INFO | [institutions 239/283] file=240
+13:07:16 | INFO | Load file 240/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 240/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=109030289.6894 std=203304398.1938
+13:07:16 | INFO | Preprocess done: institutions file=240 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=171258062.3403  R2=0.0307  sMAPE=123.26%
+13:07:16 | INFO | [institutions 240/283] file=241
+13:07:16 | INFO | Load file 241/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 241/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=45150298.2272 std=120759026.2192
+13:07:16 | INFO | Preprocess done: institutions file=241 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=156630594.8455  R2=-0.0256  sMAPE=105.33%
+13:07:16 | INFO | [institutions 241/283] file=242
+13:07:16 | INFO | Load file 242/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:16 | INFO | Load file 242/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:16 | INFO | impute zeros: 3 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=19810859.2779 std=110793588.7425
+13:07:16 | INFO | Preprocess done: institutions file=242 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=300283954.7114  R2=-0.0419  sMAPE=153.94%
+13:07:16 | INFO | [institutions 242/283] file=243
+13:07:16 | INFO | Load file 243/institutions/agg_1_hour/n_bytes | 6718 points | missing 2.7% (184/6718)
+13:07:16 | INFO | Load file 243/institutions/agg_1_hour/n_bytes | 6718 points | missing 2.7% (184/6718)
+13:07:16 | INFO | impute zeros: 184 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=166628038.3140 std=227640127.5917
+13:07:16 | INFO | Preprocess done: institutions file=243 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=118011602.9013  R2=0.2177  sMAPE=78.40%
+13:07:16 | INFO | [institutions 243/283] file=244
+13:07:16 | INFO | Load file 244/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 244/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=211879448.1516 std=461830282.9271
+13:07:16 | INFO | Preprocess done: institutions file=244 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=393293345.9144  R2=-0.0181  sMAPE=117.60%
+13:07:16 | INFO | [institutions 244/283] file=245
+13:07:16 | INFO | Load file 245/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | Load file 245/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:16 | INFO | impute zeros: 1 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=41086327.0876 std=90101748.0156
+13:07:16 | INFO | Preprocess done: institutions file=245 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=137000554.7727  R2=-0.0571  sMAPE=126.11%
+13:07:16 | INFO | [institutions 245/283] file=246
+13:07:16 | INFO | Load file 246/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (16/6718)
+13:07:16 | INFO | Load file 246/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.2% (16/6718)
+13:07:16 | INFO | impute zeros: 16 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=2719629.1714 std=4503059.8630
+13:07:16 | INFO | Preprocess done: institutions file=246 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=258957586.9672  R2=0.0080  sMAPE=105.35%
+13:07:16 | INFO | [institutions 246/283] file=247
+13:07:16 | INFO | Load file 247/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.6% (107/6718)
+13:07:16 | INFO | Load file 247/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.6% (107/6718)
+13:07:16 | INFO | impute zeros: 107 values
+13:07:16 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:16 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:16 | INFO | Z-score: mean=28379829.1912 std=70978766.5152
+13:07:16 | INFO | Preprocess done: institutions file=247 n_bytes=OK
+13:07:16 | INFO | Metrics: RMSE=109201000.7306  R2=-0.0868  sMAPE=147.46%
+13:07:16 | INFO | [institutions 247/283] file=248
+13:07:16 | INFO | Load file 248/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 248/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=136958194.3673 std=252450308.9478
+13:07:17 | INFO | Preprocess done: institutions file=248 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=183001444.0006  R2=-0.0217  sMAPE=97.06%
+13:07:17 | INFO | [institutions 248/283] file=249
+13:07:17 | INFO | Load file 249/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 249/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=82269047.7951 std=218237711.9487
+13:07:17 | INFO | Preprocess done: institutions file=249 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=167559470.6033  R2=-0.0366  sMAPE=147.61%
+13:07:17 | INFO | [institutions 249/283] file=250
+13:07:17 | INFO | Load file 250/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:17 | INFO | Load file 250/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:17 | INFO | impute zeros: 3 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=28898755.3681 std=75138187.0131
+13:07:17 | INFO | Preprocess done: institutions file=250 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=116700544.2851  R2=-0.1165  sMAPE=139.92%
+13:07:17 | INFO | [institutions 250/283] file=251
+13:07:17 | INFO | Load file 251/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 251/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=62935069.9588 std=199933109.4399
+13:07:17 | INFO | Preprocess done: institutions file=251 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=104085438.3455  R2=-0.0171  sMAPE=108.04%
+13:07:17 | INFO | [institutions 251/283] file=252
+13:07:17 | INFO | Load file 252/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 252/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=26327515.3088 std=66962710.7944
+13:07:17 | INFO | Preprocess done: institutions file=252 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=53173138.3669  R2=-0.0334  sMAPE=140.16%
+13:07:17 | INFO | [institutions 252/283] file=253
+13:07:17 | INFO | Load file 253/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 253/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=30816740.4832 std=63910377.7983
+13:07:17 | INFO | Preprocess done: institutions file=253 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=65163116.7605  R2=-0.0740  sMAPE=126.99%
+13:07:17 | INFO | [institutions 253/283] file=254
+13:07:17 | INFO | Load file 254/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 254/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=318751435.6426 std=366639568.5334
+13:07:17 | INFO | Preprocess done: institutions file=254 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=330639356.0526  R2=0.0339  sMAPE=130.30%
+13:07:17 | INFO | [institutions 254/283] file=255
+13:07:17 | INFO | Load file 255/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:17 | INFO | Load file 255/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:17 | INFO | impute zeros: 6 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=200520721.1851 std=1468213715.3251
+13:07:17 | INFO | Preprocess done: institutions file=255 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=980498663.9249  R2=-0.0883  sMAPE=111.82%
+13:07:17 | INFO | [institutions 255/283] file=256
+13:07:17 | INFO | Load file 256/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (20/6718)
+13:07:17 | INFO | Load file 256/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.3% (20/6718)
+13:07:17 | INFO | impute zeros: 20 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=8727112.1864 std=107925157.2328
+13:07:17 | INFO | Preprocess done: institutions file=256 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=75135489.6304  R2=-0.0430  sMAPE=109.78%
+13:07:17 | INFO | [institutions 256/283] file=257
+13:07:17 | INFO | Load file 257/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:17 | INFO | Load file 257/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (3/6718)
+13:07:17 | INFO | impute zeros: 3 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=78768323.2625 std=256379174.9760
+13:07:17 | INFO | Preprocess done: institutions file=257 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=216926287.9817  R2=-0.0386  sMAPE=136.25%
+13:07:17 | INFO | [institutions 257/283] file=258
+13:07:17 | INFO | Load file 258/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 258/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=69760926.3097 std=419555226.6764
+13:07:17 | INFO | Preprocess done: institutions file=258 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=444042901.4346  R2=-0.1988  sMAPE=140.73%
+13:07:17 | INFO | [institutions 258/283] file=259
+13:07:17 | INFO | Load file 259/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:17 | INFO | Load file 259/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (5/6718)
+13:07:17 | INFO | impute zeros: 5 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=25142600.3900 std=381418458.6405
+13:07:17 | INFO | Preprocess done: institutions file=259 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=191204593.5663  R2=-0.0464  sMAPE=86.96%
+13:07:17 | INFO | [institutions 259/283] file=260
+13:07:17 | INFO | Load file 260/institutions/agg_1_hour/n_bytes | 6718 points | missing 14.9% (1000/6718)
+13:07:17 | INFO | Load file 260/institutions/agg_1_hour/n_bytes | 6718 points | missing 14.9% (1000/6718)
+13:07:17 | INFO | impute zeros: 1000 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=14499833.7530 std=47463159.5944
+13:07:17 | INFO | Preprocess done: institutions file=260 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=168486725.3028  R2=-0.0489  sMAPE=137.29%
+13:07:17 | INFO | [institutions 260/283] file=261
+13:07:17 | INFO | Load file 261/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 261/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=79226706.1740 std=245550779.4153
+13:07:17 | INFO | Preprocess done: institutions file=261 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=112192769.3674  R2=-0.0363  sMAPE=99.61%
+13:07:17 | INFO | [institutions 261/283] file=262
+13:07:17 | INFO | Load file 262/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | Load file 262/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:17 | INFO | impute zeros: 1 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=31241.5988 std=24980.2357
+13:07:17 | INFO | Preprocess done: institutions file=262 n_bytes=OK
+13:07:17 | INFO | Metrics: RMSE=7335.1576  R2=0.1743  sMAPE=23.69%
+13:07:17 | INFO | [institutions 262/283] file=263
+13:07:17 | INFO | Load file 263/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.7% (49/6718)
+13:07:17 | INFO | Load file 263/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.7% (49/6718)
+13:07:17 | INFO | impute zeros: 49 values
+13:07:17 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:17 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:17 | INFO | Z-score: mean=2942654.0984 std=39972106.4325
+13:07:17 | INFO | Preprocess done: institutions file=263 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=16112097.3078  R2=-0.0685  sMAPE=129.96%
+13:07:18 | INFO | [institutions 263/283] file=264
+13:07:18 | INFO | Load file 264/institutions/agg_1_hour/n_bytes | 6718 points | missing 33.9% (2276/6718)
+13:07:18 | INFO | Load file 264/institutions/agg_1_hour/n_bytes | 6718 points | missing 33.9% (2276/6718)
+13:07:18 | INFO | impute zeros: 2276 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=4800137.3325 std=74696662.1849
+13:07:18 | INFO | Preprocess done: institutions file=264 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=1086.4513  R2=-0.2151  sMAPE=140.60%
+13:07:18 | INFO | [institutions 264/283] file=265
+13:07:18 | INFO | Load file 265/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.0% (64/6718)
+13:07:18 | INFO | Load file 265/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.0% (64/6718)
+13:07:18 | INFO | impute zeros: 64 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=23548118.3299 std=66411302.0003
+13:07:18 | INFO | Preprocess done: institutions file=265 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=52024020.4337  R2=-0.0544  sMAPE=145.83%
+13:07:18 | INFO | [institutions 265/283] file=266
+13:07:18 | INFO | Load file 266/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:18 | INFO | Load file 266/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:18 | INFO | impute zeros: 2 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=4504.6521 std=5141.7322
+13:07:18 | INFO | Preprocess done: institutions file=266 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=1990.8731  R2=0.0253  sMAPE=43.09%
+13:07:18 | INFO | [institutions 266/283] file=267
+13:07:18 | INFO | Load file 267/institutions/agg_1_hour/n_bytes | 6718 points | missing 3.8% (254/6718)
+13:07:18 | INFO | Load file 267/institutions/agg_1_hour/n_bytes | 6718 points | missing 3.8% (254/6718)
+13:07:18 | INFO | impute zeros: 254 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=1345.3071 std=4011.9187
+13:07:18 | INFO | Preprocess done: institutions file=267 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=986.8912  R2=-0.0639  sMAPE=62.62%
+13:07:18 | INFO | [institutions 267/283] file=268
+13:07:18 | INFO | Load file 268/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.8% (52/6718)
+13:07:18 | INFO | Load file 268/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.8% (52/6718)
+13:07:18 | INFO | impute zeros: 52 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=31179741.4515 std=97607146.4883
+13:07:18 | INFO | Preprocess done: institutions file=268 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=141726508.2377  R2=-0.0280  sMAPE=132.20%
+13:07:18 | INFO | [institutions 268/283] file=269
+13:07:18 | INFO | Load file 269/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:18 | INFO | Load file 269/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (2/6718)
+13:07:18 | INFO | impute zeros: 2 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=47147612.2504 std=112920521.6862
+13:07:18 | INFO | Preprocess done: institutions file=269 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=82444943.2866  R2=-0.0927  sMAPE=136.08%
+13:07:18 | INFO | [institutions 269/283] file=270
+13:07:18 | INFO | Load file 270/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:18 | INFO | Load file 270/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (4/6718)
+13:07:18 | INFO | impute zeros: 4 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=5640.9356 std=10452.3541
+13:07:18 | INFO | Preprocess done: institutions file=270 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=1924.6317  R2=0.0871  sMAPE=39.26%
+13:07:18 | INFO | [institutions 270/283] file=271
+13:07:18 | INFO | Load file 271/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.9% (125/6718)
+13:07:18 | INFO | Load file 271/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.9% (125/6718)
+13:07:18 | INFO | impute zeros: 125 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=8583.9489 std=9121.6885
+13:07:18 | INFO | Preprocess done: institutions file=271 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=32748.6662  R2=-0.0387  sMAPE=34.10%
+13:07:18 | INFO | [institutions 271/283] file=272
+13:07:18 | INFO | Load file 272/institutions/agg_1_hour/n_bytes | 6718 points | missing 3.8% (252/6718)
+13:07:18 | INFO | Load file 272/institutions/agg_1_hour/n_bytes | 6718 points | missing 3.8% (252/6718)
+13:07:18 | INFO | impute zeros: 252 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=2861.2350 std=9312.3673
+13:07:18 | INFO | Preprocess done: institutions file=272 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=2474.1516  R2=-0.0009  sMAPE=36.01%
+13:07:18 | INFO | [institutions 272/283] file=273
+13:07:18 | INFO | Load file 273/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | Load file 273/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | impute zeros: 1 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=11623063.7899 std=105269382.1693
+13:07:18 | INFO | Preprocess done: institutions file=273 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=33082763.1969  R2=-0.0452  sMAPE=148.91%
+13:07:18 | INFO | [institutions 273/283] file=274
+13:07:18 | INFO | Load file 274/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | Load file 274/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | impute zeros: 1 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=19055371.6813 std=123232525.0558
+13:07:18 | INFO | Preprocess done: institutions file=274 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=104311977.1894  R2=-0.0396  sMAPE=148.57%
+13:07:18 | INFO | [institutions 274/283] file=275
+13:07:18 | INFO | Load file 275/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | Load file 275/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:18 | INFO | impute zeros: 1 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=40789.2569 std=37800.6946
+13:07:18 | INFO | Preprocess done: institutions file=275 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=11429.1917  R2=0.1700  sMAPE=29.01%
+13:07:18 | INFO | [institutions 275/283] file=276
+13:07:18 | INFO | Load file 276/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:18 | INFO | Load file 276/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:18 | INFO | impute zeros: 6 values
+13:07:18 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:18 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:18 | INFO | Z-score: mean=30441526.5777 std=302585153.7480
+13:07:18 | INFO | Preprocess done: institutions file=276 n_bytes=OK
+13:07:18 | INFO | Metrics: RMSE=365987021.9823  R2=-0.0693  sMAPE=101.84%
+13:07:18 | INFO | [institutions 276/283] file=277
+13:07:18 | INFO | Load file 277/institutions/agg_1_hour/n_bytes | 6718 points | missing 33.4% (2241/6718)
+13:07:19 | INFO | Load file 277/institutions/agg_1_hour/n_bytes | 6718 points | missing 33.4% (2241/6718)
+13:07:19 | INFO | impute zeros: 2241 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=69.4905 std=381.7006
+13:07:19 | INFO | Preprocess done: institutions file=277 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=48958006.6095  R2=-0.0508  sMAPE=126.19%
+13:07:19 | INFO | [institutions 277/283] file=278
+13:07:19 | INFO | Load file 278/institutions/agg_1_hour/n_bytes | 6718 points | missing 18.0% (1209/6718)
+13:07:19 | INFO | Load file 278/institutions/agg_1_hour/n_bytes | 6718 points | missing 18.0% (1209/6718)
+13:07:19 | INFO | impute zeros: 1209 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=267237901.5309 std=1214072836.2963
+13:07:19 | INFO | Preprocess done: institutions file=278 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=1425837568.8278  R2=-0.0306  sMAPE=108.14%
+13:07:19 | INFO | [institutions 278/283] file=279
+13:07:19 | INFO | Load file 279/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.2% (79/6718)
+13:07:19 | INFO | Load file 279/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.2% (79/6718)
+13:07:19 | INFO | impute zeros: 79 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=2101.4832 std=5995.9026
+13:07:19 | INFO | Preprocess done: institutions file=279 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=1632.6101  R2=-0.0934  sMAPE=61.85%
+13:07:19 | INFO | [institutions 279/283] file=280
+13:07:19 | INFO | Load file 280/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.9% (127/6718)
+13:07:19 | INFO | Load file 280/institutions/agg_1_hour/n_bytes | 6718 points | missing 1.9% (127/6718)
+13:07:19 | INFO | impute zeros: 127 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=2844.0816 std=18025.7031
+13:07:19 | INFO | Preprocess done: institutions file=280 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=30892.3515  R2=-0.0432  sMAPE=70.94%
+13:07:19 | INFO | [institutions 280/283] file=281
+13:07:19 | INFO | Load file 281/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:19 | INFO | Load file 281/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.1% (6/6718)
+13:07:19 | INFO | impute zeros: 6 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=5645.7500 std=35235.8831
+13:07:19 | INFO | Preprocess done: institutions file=281 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=3130.3503  R2=0.0132  sMAPE=46.60%
+13:07:19 | INFO | [institutions 281/283] file=282
+13:07:19 | INFO | Load file 282/institutions/agg_1_hour/n_bytes | 6718 points | missing 86.6% (5816/6718)
+13:07:19 | INFO | Load file 282/institutions/agg_1_hour/n_bytes | 6718 points | missing 86.6% (5816/6718)
+13:07:19 | INFO | impute zeros: 5816 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=1805.5314 std=2495.2818
+13:07:19 | INFO | Preprocess done: institutions file=282 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=0.0000  R2=0.0000  sMAPE=0.00%
+13:07:19 | INFO | [institutions 282/283] file=283
+13:07:19 | INFO | Load file 283/institutions/agg_1_hour/n_bytes | 6718 points | missing 65.0% (4367/6718)
+13:07:19 | INFO | Load file 283/institutions/agg_1_hour/n_bytes | 6718 points | missing 65.0% (4367/6718)
+13:07:19 | INFO | impute zeros: 4367 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=1318.2178 std=1246.9049
+13:07:19 | INFO | Preprocess done: institutions file=283 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=375.2384  R2=0.2869  sMAPE=29.75%
+13:07:19 | INFO | [institutions 283/283] file=284
+13:07:19 | INFO | Load file 284/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:19 | INFO | Load file 284/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+13:07:19 | INFO | impute zeros: 1 values
+13:07:19 | INFO | Sliding window: tw=24 pw=24 | samples=278
+13:07:19 | INFO | Temporal split: train=97 val=13 test=168 | ratio 35/5/60
+13:07:19 | INFO | Z-score: mean=382766.8471 std=145892.0871
+13:07:19 | INFO | Preprocess done: institutions file=284 n_bytes=OK
+13:07:19 | INFO | Metrics: RMSE=85873.4132  R2=0.4305  sMAPE=20.25%
+13:07:19 | INFO | Done: institutions
+13:07:19 | INFO | All done! Processed 283 series total

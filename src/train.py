@@ -15,6 +15,7 @@ train.py — 模型训练循环
 
 import time
 import logging
+import random
 from typing import Any
 
 import numpy as np
@@ -23,6 +24,16 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 
 logger = logging.getLogger(__name__)
+
+
+def set_seed(seed: int = 42):
+    """固定随机种子，确保结果可复现"""
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 
 def make_loader(
@@ -46,6 +57,7 @@ def train_model(
     learning_rate: float = 0.01,
     patience: int = 5,
     device: str = "cpu",
+    seed: int = 42,
 ) -> tuple[nn.Module, float, dict[str, list]]:
     """
     训练 PyTorch 模型。
@@ -56,22 +68,17 @@ def train_model(
     train_loader : DataLoader
     val_loader : DataLoader
     epochs : int
-        最大训练轮数
     learning_rate : float
     patience : int
-        Early Stopping 等待轮数
     device : str
-        "cpu" 或 "cuda"
+    seed : int
+        随机种子
 
     Returns
     -------
-    model : nn.Module
-        训练好的模型
-    training_time : float
-        训练耗时（秒）
-    history : dict
-        {"train_loss": [...], "val_loss": [...]}
+    model, training_time, history
     """
+
     model = model.to(device)
     criterion = nn.MSELoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)

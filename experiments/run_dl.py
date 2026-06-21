@@ -26,7 +26,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from src.config import Config, DATA_DIR
 from src.preprocessing import preprocess_pipeline, load_and_align
 from src.models import create_model
-from src.train import train_model, make_loader
+from src.train import train_model, make_loader, set_seed
 from src.evaluate import compute_metrics, predict_model, record_results, EXPERIMENTS_DIR
 
 LOG_DIR = EXPERIMENTS_DIR / "logs"
@@ -88,6 +88,7 @@ def run_single_series(
     val_loader = make_loader(X_val, y_val, batch_size=cfg.batch_size, shuffle=False)
 
     # ── 创建模型 ──
+    set_seed(cfg.seed)
     model = create_model(
         cfg.model_name,
         prediction_window=cfg.prediction_window,
@@ -105,6 +106,7 @@ def run_single_series(
             learning_rate=cfg.learning_rate,
             patience=cfg.patience,
             device=device,
+            seed=cfg.seed,
         )
     except Exception as e:
         logger.warning("  skip file=%d (train failed: %s)", file_id, e)

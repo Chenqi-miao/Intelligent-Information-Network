@@ -197,12 +197,16 @@ def main():
     parser.add_argument("--sarima", action="store_true", help="同时运行 SARIMA（默认只跑 Mean）")
     parser.add_argument("--tw", type=int, default=24, help="训练窗口大小（默认 24）")
     parser.add_argument("--pw", type=int, default=24, help="预测窗口大小（默认 24）")
+    parser.add_argument("--train-ratio", type=float, default=0.7)
+    parser.add_argument("--val-ratio", type=float, default=0.15)
     args = parser.parse_args()
 
     # ── 配置 ──
     cfg = Config(
         training_window=args.tw,
         prediction_window=args.pw,
+        train_ratio=args.train_ratio,
+        val_ratio=args.val_ratio,
     )
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     output_csv = EXPERIMENTS_DIR / "results" / f"baseline_results_{timestamp}.csv"

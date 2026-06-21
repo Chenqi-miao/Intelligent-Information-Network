@@ -1,0 +1,46 @@
+================================================================================
+TABLE IV: Overall Mean Normalized RMSE (lower is better)
+================================================================================
+TS_GROUP  institution_subnets  institutions
+MODEL                                      
+GRU                    0.2806        0.1433
+LSTM                   0.2815        0.1453
+Mean                   0.2495        0.1261
+SARIMA                    NaN        0.0681
+
+================================================================================
+TABLE V: Overall Mean R2-score (higher is better)
+================================================================================
+TS_GROUP  institution_subnets  institutions
+MODEL                                      
+GRU              -116132.3410 -1.402723e+05
+LSTM             -146706.2574 -3.298633e+07
+Mean                   0.0004 -3.840000e-02
+SARIMA                    NaN  1.698000e-01
+
+================================================================================
+TABLE VI: Overall Mean Harmonic Score (lower is better)
+================================================================================
+TS_GROUP  institution_subnets  institutions
+MODEL                                      
+GRU                    0.1751        0.1499
+LSTM                   0.1768        0.1471
+Mean                   0.1459        0.1415
+SARIMA                    NaN        0.1194
+
+================================================================================
+TABLE IV-VI detail: By Model x Window x Group (NormRMSE | R2 | HS)
+================================================================================
+                                                    HARMONIC                        NORM_RMSE                         R2_SCORE              
+TS_GROUP                                 institution_subnets institutions institution_subnets institutions institution_subnets  institutions
+MODEL  TRAINING_WINDOW PREDICTION_WINDOW                                                                                                    
+GRU    24              24                             0.1751       0.1441              0.2806       0.1514        -116132.3410 -2.522662e+05
+       168             24                                NaN       0.1457                 NaN       0.1265                 NaN -3.828087e+04
+                       168                               NaN       0.1558                 NaN       0.1589                 NaN -1.113154e+05
+       744             168                               NaN       0.1598                 NaN       0.1286                 NaN -4.723276e+04
+LSTM   24              24                             0.1768       0.1422              0.2815       0.1492        -146706.2574 -5.258380e+07
+       168             24                                NaN       0.1478                 NaN       0.1276                 NaN -4.782504e+04
+                       168                               NaN       0.1575                 NaN       0.1597                 NaN -1.262230e+05
+       744             168                               NaN       0.1610                 NaN       0.1293                 NaN -3.586089e+04
+Mean   24              24                             0.1459       0.1415              0.2495       0.1261              0.0004 -3.840000e-02
+SARIMA 24              24                                NaN       0.1194                 NaN       0.0681                 NaN  1.698000e-01

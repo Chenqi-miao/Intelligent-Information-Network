@@ -57735,3 +57735,91 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 13:58:14 | INFO | Metrics: RMSE=83567.2082  R2=0.4607  sMAPE=25.62%
 13:58:14 | INFO | Done: institution_subnets
 13:58:14 | INFO | All done! Processed 546 series
+14:47:31 | INFO | ============================================================
+14:47:31 | INFO | DL batch run: LSTM
+14:47:31 | INFO |   groups: ['institutions']
+14:47:31 | INFO |   window: (24, 24)
+14:47:31 | INFO |   device: cuda
+14:47:31 | INFO |   model params: hidden=100 layers=1 lr=0.0100 epochs=5 batch=16
+14:47:31 | INFO |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\dl_results_LSTM_20260621_144731.csv
+14:47:31 | INFO | ============================================================
+14:47:31 | INFO |   test mode: limit 1 files
+14:47:31 | INFO | Processing institutions (1 files)
+14:47:31 | INFO | [institutions   1/1] file=0
+14:47:31 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+14:47:31 | INFO | impute zeros: 1 values
+14:47:31 | INFO | Sliding window: tw=24 pw=24 | samples=278
+14:47:31 | INFO | Temporal split: train=194 val=41 test=43 | ratio 70/15/15
+14:47:31 | INFO | Z-score: mean=71465305083.1808 std=38056262910.4570
+14:47:31 | INFO | Preprocess done: institutions file=0 n_bytes=OK
+14:47:33 | INFO | Epoch   1/5 | train loss: 0.585402 | val loss: 0.462208
+14:47:34 | INFO | Training done: 5 epochs, 0.53 sec
+14:47:34 | INFO | Metrics: RMSE=20449234242.8813  R2=0.2517  sMAPE=30.80%
+14:47:34 | INFO | Done: institutions
+14:47:34 | INFO | All done! Processed 1 series
+14:47:47 | INFO | ============================================================
+14:47:47 | INFO | DL batch run: LSTM
+14:47:47 | INFO |   groups: ['institutions']
+14:47:47 | INFO |   window: (24, 24)
+14:47:47 | INFO |   device: cuda
+14:47:47 | INFO |   model params: hidden=100 layers=1 lr=0.0100 epochs=5 batch=16
+14:47:47 | INFO |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\dl_results_LSTM_20260621_144747.csv
+14:47:47 | INFO | ============================================================
+14:47:47 | INFO |   test mode: limit 1 files
+14:47:47 | INFO | Processing institutions (1 files)
+14:47:47 | INFO | [institutions   1/1] file=0
+14:47:47 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+14:47:47 | INFO | impute zeros: 1 values
+14:47:47 | INFO | Sliding window: tw=24 pw=24 | samples=278
+14:47:47 | INFO | Temporal split: train=194 val=41 test=43 | ratio 70/15/15
+14:47:47 | INFO | Z-score: mean=71465305083.1808 std=38056262910.4570
+14:47:47 | INFO | Preprocess done: institutions file=0 n_bytes=OK
+14:47:48 | INFO | Epoch   1/5 | train loss: 0.606704 | val loss: 0.395500
+14:47:49 | INFO | Training done: 5 epochs, 0.31 sec
+14:47:49 | INFO | Metrics: RMSE=14897116887.8444  R2=0.6029  sMAPE=23.36%
+14:47:49 | INFO | Done: institutions
+14:47:49 | INFO | All done! Processed 1 series
+14:48:21 | INFO | ============================================================
+14:48:21 | INFO | DL batch run: LSTM
+14:48:21 | INFO |   groups: ['institutions']
+14:48:21 | INFO |   window: (24, 24)
+14:48:21 | INFO |   device: cuda
+14:48:21 | INFO |   model params: hidden=100 layers=1 lr=0.0100 epochs=5 batch=16
+14:48:21 | INFO |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\dl_results_LSTM_20260621_144821.csv
+14:48:21 | INFO | ============================================================
+14:48:21 | INFO |   test mode: limit 1 files
+14:48:21 | INFO | Processing institutions (1 files)
+14:48:21 | INFO | [institutions   1/1] file=0
+14:48:21 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+14:48:21 | INFO | impute zeros: 1 values
+14:48:21 | INFO | Sliding window: tw=24 pw=24 | samples=278
+14:48:21 | INFO | Temporal split: train=194 val=41 test=43 | ratio 70/15/15
+14:48:21 | INFO | Z-score: mean=71465305083.1808 std=38056262910.4570
+14:48:21 | INFO | Preprocess done: institutions file=0 n_bytes=OK
+14:48:22 | INFO | Epoch   1/5 | train loss: 0.562177 | val loss: 0.431284
+14:48:22 | INFO | Training done: 5 epochs, 0.28 sec
+14:48:22 | INFO | Metrics: RMSE=16293292392.8755  R2=0.5249  sMAPE=28.35%
+14:48:22 | INFO | Done: institutions
+14:48:22 | INFO | All done! Processed 1 series
+14:48:26 | INFO | ============================================================
+14:48:26 | INFO | DL batch run: LSTM
+14:48:26 | INFO |   groups: ['institutions']
+14:48:26 | INFO |   window: (24, 24)
+14:48:26 | INFO |   device: cuda
+14:48:26 | INFO |   model params: hidden=100 layers=1 lr=0.0100 epochs=5 batch=16
+14:48:26 | INFO |   output: D:\WORKSPACE\systemandnetwork\final assigment\experiments\results\dl_results_LSTM_20260621_144826.csv
+14:48:26 | INFO | ============================================================
+14:48:26 | INFO |   test mode: limit 1 files
+14:48:26 | INFO | Processing institutions (1 files)
+14:48:26 | INFO | [institutions   1/1] file=0
+14:48:26 | INFO | Load file 0/institutions/agg_1_hour/n_bytes | 6718 points | missing 0.0% (1/6718)
+14:48:26 | INFO | impute zeros: 1 values
+14:48:26 | INFO | Sliding window: tw=24 pw=24 | samples=278
+14:48:26 | INFO | Temporal split: train=194 val=41 test=43 | ratio 70/15/15
+14:48:26 | INFO | Z-score: mean=71465305083.1808 std=38056262910.4570
+14:48:26 | INFO | Preprocess done: institutions file=0 n_bytes=OK
+14:48:27 | INFO | Epoch   1/5 | train loss: 0.562177 | val loss: 0.431284
+14:48:27 | INFO | Training done: 5 epochs, 0.29 sec
+14:48:27 | INFO | Metrics: RMSE=16293292392.8755  R2=0.5249  sMAPE=28.35%
+14:48:27 | INFO | Done: institutions
+14:48:27 | INFO | All done! Processed 1 series
