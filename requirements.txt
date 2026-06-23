@@ -1,0 +1,12 @@
+# ISP 流量预测实验依赖
+# 安装方式：pip install -r requirements.txt
+# 或使用 uv：uv sync
+
+torch>=2.0.0
+numpy>=2.4.0
+pandas>=3.0.0
+matplotlib>=3.11.0
+scikit-learn>=1.6.0
+statsmodels>=0.14.0
+jupyter>=1.1.0
+nbconvert>=7.17.0
